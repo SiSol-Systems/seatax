@@ -1,0 +1,3 @@
+[submodule "seatax-vue3/src/types/localcosmos"]
+	path = seatax-vue3/src/types/localcosmos
+	url = https://github.com/localcosmos/localcosmos-client.git

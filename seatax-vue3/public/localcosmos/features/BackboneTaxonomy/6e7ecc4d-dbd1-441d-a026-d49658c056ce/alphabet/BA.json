@@ -1,0 +1,20 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Battersia plumigera",
+        "taxonAuthor": "(Holmes ex Hauck) Draisma, Prud'homme & H. Kawai 2010",
+        "nameUuid": "f979f4e5-6cfc-44aa-9e87-db916e784951",
+        "taxonNuid": "00o00800h004001004",
+        "imageUrl": null,
+        "gbifNubKey": null
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Battersia racemosa",
+        "taxonAuthor": "(Greville) Draisma, Prud'homme & H.Kawai 2010",
+        "nameUuid": "1883b0a9-4d4b-467e-b031-d94b35783e1b",
+        "taxonNuid": "00o00800h004001005",
+        "imageUrl": null,
+        "gbifNubKey": null
+    }
+]

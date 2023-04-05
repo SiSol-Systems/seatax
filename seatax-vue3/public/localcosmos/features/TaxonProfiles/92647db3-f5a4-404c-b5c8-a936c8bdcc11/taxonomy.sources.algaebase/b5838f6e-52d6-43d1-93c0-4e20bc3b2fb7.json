@@ -1,0 +1,536 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Saccharina latissima",
+    "taxonAuthor": "(Linnaeus) C.E.Lane, C.Mayes, Druehl & G.W.Saunders 2006",
+    "nameUuid": "b5838f6e-52d6-43d1-93c0-4e20bc3b2fb7",
+    "taxonNuid": "00o00800a00400e00b",
+    "vernacular": {
+        "en": "Saccharina latissima"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Saccharina latissima"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:47",
+                        "encodedSpace": "<p>Thallus <strong>tough </strong>and <strong>robust</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a72c793b-1835-40f4-a5e5-fc005e292126",
+                "name": "Thallus Habit (Leathery)",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a72c793b-1835-40f4-a5e5-fc005e292126:257",
+                        "encodedSpace": "<p>Thallus with single long blade (divided or undivided), conspicuous stipe and <strong>claw-like holdfast</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:1150",
+                        "encodedSpace": "<p><strong>Leathery</strong> thallus with prominent <strong>leaf- or strap-like fronds</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6f686f5f-b9bf-4430-b5b0-5b08d1cfcf8f",
+                "name": "Blade Shape",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6f686f5f-b9bf-4430-b5b0-5b08d1cfcf8f:637",
+                        "encodedSpace": "<p>undivided with undulated margins</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "0baec4c9-e3fb-4b7a-950c-bc963810dd1e",
+                "name": "Stipe in cross section",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "0baec4c9-e3fb-4b7a-950c-bc963810dd1e:639",
+                        "encodedSpace": "<p>circular</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "30850785-a650-4499-a254-0676a14aefc1",
+                "name": "Stipe Texture",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "30850785-a650-4499-a254-0676a14aefc1:641",
+                        "encodedSpace": "<p>smooth, without epibiota</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "822f5fc1-71db-4fb0-a4a4-1e40d948a30a",
+                "name": "Stipe Flexibility",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "822f5fc1-71db-4fb0-a4a4-1e40d948a30a:644",
+                        "encodedSpace": "<p>flexible and easily bendable without snapping; not upright during low tide</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 118",
+            "shortTextKey": "taxon_text_17_851",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 118",
+            "shortTextKey": "taxon_text_2_852",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 118",
+            "shortTextKey": "taxon_text_18_853",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 118",
+            "shortTextKey": "taxon_text_4_854",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 118",
+            "shortTextKey": "taxon_text_5_855",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 118",
+            "shortTextKey": "taxon_text_6_856",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (West),Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_857",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-330-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-330-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-330-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Laminaria saccharina",
+            "taxonAuthor": "(Linnaeus) J.V.Lamouroux 1813"
+        },
+        {
+            "taxonLatname": "Ulva lactuca var. latissima",
+            "taxonAuthor": "(Linnaeus) A.P.De Candolle 1805"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. linearis",
+            "taxonAuthor": "J.Agardh 1848"
+        },
+        {
+            "taxonLatname": "Ulva latissima",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Laminaria faeroensis",
+            "taxonAuthor": "(Børgesen) Børgesen 1902"
+        },
+        {
+            "taxonLatname": "Laminaria phyllopus",
+            "taxonAuthor": "Kjellman 1906"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. membranacea",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Laminaria groenlandica",
+            "taxonAuthor": "Rosenvinge 1893"
+        },
+        {
+            "taxonLatname": "Fucus saccharinus",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Laminaria phyllitis",
+            "taxonAuthor": "(Stackhouse) C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. caperata",
+            "taxonAuthor": "(Bachelot Pylaie) Farlow 1881"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. latissima",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. phyllitis",
+            "taxonAuthor": "(Stackhouse) Hauck 1884"
+        },
+        {
+            "taxonLatname": "Laminaria agardhii",
+            "taxonAuthor": "Kjellman 1877"
+        },
+        {
+            "taxonLatname": "Laminaria caperata",
+            "taxonAuthor": "Bachelot Pylaie 1824"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. bullata",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. bullata",
+            "taxonAuthor": "(C.Agardh) Kylin 1907"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. membranacea",
+            "taxonAuthor": "(J.Agardh) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. sublaevis",
+            "taxonAuthor": "(Kjellman) Kylin 1907"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. sublaevis",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Laminaria hieroglyphica",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Ulva latissima",
+            "taxonAuthor": "Gunnerus 1766"
+        },
+        {
+            "taxonLatname": "Ulva maxima",
+            "taxonAuthor": "Gunnerus 1776"
+        },
+        {
+            "taxonLatname": "Laminaria maxima",
+            "taxonAuthor": "(Gunnerus) Kjellman 1877"
+        },
+        {
+            "taxonLatname": "Laminaria caperata var. lanceolata",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Laminaria caperata var. obovata",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Laminaria caperata var. oblonga",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Laminaria caperata var. eliptica",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Laminaria faeroensis f. sacchariniformis",
+            "taxonAuthor": "Børgesen 1902"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. oblonga",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. grandis",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Ulva longissima",
+            "taxonAuthor": "Gunnerus 1776"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. longissima",
+            "taxonAuthor": "(Gunnerus) Foslie 1884"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. latissima",
+            "taxonAuthor": "Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. borealis",
+            "taxonAuthor": "Foslie 1884"
+        },
+        {
+            "taxonLatname": "Fucus phyllitis",
+            "taxonAuthor": "Stackhouse 1796"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. prima",
+            "taxonAuthor": "J.Agardh 1851"
+        },
+        {
+            "taxonLatname": "Fucus saccharinus var. angusto-bullatus",
+            "taxonAuthor": "Wahlenberg 1826"
+        },
+        {
+            "taxonLatname": "Fucus saccharinus var. latissimus",
+            "taxonAuthor": "Turner 1811"
+        },
+        {
+            "taxonLatname": "Laminaria longicruris var. faeroensis",
+            "taxonAuthor": "Børgesen 1896"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. oblonga",
+            "taxonAuthor": "(J.Agardh) Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. latifolia",
+            "taxonAuthor": "(Kjellman) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina var. phyllitis",
+            "taxonAuthor": "(Stackhouse) Le Jolis 1863"
+        },
+        {
+            "taxonLatname": "Laminaria membranacea",
+            "taxonAuthor": "S.F.Gray 1821"
+        },
+        {
+            "taxonLatname": "Laminaria stackhousei",
+            "taxonAuthor": "Bory 1826"
+        },
+        {
+            "taxonLatname": "Ceramium phyllitis",
+            "taxonAuthor": "(Stackhouse) Stackhouse 1797"
+        },
+        {
+            "taxonLatname": "Ulva phyllitis",
+            "taxonAuthor": "(Stackhouse) A.P.de Candolle 1805"
+        },
+        {
+            "taxonLatname": "Palmaria phyllitis",
+            "taxonAuthor": "(Stackhouse) Nees 1820"
+        },
+        {
+            "taxonLatname": "Saccharina phyllitis",
+            "taxonAuthor": "(Stackhouse) Kuntze 1891"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. caperata",
+            "taxonAuthor": "(Bachelot Pylaie) Setchell 1900"
+        },
+        {
+            "taxonLatname": "Saccharina plana",
+            "taxonAuthor": "Stackhouse 1809"
+        },
+        {
+            "taxonLatname": "Phycoseris latissima",
+            "taxonAuthor": "(Linnaeus) Fraudenfeld 1854"
+        },
+        {
+            "taxonLatname": "Saccharina bullata",
+            "taxonAuthor": "(Goodenough & Woodward) Stackhouse 1809"
+        },
+        {
+            "taxonLatname": "Fucus saccharinus var. bullatus",
+            "taxonAuthor": "Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Phycodendrum groenlandicum",
+            "taxonAuthor": "(Rosenvinge) Kuntze 1898"
+        },
+        {
+            "taxonLatname": "Saccharina groenlandica",
+            "taxonAuthor": "(Rosenvinge) C.E.Lane, C.Mayes, Druehl & G.W.Saunders 2006"
+        },
+        {
+            "taxonLatname": "Ulva fusca",
+            "taxonAuthor": "Hudson 1778"
+        },
+        {
+            "taxonLatname": "Laminaria saccharina f. typica",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Ceramium saccharinum",
+            "taxonAuthor": "(Linnaeus) Stackhouse 1797"
+        },
+        {
+            "taxonLatname": "Laminaria cuneifolia",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Saccharina subsimplex",
+            "taxonAuthor": "(Setchell & N.L.Gardner) Widdowson, S.C.Lindstrom & P.W.Gabrielson 2006"
+        },
+        {
+            "taxonLatname": "Saccharina bongardiana f. subsimplex",
+            "taxonAuthor": "(Setchell & N.L.Gardner) Selivanova, Zhigadlova & G.I.Hansen 2007"
+        },
+        {
+            "taxonLatname": "Laminaria subsimplex",
+            "taxonAuthor": "(Setchell & N.L.Gardner) Miyabe & Nagai 1933"
+        },
+        {
+            "taxonLatname": "Laminaria bullata f. subsimplex",
+            "taxonAuthor": "Setchell & N.L.Gardner 1903"
+        },
+        {
+            "taxonLatname": "Laminaria cuneifolia f. subsimplex",
+            "taxonAuthor": "(Setchell & N.L.Gardner) Setchell & N.L.Gardner 1925"
+        },
+        {
+            "taxonLatname": "Laminaria bongardiana f. subsimplex",
+            "taxonAuthor": "(Setchell & N.L.Gardner) Petrov 1972"
+        }
+    ],
+    "gbifNubKey": 4377207,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

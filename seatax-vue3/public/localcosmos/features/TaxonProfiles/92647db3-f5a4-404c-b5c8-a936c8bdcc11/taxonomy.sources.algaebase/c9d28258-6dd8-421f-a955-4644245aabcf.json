@@ -1,0 +1,380 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Fucus guiryi",
+    "taxonAuthor": "Zardi, Nicastro, E.S.Serrão & G.A.Pearson 2011",
+    "nameUuid": "c9d28258-6dd8-421f-a955-4644245aabcf",
+    "taxonNuid": "00o008008003002023",
+    "vernacular": {
+        "en": "Fucus guiryi"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Fucus guiryi"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:47",
+                        "encodedSpace": "<p>Thallus <strong>tough </strong>and <strong>robust</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a72c793b-1835-40f4-a5e5-fc005e292126",
+                "name": "Thallus Habit (Leathery)",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a72c793b-1835-40f4-a5e5-fc005e292126:256",
+                        "encodedSpace": "<p>Thallus with <strong>dichotomously</strong> branched&nbsp; flat blades, with or without midrib, small stipe and <strong>disc-shaped holdfast</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:1150",
+                        "encodedSpace": "<p><strong>Leathery</strong> thallus with prominent <strong>leaf- or strap-like fronds</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "317203a2-258d-4696-9bd4-9ca5c904cf22",
+                "name": "Habitat",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "317203a2-258d-4696-9bd4-9ca5c904cf22:1129",
+                        "encodedSpace": "<p><strong>high </strong>eulittoral</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "33b0b646-4f17-4d1f-a60c-9535d6399ee8",
+                "name": "Holdfast",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "33b0b646-4f17-4d1f-a60c-9535d6399ee8:102",
+                        "encodedSpace": "attached by discoid holdfast"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b1dd8fe0-e2d9-4bd5-8f93-0d48c34c5021",
+                "name": "Blade Margin",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "b1dd8fe0-e2d9-4bd5-8f93-0d48c34c5021:1133",
+                        "encodedSpace": "<p>non-serrated</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-393-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-393-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-393-1000.webp"
+                        },
+                        "secondaryImageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/secondary-394-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/secondary-394-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/secondary-394-1000.webp"
+                        }
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "92ffe228-ddf1-4369-ae8f-bc2121c13fb8",
+                "name": "Receptacles (if present)",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "92ffe228-ddf1-4369-ae8f-bc2121c13fb8:1136",
+                        "encodedSpace": "<p>at blade tip, swollen bladder-like, <strong>with a distinct rim of sterile tissue</strong></p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-397-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-397-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-397-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b29e3e00-c60f-4f3f-9b42-8b46b39059f9",
+                "name": "Reproduction",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "b29e3e00-c60f-4f3f-9b42-8b46b39059f9:1126",
+                        "encodedSpace": "<p>monoecious</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "43779c2a-b7bc-45c4-92ab-d43d95deb940",
+                "name": "Shape of Air Bladders",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "43779c2a-b7bc-45c4-92ab-d43d95deb940:1140",
+                        "encodedSpace": "<p>no air bladders (do not mistake elongated swellings along the frond as air bladders!)</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-415-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-415-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-415-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 49",
+            "shortTextKey": "taxon_text_17_355",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 49",
+            "shortTextKey": "taxon_text_2_356",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 49",
+            "shortTextKey": "taxon_text_18_357",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 49",
+            "shortTextKey": "taxon_text_4_358",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 49",
+            "shortTextKey": "taxon_text_5_359",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 49",
+            "shortTextKey": "taxon_text_6_360",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Comment (RK-Liste)",
+            "shortText": "Bisher nicht für Helgoland bestätigt, aber eventuell mit angeben",
+            "shortTextKey": "taxon_text_14_361",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-333-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-333-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-333-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Fucus platycarpus",
+            "taxonAuthor": "Thuret 1851"
+        },
+        {
+            "taxonLatname": "Fucus spiralis var. platycarpus",
+            "taxonAuthor": "Batters 1902"
+        },
+        {
+            "taxonLatname": "Fucus spiralis f. limitaneus",
+            "taxonAuthor": "(Montagne) Børgesen 1926"
+        },
+        {
+            "taxonLatname": "Fucus spiralis var. limitaneus",
+            "taxonAuthor": "(Montagne) I.M.Pérez-Ruzafa 2001"
+        },
+        {
+            "taxonLatname": "Fucus platycarpus f. linearis",
+            "taxonAuthor": "Schousboe ex Bornet 1894"
+        },
+        {
+            "taxonLatname": "Fucus platycarpus f. minor",
+            "taxonAuthor": "Schousboe ex Bornet 1892"
+        },
+        {
+            "taxonLatname": "Fucus platycarpus f. nana",
+            "taxonAuthor": "Schousboe ex Bornet 1878"
+        },
+        {
+            "taxonLatname": "Fucus spiralis var. [platycarpus] f. limitaneus",
+            "taxonAuthor": "(Montagne) Miranda 1931"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. limitaneus",
+            "taxonAuthor": "Montagne 1840"
+        },
+        {
+            "taxonLatname": "Fucus limitaneus",
+            "taxonAuthor": "(Montagne) Montagne 1856"
+        },
+        {
+            "taxonLatname": "Fucus platycarpus var. limitaneus",
+            "taxonAuthor": "(Montagne) Sauvageau 1908"
+        }
+    ],
+    "gbifNubKey": null,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

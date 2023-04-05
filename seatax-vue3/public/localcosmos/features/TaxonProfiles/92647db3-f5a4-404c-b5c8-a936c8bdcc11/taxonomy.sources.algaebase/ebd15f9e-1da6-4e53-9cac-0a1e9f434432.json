@@ -1,0 +1,278 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ulva flexuosa",
+    "taxonAuthor": "Wulfen 1803",
+    "nameUuid": "ebd15f9e-1da6-4e53-9cac-0a1e9f434432",
+    "taxonNuid": "00700200500a00600g025",
+    "vernacular": {
+        "en": "Ulva flexuosa"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ulva flexuosa"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f",
+                "name": "Distromatic - Structure",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f:238",
+                        "encodedSpace": "5-50 cm, leaf-like or tubular"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:232",
+                        "encodedSpace": "Thallus flat and leaf-like or tubular (compressed or flat)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa",
+                "name": "Flat/Leaf/Tubular Structure",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa:234",
+                        "encodedSpace": "leaf-like (flat) or tubular, tough (distromatic)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "63cb9790-b6af-4396-b2b4-834312d46188",
+                "name": "Habit of big (5-50cm) leafs or tubes",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "63cb9790-b6af-4396-b2b4-834312d46188:241",
+                        "encodedSpace": "delicate to tough blades or tubes, light to dark-green (infra-supralittoral zone)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ce360227-f8fd-4e20-bc2f-5c61d282eb89",
+                "name": "Possible Thallus Habitus",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ce360227-f8fd-4e20-bc2f-5c61d282eb89:252",
+                        "encodedSpace": "branched tubes"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 389",
+            "shortTextKey": "taxon_text_17_2661",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 389",
+            "shortTextKey": "taxon_text_2_2662",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 389",
+            "shortTextKey": "taxon_text_18_2663",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 389",
+            "shortTextKey": "taxon_text_4_2664",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 389",
+            "shortTextKey": "taxon_text_5_2665",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 389",
+            "shortTextKey": "taxon_text_6_2666",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Comment (RK-Liste)",
+            "shortText": "Status unklar",
+            "shortTextKey": "taxon_text_14_2667",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-126-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-126-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-126-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Enteromorpha flexuosa",
+            "taxonAuthor": "(Wulfen) J.Agardh 1883"
+        },
+        {
+            "taxonLatname": "Enteromorpha lingulata",
+            "taxonAuthor": "J.Agardh 1883"
+        },
+        {
+            "taxonLatname": "Conferva flexuosa",
+            "taxonAuthor": "Roth 1800"
+        },
+        {
+            "taxonLatname": "Enteromorpha intestinalis var. tubulosa",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Enteromorpha tubulosa",
+            "taxonAuthor": "(Kützing) Kützing 1856"
+        },
+        {
+            "taxonLatname": "Enteromorpha prolifera var. tubulosa",
+            "taxonAuthor": "(Kützing) Batters 1902"
+        },
+        {
+            "taxonLatname": "Enteromorpha intestinalis f. tubulosa",
+            "taxonAuthor": "(Kützing) V.J.Chapman 1937"
+        },
+        {
+            "taxonLatname": "Enteromorpha tubulosa var. ramosa",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Enteromorpha compressa var. lingulata",
+            "taxonAuthor": "(J.Agardh) Hauck 1884"
+        },
+        {
+            "taxonLatname": "Enteromorpha lingulata var. elongata",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Enteromorpha lingulata f. genuina",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Enteromorpha tubulosa var. vermiculata",
+            "taxonAuthor": "Schiffner 1938"
+        }
+    ],
+    "gbifNubKey": 5273507,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

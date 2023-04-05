@@ -1,0 +1,175 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ulva gigantea",
+    "taxonAuthor": "(Kützing) Bliding 1969",
+    "nameUuid": "c28fe11c-5efc-4514-8744-2751d3bad44b",
+    "taxonNuid": "00700200500a00600g02b",
+    "vernacular": {
+        "en": "Ulva gigantea"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ulva gigantea"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f",
+                "name": "Distromatic - Structure",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f:238",
+                        "encodedSpace": "5-50 cm, leaf-like or tubular"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:232",
+                        "encodedSpace": "Thallus flat and leaf-like or tubular (compressed or flat)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa",
+                "name": "Flat/Leaf/Tubular Structure",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa:234",
+                        "encodedSpace": "leaf-like (flat) or tubular, tough (distromatic)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "63cb9790-b6af-4396-b2b4-834312d46188",
+                "name": "Habit of big (5-50cm) leafs or tubes",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "63cb9790-b6af-4396-b2b4-834312d46188:241",
+                        "encodedSpace": "delicate to tough blades or tubes, light to dark-green (infra-supralittoral zone)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ce360227-f8fd-4e20-bc2f-5c61d282eb89",
+                "name": "Possible Thallus Habitus",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ce360227-f8fd-4e20-bc2f-5c61d282eb89:253",
+                        "encodedSpace": "sheet-like blades with or without marginal tubular branches"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Phycoseris gigantea",
+            "taxonAuthor": "Kützing 1843"
+        }
+    ],
+    "gbifNubKey": 5273451,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

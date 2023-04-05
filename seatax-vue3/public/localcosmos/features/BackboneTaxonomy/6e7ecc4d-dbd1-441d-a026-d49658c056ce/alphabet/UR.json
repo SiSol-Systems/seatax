@@ -1,0 +1,29 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Urospora neglecta",
+        "taxonAuthor": "(Kornmann) Lokhorst & Trask 1981",
+        "nameUuid": "8561f5c1-c48d-4356-8719-f65390d57593",
+        "taxonNuid": "00700200500900d00t00e",
+        "imageUrl": null,
+        "gbifNubKey": 5273239
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Urospora penicilliformis",
+        "taxonAuthor": "(Roth) Areschoug 1866",
+        "nameUuid": "dacc139c-1717-4c62-8037-e575d8ceedae",
+        "taxonNuid": "00700200500900d00t00f",
+        "imageUrl": null,
+        "gbifNubKey": 5273228
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Urospora wormskioldii",
+        "taxonAuthor": "(Mertens) Rosenvinge 1893",
+        "nameUuid": "e7b54558-c532-4d92-a53c-7b463dacc9bc",
+        "taxonNuid": "00700200500900d00t00k",
+        "imageUrl": null,
+        "gbifNubKey": 5273245
+    }
+]

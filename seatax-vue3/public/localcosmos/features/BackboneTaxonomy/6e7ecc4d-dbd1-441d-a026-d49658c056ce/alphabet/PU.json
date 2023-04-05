@@ -1,0 +1,29 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Punctaria latifolia",
+        "taxonAuthor": "Greville 1830",
+        "nameUuid": "b7d1e093-8118-4c20-91ef-1011fff7eb0a",
+        "taxonNuid": "00o00800700302v008",
+        "imageUrl": null,
+        "gbifNubKey": 3199262
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Punctaria plantaginea",
+        "taxonAuthor": "(Roth) Greville 1830",
+        "nameUuid": "3c528164-d799-4531-941f-980201b1d890",
+        "taxonNuid": "00o00800700302v00e",
+        "imageUrl": null,
+        "gbifNubKey": 3199279
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Punctaria tenuissima",
+        "taxonAuthor": "(C.Agardh) Greville 1830",
+        "nameUuid": "dc9c1cfd-922b-4f71-99d4-c510585db547",
+        "taxonNuid": "00o00800700302v00h",
+        "imageUrl": null,
+        "gbifNubKey": 3199244
+    }
+]

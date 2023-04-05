@@ -1,0 +1,20 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Saccharina latissima",
+        "taxonAuthor": "(Linnaeus) C.E.Lane, C.Mayes, Druehl & G.W.Saunders 2006",
+        "nameUuid": "b5838f6e-52d6-43d1-93c0-4e20bc3b2fb7",
+        "taxonNuid": "00o00800a00400e00b",
+        "imageUrl": null,
+        "gbifNubKey": 4377207
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Sargassum muticum",
+        "taxonAuthor": "(Yendo) Fensholt 1955",
+        "nameUuid": "3762dc22-3cb5-4d3f-977d-b975af2815c8",
+        "taxonNuid": "00o00800800700v05r",
+        "imageUrl": null,
+        "gbifNubKey": 3197314
+    }
+]

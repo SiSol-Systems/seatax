@@ -1,0 +1,153 @@
+{
+    "title": "Home",
+    "templateName": "home",
+    "templatePath": "/template_content/page/home/home.html",
+    "version": 1,
+    "contents": {
+        "cards": [
+            {
+                "link": "/taxon-profiles/",
+                "text": "Taxon Profiles",
+                "uuid": "6830e121-f6c3-4343-ba04-c50c9673230b",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-cards:6830e121-f6c3-4343-ba04-c50c9673230b:image-161-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-cards:6830e121-f6c3-4343-ba04-c50c9673230b:image-161-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-cards:6830e121-f6c3-4343-ba04-c50c9673230b:image-161-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-cards:6830e121-f6c3-4343-ba04-c50c9673230b:image-161-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "link": "/identify-seaweed/",
+                "text": "Identification Key",
+                "uuid": "1c7a6ca7-e399-4bd0-a4cb-29efbce651f3",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-cards:1c7a6ca7-e399-4bd0-a4cb-29efbce651f3:image-162-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-cards:1c7a6ca7-e399-4bd0-a4cb-29efbce651f3:image-162-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-cards:1c7a6ca7-e399-4bd0-a4cb-29efbce651f3:image-162-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-cards:1c7a6ca7-e399-4bd0-a4cb-29efbce651f3:image-162-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "link": "/pages/downloads/",
+                "text": "Downloads",
+                "uuid": "e21fe810-42ef-4d59-b1d3-62fbd8eaeb55",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-cards:e21fe810-42ef-4d59-b1d3-62fbd8eaeb55:image-163-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-cards:e21fe810-42ef-4d59-b1d3-62fbd8eaeb55:image-163-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-cards:e21fe810-42ef-4d59-b1d3-62fbd8eaeb55:image-163-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-cards:e21fe810-42ef-4d59-b1d3-62fbd8eaeb55:image-163-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "link": "/glossary/",
+                "text": "Glossary",
+                "uuid": "248b12d4-f39f-4e0f-a3d3-28e44271d8d6",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-cards:248b12d4-f39f-4e0f-a3d3-28e44271d8d6:image-164-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-cards:248b12d4-f39f-4e0f-a3d3-28e44271d8d6:image-164-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-cards:248b12d4-f39f-4e0f-a3d3-28e44271d8d6:image-164-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-cards:248b12d4-f39f-4e0f-a3d3-28e44271d8d6:image-164-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            }
+        ],
+        "articles": [
+            {
+                "uuid": "d9d653f7-c756-4b96-b1ef-1ee2d6bf2e7d",
+                "article": {
+                    "pk": "12",
+                    "url": "/pages/info/acknowledgements/",
+                    "slug": "acknowledgements",
+                    "title": "Acknowledgements",
+                    "templateName": "info"
+                },
+                "abstract": "Neobiota abstract",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-articles:d9d653f7-c756-4b96-b1ef-1ee2d6bf2e7d:image-165-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-articles:d9d653f7-c756-4b96-b1ef-1ee2d6bf2e7d:image-165-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-articles:d9d653f7-c756-4b96-b1ef-1ee2d6bf2e7d:image-165-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-articles:d9d653f7-c756-4b96-b1ef-1ee2d6bf2e7d:image-165-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            }
+        ],
+        "appFullName": "AWI Seaweed Key",
+        "appSubtitle": "Scientific Identification Tool",
+        "appShortName": "ASK",
+        "cardsDescription": "<p>This toolbox assists you in identifying the most common macroalgae of the German North Sea. Use the interactive, multi-access Key for identification. Verify your determination with additional information from taxon profiles. Refer to the glossary for specific scientific terms. Or download a printable PDF version of all tools for offline applications.</p>",
+        "projectDescription": "<p>The intention of this project is to provide an interactive identification tool that allows to narrow down the potential species and improve the assessment of how reliable morphological identification is. The heart of the project is the identification key, which follows a multi-access concept: You can select from a set of features and decide on the order of choices yourself, even leaving out several features (if lacking or uncertain). It is aimed at a variety of persons, from interested nonprofessionals to students, from monitoring agencies to scientists.</p><p>In order to use this key, you should preferably have some basic knowledge about seaweed life cycles and especially about their reproductive structures, which are often important for a final determination.</p>",
+        "banner": {
+            "imageUrl": {
+                "1x": "/localcosmos/user_content/content_images/published-banner-159-s-250.webp",
+                "2x": "/localcosmos/user_content/content_images/published-banner-159-s-500.webp",
+                "4x": "/localcosmos/user_content/content_images/published-banner-159-s-1000.webp",
+                "8x": "/localcosmos/user_content/content_images/published-banner-159-s-2000.webp"
+            },
+            "licence": {
+                "licence": "CC0",
+                "licenceVersion": "1.0",
+                "creatorName": "Thomas Uher",
+                "creatorLink": "",
+                "sourceLink": ""
+            }
+        },
+        "projectDescriptionBackground": {
+            "imageUrl": {
+                "1x": "/localcosmos/user_content/content_images/published-projectDescriptionBackground-160-s-250.webp",
+                "2x": "/localcosmos/user_content/content_images/published-projectDescriptionBackground-160-s-500.webp",
+                "4x": "/localcosmos/user_content/content_images/published-projectDescriptionBackground-160-s-1000.webp",
+                "8x": "/localcosmos/user_content/content_images/published-projectDescriptionBackground-160-s-2000.webp"
+            },
+            "licence": {
+                "licence": "CC0",
+                "licenceVersion": "1.0",
+                "creatorName": "Judith Boelcke",
+                "creatorLink": "",
+                "sourceLink": ""
+            }
+        }
+    }
+}

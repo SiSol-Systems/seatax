@@ -1,0 +1,15 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Ascophyllum nodosum",
+        "taxonAuthor": "(Linnaeus) Le Jolis 1863",
+        "nameUuid": "211ad20f-ab14-469d-8c91-beb08c0a235e",
+        "taxonNuid": "00o008008003001001",
+        "imageUrl": {
+            "1x": "/localcosmos/user_content/content_images/image-447-250.webp",
+            "2x": "/localcosmos/user_content/content_images/image-447-500.webp",
+            "4x": "/localcosmos/user_content/content_images/image-447-1000.webp"
+        },
+        "gbifNubKey": 3196524
+    }
+]

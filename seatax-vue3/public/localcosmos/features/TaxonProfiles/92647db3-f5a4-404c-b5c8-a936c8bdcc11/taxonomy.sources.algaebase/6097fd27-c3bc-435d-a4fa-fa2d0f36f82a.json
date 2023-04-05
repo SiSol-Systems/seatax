@@ -1,0 +1,266 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Spongomorpha aeruginosa",
+    "taxonAuthor": "(Linnaeus) Hoek 1963",
+    "nameUuid": "6097fd27-c3bc-435d-a4fa-fa2d0f36f82a",
+    "taxonNuid": "00700200500900d00q001",
+    "vernacular": {
+        "en": "Spongomorpha aeruginosa"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Spongomorpha aeruginosa"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5",
+                "name": "Filament Structure",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5:242",
+                        "encodedSpace": "fine branched filaments, growing in tufts or as dense mats in supralittoral"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:233",
+                        "encodedSpace": "Thallus with filamentous axes, bushy, feathery or unbranched stringy"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "af745781-b194-4125-beab-c07a18084175",
+                "name": "Shape of outer cell walls",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "af745781-b194-4125-beab-c07a18084175:247",
+                        "encodedSpace": "Outer cell walls straight line"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "d1b2056f-97ff-45aa-a7ff-e2d43071f250",
+                "name": "Structure of fine branched Filaments",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "d1b2056f-97ff-45aa-a7ff-e2d43071f250:246",
+                        "encodedSpace": "Uniseriate strongly and regularly branched filaments; branching pattern mostly monopodial; older individuals easily become filthy / intertwined"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 373",
+            "shortTextKey": "taxon_text_17_2563",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 373",
+            "shortTextKey": "taxon_text_2_2564",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 373",
+            "shortTextKey": "taxon_text_18_2565",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 373",
+            "shortTextKey": "taxon_text_4_2566",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 373",
+            "shortTextKey": "taxon_text_5_2567",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 373",
+            "shortTextKey": "taxon_text_6_2568",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-135-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-135-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-135-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Spongomorpha uncialis",
+            "taxonAuthor": "(O.F.Müller) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Chlorochytrium inclusum",
+            "taxonAuthor": "Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Cladophora pallida",
+            "taxonAuthor": "(Kjellman) Batters"
+        },
+        {
+            "taxonLatname": "Cladophora uncialis",
+            "taxonAuthor": "(O.F.Müller) Kützing"
+        },
+        {
+            "taxonLatname": "Spongomorpha lanosa",
+            "taxonAuthor": "(Roth) Kützing 1845"
+        },
+        {
+            "taxonLatname": "Spongomorpha lanosa var. uncialis",
+            "taxonAuthor": "(O.F.Müller) Kjellman"
+        },
+        {
+            "taxonLatname": "Cladophora lanosa var. uncialis",
+            "taxonAuthor": "(O.F.Müller) Thuret 1863"
+        },
+        {
+            "taxonLatname": "Spongomorpha pallida",
+            "taxonAuthor": "(Kjellman) Wille"
+        },
+        {
+            "taxonLatname": "Acrosiphonia pallida",
+            "taxonAuthor": "Kjellman"
+        },
+        {
+            "taxonLatname": "Conferva aeruginosa",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Cladophora bombycina",
+            "taxonAuthor": "(Kjellman) Batters"
+        },
+        {
+            "taxonLatname": "Conferva uncialis",
+            "taxonAuthor": "O.F.Müller 1778"
+        },
+        {
+            "taxonLatname": "Spongomorpha congregata",
+            "taxonAuthor": "(C.Agardh) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Conferva congregata",
+            "taxonAuthor": "C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Acrosiphonia lanosa",
+            "taxonAuthor": "(Mertens ex Roth) J.Agardh 1846"
+        },
+        {
+            "taxonLatname": "Acrosiphonia bombycina",
+            "taxonAuthor": "Kjellman"
+        }
+    ],
+    "gbifNubKey": 2645337,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

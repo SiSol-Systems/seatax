@@ -1,0 +1,282 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Cladophora lehmanniana",
+    "taxonAuthor": "(Lindenberg) Kützing 1843",
+    "nameUuid": "a5e3b91d-fea1-45ea-93a9-d8bf2a0e4c90",
+    "taxonNuid": "007002005003003006059",
+    "vernacular": {
+        "en": "Cladophora lehmanniana"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Cladophora lehmanniana"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5",
+                "name": "Filament Structure",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5:242",
+                        "encodedSpace": "fine branched filaments, growing in tufts or as dense mats in supralittoral"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:233",
+                        "encodedSpace": "Thallus with filamentous axes, bushy, feathery or unbranched stringy"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "af745781-b194-4125-beab-c07a18084175",
+                "name": "Shape of outer cell walls",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "af745781-b194-4125-beab-c07a18084175:248",
+                        "encodedSpace": "Outer cell walls slightly constricted at cross walls (especially visible in reproductive cells)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "d1b2056f-97ff-45aa-a7ff-e2d43071f250",
+                "name": "Structure of fine branched Filaments",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "d1b2056f-97ff-45aa-a7ff-e2d43071f250:246",
+                        "encodedSpace": "Uniseriate strongly and regularly branched filaments; branching pattern mostly monopodial; older individuals easily become filthy / intertwined"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 328",
+            "shortTextKey": "taxon_text_17_2298",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 328",
+            "shortTextKey": "taxon_text_2_2299",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 328",
+            "shortTextKey": "taxon_text_18_2300",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 328",
+            "shortTextKey": "taxon_text_4_2301",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 328",
+            "shortTextKey": "taxon_text_5_2302",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 328",
+            "shortTextKey": "taxon_text_6_2303",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-138-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-138-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-138-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Cladophora ramulosa",
+            "taxonAuthor": "Meneghini 1844"
+        },
+        {
+            "taxonLatname": "Cladophora utriculosa",
+            "taxonAuthor": "Kützing 1843"
+        },
+        {
+            "taxonLatname": "Cladophora macallana",
+            "taxonAuthor": "Harvey 1847"
+        },
+        {
+            "taxonLatname": "Conferva fruticulosa",
+            "taxonAuthor": "(Kützing) Zanardini 1847"
+        },
+        {
+            "taxonLatname": "Conferva utriculosa",
+            "taxonAuthor": "(Kützing) Zanardini 1847"
+        },
+        {
+            "taxonLatname": "Conferva lehmanniana",
+            "taxonAuthor": "Lindenberg 1840"
+        },
+        {
+            "taxonLatname": "Cladophora utriculosa f. lehmanniana",
+            "taxonAuthor": "(Lindenberg) Hauck  1884"
+        },
+        {
+            "taxonLatname": "Conferva prolifera var. tenuior",
+            "taxonAuthor": "Roth 1797"
+        },
+        {
+            "taxonLatname": "Cladophora utriculosa var. ramulosa",
+            "taxonAuthor": "(Meneghini) Hauck 1885"
+        },
+        {
+            "taxonLatname": "Conferva crouani",
+            "taxonAuthor": "Chauvin 1845"
+        },
+        {
+            "taxonLatname": "Cladophora fruticulosa",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Conferva macallana",
+            "taxonAuthor": "(Harvey) Crouan 1867"
+        },
+        {
+            "taxonLatname": "Cladophora lehmanniana var. cristata",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora utriculosa var. longiarticulata",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora longiarticulata",
+            "taxonAuthor": "(Kützing) Kützing 1853"
+        },
+        {
+            "taxonLatname": "Cladophora obtusata",
+            "taxonAuthor": "Zanardini ex Frauenfeld 1855"
+        },
+        {
+            "taxonLatname": "Cladophora macallana f. harveyana",
+            "taxonAuthor": "Hamel 1924"
+        },
+        {
+            "taxonLatname": "Cladophora macallana f. kuetzingiana",
+            "taxonAuthor": "Hamel 1924"
+        },
+        {
+            "taxonLatname": "Cladophora punica",
+            "taxonAuthor": "Hamel 1929"
+        },
+        {
+            "taxonLatname": "Cladophora catenata",
+            "taxonAuthor": "Hauck 1884"
+        }
+    ],
+    "gbifNubKey": 5272598,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

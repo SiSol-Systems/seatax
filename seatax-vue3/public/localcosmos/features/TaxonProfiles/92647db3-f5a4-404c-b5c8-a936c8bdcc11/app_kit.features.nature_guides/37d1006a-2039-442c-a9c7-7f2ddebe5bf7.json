@@ -1,0 +1,281 @@
+{
+    "taxonSource": "app_kit.features.nature_guides",
+    "taxonLatname": "Desmarestia viridis",
+    "taxonAuthor": null,
+    "nameUuid": "37d1006a-2039-442c-a9c7-7f2ddebe5bf7",
+    "taxonNuid": "00100100500d002",
+    "vernacular": {
+        "en": null
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Desmarestia viridis"
+    ],
+    "nodeDecisionRules": [
+        "Spring Habit (covered with filaments)"
+    ],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:46",
+                        "encodedSpace": "<p>Thallus <strong>filamentous</strong>, <strong>bushy</strong> or <strong>turf-like</strong>, uni- or multiseriate or parenchymatous, unbranched&nbsp; or branched</p>"
+                    },
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:47",
+                        "encodedSpace": "<p>Thallus <strong>tough </strong>and <strong>robust</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:188",
+                        "encodedSpace": "<p>Thallus ± <strong>firm</strong>, <strong>branched </strong>and <strong>bushy</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ae05a26e-6a4f-45cf-b45d-a3265a8581a3",
+                "name": "Thallus Axes (in cross section)",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ae05a26e-6a4f-45cf-b45d-a3265a8581a3:821",
+                        "encodedSpace": "<p>thin axes (1-2 mm) mostly <strong>round</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "cc72f7d9-5112-4970-b041-fb8fdd6d72d4",
+                "name": "Cortex (Cross Section)",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "cc72f7d9-5112-4970-b041-fb8fdd6d72d4:1192",
+                        "encodedSpace": "<p>1-2 thin layers of small pigmented cells, do not separate upon squashing&nbsp;</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-432-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-432-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-432-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1aa51027-5d74-465b-8e1a-adfb6c69e7a8",
+                "name": "Medulla (Cross Section)",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1aa51027-5d74-465b-8e1a-adfb6c69e7a8:1193",
+                        "encodedSpace": "<p>single large cell, surrounded by several layers of small to medium sized colourless cells</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-433-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-433-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-433-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a0cefa6c-4d7e-4cca-adae-23f91c965df4",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a0cefa6c-4d7e-4cca-adae-23f91c965df4:1094",
+                        "encodedSpace": "<p><strong>delicate</strong> bushy thallus with <strong>distinct main axis</strong>; thallus and branches <strong>light brown</strong> throughout</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f5fe1456-08dc-48d2-8a73-6ca793e313fc",
+                "name": "Texture",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f5fe1456-08dc-48d2-8a73-6ca793e313fc:1098",
+                        "encodedSpace": "<p>soft</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6351af75-c3d6-480a-9857-b50bddb185e6",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6351af75-c3d6-480a-9857-b50bddb185e6:1104",
+                        "encodedSpace": "<p><strong>3-5</strong> times strictly <strong>opposite branches </strong>in one plane</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f46884a9-5483-4083-a62b-2c708019a9b4",
+                "name": "Hairs",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f46884a9-5483-4083-a62b-2c708019a9b4:1114",
+                        "encodedSpace": "<p><strong>none </strong>(do not mistake hair-like filaments in spring for hairs)</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-319-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-319-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-319-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [],
+    "gbifNubKey": 5423348,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

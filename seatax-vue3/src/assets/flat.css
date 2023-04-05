@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Exo2";
+  src: url("fonts/Exo_2/Exo2-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("@/assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("@/assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("@/assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: lighter;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url("@/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Exo2", sans-serif;
+}
+
+.small-container {
+  width: 100vw;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --dark-grey: #333333;
+  --white: #ffffff;
+  --white-translucent: rgba(255,255,255,0.93);
+  --ocean-blue: #41b0f7;
+  --topbar-height: 5rem;
+  --footer-height: 5rem;
+  --searchbar-height: 7rem;
+  --black-translucent: rgba(0,0,0,0.5);
+  --primary-app-color: #00ABE8;
+  --secondary-app-color: #003E6E;
+  --secondary-app-color-translucent: #003E6E88;
+  --neutral-app-color: #F2F5F6;
+  --neutral-app-color-dark: #9EA7AA;
+  --link-color: #008EE0;
+  --black: #000000;
+  --green: #C3E066;
+  --mint: #106F730F;
+  --translucent-white: rgba(255,255,255, 0.85);
+  --text-size-large: 3.1875rem;
+  --text-size-h1: 2.4375rem;
+  --text-size-h2: 1.875rem;
+  --text-size-larger: 2rem;
+  --text-size-regular: 1.125rem;
+  --text-size-medium: 1.4375rem;
+  --text-size-small: 0.8rem;
+  --border-radius: 1rem;
+  --large-border-radius: 2rem;
+  --box-shadow: .10rem .20rem .40rem #515151B3;
+  --tabs-height: 2.5rem;
+}
+
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--white);
+  color: #000;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.material-icons-round.md-18 { font-size: 18px; }
+.material-icons-round.md-24 { font-size: 24px; }
+.material-icons-round.md-36 { font-size: 36px; }
+.material-icons-round.md-48 { font-size: 48px; }
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.body-text-heavy {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.body-text-regular {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: var(--text-size--regular);
+}
+
+.text-light {
+  font-weight: lighter;
+}
+
+.text-small {
+  font-size: var(--text-size-small);
+}
+
+.text-regular {
+  font-size: var(--text-size-regular);
+}
+
+.text-medium {
+  font-size: var(--text-size-medium);
+}
+
+.text-larger {
+  font-size: var(--text-size-larger);
+}
+
+.text-large {
+  font-size: var(--text-size-large);
+}
+
+.font-condensed {
+  font-family: 'RobotoCondensed';
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 4px .5px #00000055;
+}
+
+.main-nav-heading {
+  font-family: "Exo2";
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.back-neutral {
+  background-color: var(--neutral-app-color);
+}
+
+.notransition {
+  -webkit-transition: none !important;
+	transition: none !important;
+}
+
+.border-green {
+  border-color: var(--green);
+}
+
+.border-6 {
+  border-width: 6px;
+}
+
+.floating-action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary-app-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 8
+}
+
+.floating-action-button > img {
+  width: 50%;
+  height: auto;
+}
+
+.color-2nd-translucent {
+  color: var(--secondary-app-color-translucent);
+}
+
+.color-neutral-dark {
+  color: var(--neutral-app-color-dark);
+}
+
+.glossary_link {
+  color: var(--link-color);
+  touch-action: none;
+}
+
+.pointer {
+  cursor:pointer;
+}
+
+.translucent-white {
+  background-color: var(--translucent-white);
+}
+
+.color-primary {
+  color: var(--primary-app-color);
+}
+
+h1, h2, h3 {
+  color: var(--secondary-app-color);
+  font-family: Exo2;
+}
+
+h1 {
+  font-size: var(--text-size-h1);
+}
+
+h2 {
+  font-size: var(--text-size-h2);
+}
+
+h3 {
+  font-size: var(--text-size-medium);
+}
+
+.evaluation-left {
+  flex-grow: 1;
+}
+
+.evaluation-right {
+  width: 80%;
+  flex-grow: 0;
+}
+
+.topbar-padding {
+  padding-top: var(--topbar-height);
+}
+
+.mint-back {
+  background-color: var(--mint);
+}
+
+
+.template-content p {
+  padding: .5rem 0rem;
+}
+
+.template-content a {
+  color: var(--link-color);
+}
+
+@media (min-width: 640px) {
+
+}
+/* md */
+@media (min-width: 768px) {
+
+}
+
+/* lg */
+@media (min-width: 1024px) { 
+  .small-container {
+    width: 768px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .small-container {
+    width: 1024px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .small-container {
+    width: 1024px;
+  }
+}

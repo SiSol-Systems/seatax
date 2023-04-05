@@ -1,0 +1,149 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Scytosiphonaceae",
+    "taxonAuthor": "",
+    "nameUuid": "84305c60-8d03-46dd-869f-9536acab88ed",
+    "taxonNuid": "00o008007007",
+    "vernacular": {
+        "en": "Scytosiphonaceae"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Scytosiphonaceae"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "2f45f629-fad5-425b-af8a-b372fc853a7c",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "2f45f629-fad5-425b-af8a-b372fc853a7c:407",
+                        "encodedSpace": "<p>Mostly small (⌀&lt;1cm) and thin patches; may grow together to larger, discontinious patches</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "87387d3d-2a22-4340-bb19-3cb8393c4428",
+                "name": "Plastids",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "87387d3d-2a22-4340-bb19-3cb8393c4428:410",
+                        "encodedSpace": "<p><strong>single plate-like</strong> plastid</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "37a1e2a2-fdc9-4519-83eb-38c3ed404d79",
+                "name": "Pyrenoids",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "37a1e2a2-fdc9-4519-83eb-38c3ed404d79:684",
+                        "encodedSpace": "<p><strong>with </strong>obvious pyrenoid</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "28df459c-09ed-44e9-80a6-5c99016ad24e",
+                "name": "Zone",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "28df459c-09ed-44e9-80a6-5c99016ad24e:415",
+                        "encodedSpace": "Eulittoral"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "44e83f4f-1f6f-4221-b33d-f3ff408a9cbe",
+                "name": "Colour",
+                "type": "ColorFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "44e83f4f-1f6f-4221-b33d-f3ff408a9cbe:686",
+                        "encodedSpace": [
+                            [
+                                206,
+                                103,
+                                0,
+                                1
+                            ],
+                            [
+                                128,
+                                128,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(206,103,0,1),rgba(128,128,0,1))",
+                        "gradient": true,
+                        "description": "light brown to olive-brown"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [],
+    "gbifNubKey": 8501,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

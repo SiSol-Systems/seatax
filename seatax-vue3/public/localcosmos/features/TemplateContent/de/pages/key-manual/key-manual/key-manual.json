@@ -1,0 +1,89 @@
+{
+    "title": "Key Manual",
+    "templateName": "key-manual",
+    "templatePath": "/template_content/page/key-manual/key-manual.html",
+    "version": 1,
+    "contents": {
+        "block": [
+            {
+                "text": "Start the identification process by selecting one of the main groups (e.g. ‘Brown Seaweeds’). This leads to the next identification step.",
+                "uuid": "7c06d8ed-b21d-4847-a529-8efa34b36c6d",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-block:7c06d8ed-b21d-4847-a529-8efa34b36c6d:image-170-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-block:7c06d8ed-b21d-4847-a529-8efa34b36c6d:image-170-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-block:7c06d8ed-b21d-4847-a529-8efa34b36c6d:image-170-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-block:7c06d8ed-b21d-4847-a529-8efa34b36c6d:image-170-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "text": "The ‘Traits’ section on the left side shows different traits with different attributes.",
+                "uuid": "5d635d53-a6b4-4fcd-84b3-a7fd1dc21329",
+                "title": "Traits",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-block:5d635d53-a6b4-4fcd-84b3-a7fd1dc21329:image-171-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-block:5d635d53-a6b4-4fcd-84b3-a7fd1dc21329:image-171-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-block:5d635d53-a6b4-4fcd-84b3-a7fd1dc21329:image-171-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-block:5d635d53-a6b4-4fcd-84b3-a7fd1dc21329:image-171-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "text": "The ‘Evaluation’ section on the right side displays the possible identification results. You may  either see subgroups leading to the next step of the identification process, or the possible final identification result (species).",
+                "uuid": "4635f8e4-0245-40b0-af66-387df34b58d5",
+                "title": "Evaluation",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-block:4635f8e4-0245-40b0-af66-387df34b58d5:image-172-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-block:4635f8e4-0245-40b0-af66-387df34b58d5:image-172-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-block:4635f8e4-0245-40b0-af66-387df34b58d5:image-172-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-block:4635f8e4-0245-40b0-af66-387df34b58d5:image-172-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "text": "<p>In order to guide you, the traits at the top and the <strong>bold</strong> text indicate that they are particularly important for the identification. However, you do not have to follow the top-down sequence of traits but start with any trait. You do not have to select an attribute for each trait, but the more attributes you select, the more reliable the identification will be. Click on the trait box or an image to select it. Sometimes multiple selection is possible.</p>",
+                "uuid": "6010743d-9402-4a79-a43a-6ae73853988e",
+                "title": "Trait Selection",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-block:6010743d-9402-4a79-a43a-6ae73853988e:image-173-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-block:6010743d-9402-4a79-a43a-6ae73853988e:image-173-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-block:6010743d-9402-4a79-a43a-6ae73853988e:image-173-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-block:6010743d-9402-4a79-a43a-6ae73853988e:image-173-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            }
+        ]
+    }
+}

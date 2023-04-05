@@ -1,0 +1,726 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Dictyota dichotoma",
+    "taxonAuthor": "(Hudson) J.V.Lamouroux 1809",
+    "nameUuid": "02b5d203-c855-4d0f-82f5-978aa06df3dd",
+    "taxonNuid": "00o00800500100100500t",
+    "vernacular": {
+        "en": "Dictyota dichotoma 01"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Dictyota dichotoma",
+        "Dictyota dichotoma 01"
+    ],
+    "nodeDecisionRules": [
+        "Ribbon-like, dichotomously branched"
+    ],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:255",
+                        "encodedSpace": "<p>Whole Thallus <strong>flat </strong>and <strong>membranous</strong>, blade-like to linear</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "7fb0c3f9-7fd3-45bf-9938-8e544be5ec1b",
+                "name": "Blade Width",
+                "type": "TextOnlyFilter",
+                "position": 14,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "7fb0c3f9-7fd3-45bf-9938-8e544be5ec1b:1205",
+                        "encodedSpace": "<p>3-10 mm</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f",
+                "name": "Number of Cell Layers in Medulla",
+                "type": "NumberFilter",
+                "position": 17,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:1.0",
+                        "encodedSpace": 1.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e8955620-a8cd-4369-a089-87edfdc483d1",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e8955620-a8cd-4369-a089-87edfdc483d1:192",
+                        "encodedSpace": "<p>dichotomously branched flat blades</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "3cf50e08-6105-4dcf-96c2-cfa84b7446df",
+                "name": "Tips",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 15,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "3cf50e08-6105-4dcf-96c2-cfa84b7446df:942",
+                        "encodedSpace": "<p><strong>rounded to blunt</strong>, with characteristic <strong>lens shaped top-cell</strong></p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-368-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-368-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-368-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36",
+                "name": "Number of Cell Layers in Cortex",
+                "type": "NumberFilter",
+                "position": 16,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36:1.0",
+                        "encodedSpace": 1.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "3df0f5e3-1747-426e-836e-632c07476179",
+                "name": "Size (of adult individuals) [cm]",
+                "type": "RangeFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            20.0
+                        ],
+                        "spaceIdentifier": "3df0f5e3-1747-426e-836e-632c07476179:WzAuMCwyMC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6195bcdc-228b-447d-a5ce-cbd29ba95caf",
+                "name": "Branches",
+                "type": "TextOnlyFilter",
+                "position": 12,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6195bcdc-228b-447d-a5ce-cbd29ba95caf:368",
+                        "encodedSpace": "<p>regular dichotomous branching, all branches of approx. similar width</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8cae1746-7f16-46bc-93dc-ddc5c9c21e29",
+                "name": "Special Remark",
+                "type": "TextOnlyFilter",
+                "position": 18,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "8cae1746-7f16-46bc-93dc-ddc5c9c21e29:1207",
+                        "encodedSpace": "<p>thalli shows a <strong>blue-green iridescence </strong>under water</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "4bfbd5e8-4592-4480-9175-0a576e0c4152",
+                "name": "Blade Width (of adult individuals) [cm]",
+                "type": "RangeFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.3,
+                            1.0
+                        ],
+                        "spaceIdentifier": "4bfbd5e8-4592-4480-9175-0a576e0c4152:WzAuMywxLjBd"
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 0.1,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b17e707c-8276-43f4-9bda-098e386e7065",
+                "name": "Size (of adult individuals) [cm] (dichotomous)",
+                "type": "RangeFilter",
+                "position": 13,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            20.0
+                        ],
+                        "spaceIdentifier": "b17e707c-8276-43f4-9bda-098e386e7065:WzAuMCwyMC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "fd095414-ff1b-4682-a24c-b78331e66f4c",
+                "name": "Blade Shape - dichotomous branched",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "fd095414-ff1b-4682-a24c-b78331e66f4c:419",
+                        "encodedSpace": "repeatedly dichotomously forked; branches of similar width, ending in rounded to blunt tips; tips often with blue-green iridescence"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8e6ad526-6b40-4300-9279-cc606a24efaf",
+                "name": "Thallus/ Blade Length",
+                "type": "RangeFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            14.0
+                        ],
+                        "spaceIdentifier": "8e6ad526-6b40-4300-9279-cc606a24efaf:WzAuMCwxNC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6809494d-fd48-4719-877b-376af190b8e7",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6809494d-fd48-4719-877b-376af190b8e7:418",
+                        "encodedSpace": "blade with dichotomous branches"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "bff8303d-1172-4026-9a94-e6de72f7bb61",
+                "name": "Holdfast",
+                "type": "TextOnlyFilter",
+                "position": 8,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "bff8303d-1172-4026-9a94-e6de72f7bb61:436",
+                        "encodedSpace": "creeping rhizoids"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9b98ff46-c665-45ae-ac6d-282f069841ce",
+                "name": "Cell Layers (in cross section)",
+                "type": "TextOnlyFilter",
+                "position": 10,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9b98ff46-c665-45ae-ac6d-282f069841ce:544",
+                        "encodedSpace": "<p>differentiation of cells into medulla and cortex</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "cb65918a-2e42-41d2-ac5a-64bc6175ac91",
+                "name": "Number of Cells in Cortex",
+                "type": "NumberFilter",
+                "position": 11,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "cb65918a-2e42-41d2-ac5a-64bc6175ac91:1.0",
+                        "encodedSpace": 1.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f9baca72-a3a3-4230-b0b6-8d98b03cf222",
+                "name": "Number of Cells in Medulla",
+                "type": "NumberFilter",
+                "position": 12,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:1.0",
+                        "encodedSpace": 1.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e5fcc431-99eb-4397-8b4d-234b77567a9d",
+                "name": "Blade/ Branch Width (Text)",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e5fcc431-99eb-4397-8b4d-234b77567a9d:432",
+                        "encodedSpace": "~ 0.5-10 mm"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9ee4c131-43ab-41c4-9a6f-b7068d5ec7a1",
+                "name": "Hairs (on blade)",
+                "type": "TextOnlyFilter",
+                "position": 9,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9ee4c131-43ab-41c4-9a6f-b7068d5ec7a1:440",
+                        "encodedSpace": "blade surface covered by colourless hairs in clusters"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "af23cb9d-282d-4501-98c5-3c739590d299",
+                "name": "Growth Habit",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "af23cb9d-282d-4501-98c5-3c739590d299:710",
+                        "encodedSpace": "<p>solitary</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [],
+    "images": {
+        "taxonProfileImages": [
+            {
+                "text": "<p>Detail of frond: scattered sporangia</p>",
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-88-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-88-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-88-1000.webp"
+                }
+            },
+            {
+                "text": "<p>Apical cells at frond tips (microscopic)</p>",
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-89-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-89-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-89-1000.webp"
+                }
+            },
+            {
+                "text": "<p>Habitus (Herbarium specimen)</p>",
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-90-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-90-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-90-1000.webp"
+                }
+            }
+        ],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-58-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-58-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-58-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Dictyota volubilis",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Ulva dichotoma",
+            "taxonAuthor": "Hudson 1762"
+        },
+        {
+            "taxonLatname": "Zonaria dichotoma",
+            "taxonAuthor": "(Hudson) C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Dictyota apiculata",
+            "taxonAuthor": "J.Agardh 1894"
+        },
+        {
+            "taxonLatname": "Dictyota rotundata",
+            "taxonAuthor": "J.V.Lamouroux 1809"
+        },
+        {
+            "taxonLatname": "Dichophyllium dichotomum",
+            "taxonAuthor": "(Hudson) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Dictyota acuta",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Dictyota acuta var. patens",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Dictyota aequalis var. minor",
+            "taxonAuthor": "Kützing 1859"
+        },
+        {
+            "taxonLatname": "Dictyota areolata",
+            "taxonAuthor": "Schousboe 1892"
+        },
+        {
+            "taxonLatname": "Dictyota attenuata",
+            "taxonAuthor": "Kützing 1859"
+        },
+        {
+            "taxonLatname": "Dictyota complanata",
+            "taxonAuthor": "Schousboe ex Bornet 1892"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma var. acuta",
+            "taxonAuthor": "Chauvin ex Duby 1830"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma f. attenuata",
+            "taxonAuthor": "(Kützing) Vinassa 1892"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma var. elongata",
+            "taxonAuthor": "(Kützing) Grunow 1874"
+        },
+        {
+            "taxonLatname": "Dictyota elongata",
+            "taxonAuthor": "Kützing 1859"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma f. elongata",
+            "taxonAuthor": "(Kützing) Schiffner 1933"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma f. latifolia",
+            "taxonAuthor": "(Kützing) Vinassa 1892"
+        },
+        {
+            "taxonLatname": "Dictyota latifolia",
+            "taxonAuthor": "Kützing 1859"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma f. latifrons",
+            "taxonAuthor": "Holmes & Batters 1890"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma var. minor",
+            "taxonAuthor": "Kützing 1981"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma var. rigida",
+            "taxonAuthor": "P.Crouan & H.Crouan 1852"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma f. spiralis",
+            "taxonAuthor": "Nizamuddin 1981"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma var. stenoloba",
+            "taxonAuthor": "Hohenacker 1883"
+        },
+        {
+            "taxonLatname": "Dictyota dichotoma var. volubilis",
+            "taxonAuthor": "Lenormand 1843"
+        },
+        {
+            "taxonLatname": "Dictyota setosa",
+            "taxonAuthor": "Duby 1830"
+        },
+        {
+            "taxonLatname": "Fucus dichotomus",
+            "taxonAuthor": "(Hudson) Bertoloni 1819"
+        },
+        {
+            "taxonLatname": "Fucus zosteroides",
+            "taxonAuthor": "J.V.Lamouroux 1805"
+        },
+        {
+            "taxonLatname": "Haliseris dichotoma",
+            "taxonAuthor": "(Hudson) Sprengel 1827"
+        },
+        {
+            "taxonLatname": "Neurocarpus annularis",
+            "taxonAuthor": "Schousboe 1892"
+        },
+        {
+            "taxonLatname": "Neurocarpus areolatus",
+            "taxonAuthor": "Schousboe 1892"
+        },
+        {
+            "taxonLatname": "Zonaria rotundata",
+            "taxonAuthor": "(Lamouroux) C.Agardh 1817"
+        }
+    ],
+    "gbifNubKey": 5423480,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

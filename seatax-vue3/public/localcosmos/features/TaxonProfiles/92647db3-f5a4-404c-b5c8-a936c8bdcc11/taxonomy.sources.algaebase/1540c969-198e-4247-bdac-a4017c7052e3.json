@@ -1,0 +1,326 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Chondrus crispus",
+    "taxonAuthor": "Stackhouse 1797",
+    "nameUuid": "1540c969-198e-4247-bdac-a4017c7052e3",
+    "taxonNuid": "00w00200200i00j00200e",
+    "vernacular": {
+        "en": "Chondrus crispus"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Chondrus crispus"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:41",
+                        "encodedSpace": [
+                            [
+                                255,
+                                113,
+                                113,
+                                1
+                            ],
+                            [
+                                70,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(255,113,113,1),rgba(70,0,0,1))",
+                        "gradient": true,
+                        "description": "light-pink to purple, some almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "49a66d2f-894f-41b1-9a64-bf95da3376db",
+                "name": "Thallus",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "49a66d2f-894f-41b1-9a64-bf95da3376db:174",
+                        "encodedSpace": "whole thallus or fronds robust and/or cartilaginous"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "518165f5-fb94-448c-b260-12e6803cd7d0",
+                "name": "Shape of axes or fronds",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "518165f5-fb94-448c-b260-12e6803cd7d0:177",
+                        "encodedSpace": "compressed/ flattened (strap-, blade- or sheet-like)"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 183",
+            "shortTextKey": "taxon_text_17_1309",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 183",
+            "shortTextKey": "taxon_text_2_1310",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 183",
+            "shortTextKey": "taxon_text_18_1311",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 183",
+            "shortTextKey": "taxon_text_4_1312",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 183",
+            "shortTextKey": "taxon_text_5_1313",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 183",
+            "shortTextKey": "taxon_text_6_1314",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (West), Wadden Sea (East), Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_1315",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Chondrus crispus var. virens",
+            "taxonAuthor": "(Goodenough & Woodward) Duby 1830"
+        },
+        {
+            "taxonLatname": "Chondrus crispus var. aequalis",
+            "taxonAuthor": "(Goodenough & Woodward) Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Chondrus crispus var. patens",
+            "taxonAuthor": "Duby 1830"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. sarniensis",
+            "taxonAuthor": "Turner 1802"
+        },
+        {
+            "taxonLatname": "Chondrus crispus var. lacerus",
+            "taxonAuthor": "(Stackhouse) Duby 1830"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. planus",
+            "taxonAuthor": "Turner 1802"
+        },
+        {
+            "taxonLatname": "Fucus crispus",
+            "taxonAuthor": "Linnaeus 1767"
+        },
+        {
+            "taxonLatname": "Fucus norvegicus",
+            "taxonAuthor": "Gunnerus 1772"
+        },
+        {
+            "taxonLatname": "Gymnogongrus norvegicus",
+            "taxonAuthor": "(Gunnerus) J.Agardh 1851"
+        },
+        {
+            "taxonLatname": "Chondrus variolosus",
+            "taxonAuthor": "Ruprecht 1850"
+        },
+        {
+            "taxonLatname": "Iridaea heterocarpa",
+            "taxonAuthor": "Postels & Ruprecht 1840"
+        },
+        {
+            "taxonLatname": "Iridophycus heterocarpus",
+            "taxonAuthor": "(Postels & Ruprecht) Setchell & N.L.Gardner 1937"
+        },
+        {
+            "taxonLatname": "Chondrus norvegicus",
+            "taxonAuthor": "(Gunnerus) Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. aequalis",
+            "taxonAuthor": "(Goodenough & Woodward) Rosenvinge 1931"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. aequalis",
+            "taxonAuthor": "Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Sphaerococcus crispus f. aequalis",
+            "taxonAuthor": "(Turner) C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. abbreviatus",
+            "taxonAuthor": "Kjellman 1907"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. incurvatus",
+            "taxonAuthor": "(Lyngbye) Rosenvinge 1931"
+        },
+        {
+            "taxonLatname": "Chondrus crispus var. incurvatus",
+            "taxonAuthor": "Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. polychotomus",
+            "taxonAuthor": "Kjellman ex Kylin 1907"
+        },
+        {
+            "taxonLatname": "Sphaerococcus norvegicus",
+            "taxonAuthor": "(Gunnerus) C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Sphaerococcus crispus var. ciliatus",
+            "taxonAuthor": "Suhr 1834"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. aegagropila",
+            "taxonAuthor": "Rosenvinge 1931"
+        },
+        {
+            "taxonLatname": "Fucus patens",
+            "taxonAuthor": "Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. virens",
+            "taxonAuthor": "Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. brunneus",
+            "taxonAuthor": "Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Polymorpha crispa",
+            "taxonAuthor": "(Stackhouse) Stackhouse 1809"
+        },
+        {
+            "taxonLatname": "Chondrus crispus var. sarniensis",
+            "taxonAuthor": "(Turner)  Duby 1830"
+        },
+        {
+            "taxonLatname": "Fucus lacerus",
+            "taxonAuthor": "Stackhouse 1797"
+        },
+        {
+            "taxonLatname": "Chondrus crispus var. planus",
+            "taxonAuthor": "(Turner) Duby 1830"
+        },
+        {
+            "taxonLatname": "Fucus lacerus",
+            "taxonAuthor": "Linnaeus 1763"
+        },
+        {
+            "taxonLatname": "Gigartina heterocarpa",
+            "taxonAuthor": "(Postels & Ruprecht) D.H.Kim 1976"
+        },
+        {
+            "taxonLatname": "Fucus ceranoides var. lacerus",
+            "taxonAuthor": "(Linnaeus) Lightfoot"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. typicus",
+            "taxonAuthor": "Reinke 1889"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. filiformis",
+            "taxonAuthor": "Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. lacerus",
+            "taxonAuthor": "Turner 1802"
+        },
+        {
+            "taxonLatname": "Fucus crispus var. patens",
+            "taxonAuthor": "(Goodenough & Woodward) Turner 1802"
+        },
+        {
+            "taxonLatname": "Oncotylus norvegicus",
+            "taxonAuthor": "(Gunnerus) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Chondrus platysma",
+            "taxonAuthor": "Ruprecht 1850"
+        },
+        {
+            "taxonLatname": "Polymorpha norvegicus",
+            "taxonAuthor": "(Gunnerus) Stackhouse 1809"
+        },
+        {
+            "taxonLatname": "Chondrus crispus f. densus",
+            "taxonAuthor": "Rosenvinge 1931"
+        },
+        {
+            "taxonLatname": "Polymorpha aequalis",
+            "taxonAuthor": "(Goodenough & Woodward) Stackhouse 1809"
+        }
+    ],
+    "gbifNubKey": 5279115,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

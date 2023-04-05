@@ -1,0 +1,51 @@
+{
+    "title": "Download",
+    "templateName": "download",
+    "templatePath": "/template_content/page/download/download.html",
+    "version": 1,
+    "contents": {
+        "pdfs": [
+            {
+                "link": "http://link.org",
+                "uuid": "e25ecb52-a7d8-4f8f-b423-862735bc2e40",
+                "title": "Seaweeds of the German North Sea Coastline. Scientific Identification Key. Part I. Phaeophyceae (Brown Seaweeds)",
+                "description": "Multi-access matrix identification key for Brown Seaweeds of the German North Sea for students, monitoring agencies and scientists for download. This version contains the same scientific information as the webkey but in a slightly different format. PDF opens in new tab.",
+                "image": {
+                    "imageUrl": {
+                        "1x": "/localcosmos/user_content/content_images/published-pdfs:e25ecb52-a7d8-4f8f-b423-862735bc2e40:image-149-s-250.webp",
+                        "2x": "/localcosmos/user_content/content_images/published-pdfs:e25ecb52-a7d8-4f8f-b423-862735bc2e40:image-149-s-500.webp",
+                        "4x": "/localcosmos/user_content/content_images/published-pdfs:e25ecb52-a7d8-4f8f-b423-862735bc2e40:image-149-s-1000.webp",
+                        "8x": "/localcosmos/user_content/content_images/published-pdfs:e25ecb52-a7d8-4f8f-b423-862735bc2e40:image-149-s-2000.webp"
+                    },
+                    "licence": {
+                        "licence": "CC0",
+                        "licenceVersion": "1.0",
+                        "creatorName": "Thomas Uher",
+                        "creatorLink": "",
+                        "sourceLink": ""
+                    }
+                }
+            },
+            {
+                "link": "http://link.org",
+                "uuid": "17f3dd35-b7bf-4b59-a386-316d6cef5929",
+                "title": "Seaweeds of the German North Sea Coastline. Scientific Identification Key. Part I. Phaeophyceae. (Brown Seaweeds) - Additional Information",
+                "description": "The ‘Additional information’ provides insights into the concept, methods, references, glossary with definitions of scientific terms and a complete list of species with author names and some synonyms used in the German literature. PDF opens in new tab. Free for personal and academic use.",
+                "image": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            },
+            {
+                "link": "http://link.org",
+                "uuid": "b4cf082a-dea2-409d-a745-4975278a3d6b",
+                "title": "Taxon Profiles",
+                "description": "The taxon profiles synthesize available information on the morphology, size, reproduction, habitat, and seasonality, and provide information on possible identity confusions and special remarks or further reading (where applicable) in a systematic manner. In addition, we provide further useful images, which may be helpful for identification.",
+                "image": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            }
+        ]
+    }
+}

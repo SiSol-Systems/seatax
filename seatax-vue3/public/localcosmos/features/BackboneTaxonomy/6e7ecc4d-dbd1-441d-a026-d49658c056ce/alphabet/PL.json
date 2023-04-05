@@ -1,0 +1,20 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Planosiphon filiformis",
+        "taxonAuthor": "(Batters) Santiañez & Kogame 2013",
+        "nameUuid": "bb2a7799-ffbe-47d3-b23a-80a94cf509b2",
+        "taxonNuid": "00o00800700700h002",
+        "imageUrl": null,
+        "gbifNubKey": null
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Planosiphon zosterifolius",
+        "taxonAuthor": "(Reinke) McDevit & G.W.Saunders 2017",
+        "nameUuid": "49348be3-6c8c-4227-90cd-900de3375918",
+        "taxonNuid": "00o00800700700h005",
+        "imageUrl": null,
+        "gbifNubKey": null
+    }
+]

@@ -1,0 +1,210 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Gracilaria gracilis",
+    "taxonAuthor": "(Stackhouse) Steentoft, L.M.Irvine & Farnham 1995",
+    "nameUuid": "49ff31cb-28db-447e-9a93-2046d901fe3f",
+    "taxonNuid": "00w00200200j001002001003024",
+    "vernacular": {
+        "en": "Gracilaria gracillis"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Gracilaria gracillis"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:41",
+                        "encodedSpace": [
+                            [
+                                255,
+                                113,
+                                113,
+                                1
+                            ],
+                            [
+                                70,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(255,113,113,1),rgba(70,0,0,1))",
+                        "gradient": true,
+                        "description": "light-pink to purple, some almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "49a66d2f-894f-41b1-9a64-bf95da3376db",
+                "name": "Thallus",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "49a66d2f-894f-41b1-9a64-bf95da3376db:174",
+                        "encodedSpace": "whole thallus or fronds robust and/or cartilaginous"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "518165f5-fb94-448c-b260-12e6803cd7d0",
+                "name": "Shape of axes or fronds",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "518165f5-fb94-448c-b260-12e6803cd7d0:176",
+                        "encodedSpace": "mainly cylindrical"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 213",
+            "shortTextKey": "taxon_text_17_1513",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 213",
+            "shortTextKey": "taxon_text_2_1514",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 213",
+            "shortTextKey": "taxon_text_18_1515",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 213",
+            "shortTextKey": "taxon_text_4_1516",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 213",
+            "shortTextKey": "taxon_text_5_1517",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 213",
+            "shortTextKey": "taxon_text_6_1518",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (West), Wadden Sea (East), Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_1519",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Fucus gracilis",
+            "taxonAuthor": "Stackhouse 1801"
+        },
+        {
+            "taxonLatname": "Fucus confervoides var. gracilis",
+            "taxonAuthor": "(Stackhouse) Turner 1802"
+        },
+        {
+            "taxonLatname": "Gracilaria confervoides var. procerrima",
+            "taxonAuthor": "(Esper) Greville 1830"
+        },
+        {
+            "taxonLatname": "Fucus gulaman",
+            "taxonAuthor": "M.Blanco 1837"
+        },
+        {
+            "taxonLatname": "Gracilaria confervoides f. tenuissima",
+            "taxonAuthor": "Rosenvinge 1931"
+        },
+        {
+            "taxonLatname": "Fucus procerrimus",
+            "taxonAuthor": "Esper 1800"
+        },
+        {
+            "taxonLatname": "Gracilaria confervoides f. gracilis",
+            "taxonAuthor": "(Stackhouse) Grunow 1874"
+        },
+        {
+            "taxonLatname": "Sphaerococcus capillaris",
+            "taxonAuthor": "Kützing 1863"
+        },
+        {
+            "taxonLatname": "Fucus albidus",
+            "taxonAuthor": "Esper 1800"
+        },
+        {
+            "taxonLatname": "Gracilaria confervoides var. gracilis",
+            "taxonAuthor": "(Stackhouse) Batters 1902"
+        },
+        {
+            "taxonLatname": "Gigartina confervoides var. gracilis",
+            "taxonAuthor": "(Stackhouse) S.F.Gray 1821"
+        },
+        {
+            "taxonLatname": "Sphaerococcus confervoides var. gracilis",
+            "taxonAuthor": "(Stackhouse) C.Agardh 1822"
+        },
+        {
+            "taxonLatname": "Flagellaria gracilis",
+            "taxonAuthor": "(Stackhouse) Stackhouse 1809"
+        }
+    ],
+    "gbifNubKey": 5278844,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

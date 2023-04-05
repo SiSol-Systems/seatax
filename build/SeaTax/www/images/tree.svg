@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   viewBox="0 96 960 960"
+   width="48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icon-seatax-overview.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="8"
+     inkscape:cx="-33.5625"
+     inkscape:cy="19"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4">
+    <sodipodi:guide
+       position="478.58233,1445.2293"
+       orientation="1,0"
+       id="guide536"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="41.953125,388.125"
+       orientation="1,0"
+       id="guide1202"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="201.07105,920.11814"
+       orientation="0,-1"
+       id="guide1238"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="917.96875,577.03125"
+       orientation="1,0"
+       id="guide1240"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1133.3096,39.393708"
+       orientation="0,-1"
+       id="guide1242"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline">
+    <path
+       d="m 347.50407,478.82237 c -18.20533,0 -33.67984,-5.17556 -46.42357,-15.52668 -12.74373,-10.35112 -19.11558,-22.92033 -19.11558,-37.70765 v -101.9582 c 0,-14.78732 6.37185,-27.35653 19.11558,-37.70765 12.74373,-10.35112 28.21824,-15.52668 46.42357,-15.52668 h 262.15654 c 18.20538,0 33.67993,5.17556 46.42358,15.52668 12.74373,10.35112 19.11556,22.92033 19.11556,37.70765 v 101.9582 c 0,14.78732 -6.37183,27.35653 -19.11556,37.70765 -12.74365,10.35112 -28.2182,15.52668 -46.42358,15.52668 z m -6.46267,-59.697 H 614.94825 V 329.50499 H 341.0414 Z"
+       id="path520-6-3"
+       style="stroke-width:0.984452;fill:#ffffff"
+       sodipodi:nodetypes="sssssssssssssccccc" />
+    <path
+       d="m 107.84042,850.98599 c -18.205335,0 -33.679845,-5.17556 -46.423575,-15.52668 -12.74373,-10.35112 -19.11558,-22.92033 -19.11558,-37.70765 v -101.9582 c 0,-14.78732 6.37185,-27.35653 19.11558,-37.70765 12.74373,-10.35112 28.21824,-15.52668 46.423575,-15.52668 h 262.15654 c 18.20538,0 33.67993,5.17556 46.42358,15.52668 12.74373,10.35112 19.11556,22.92033 19.11556,37.70765 v 101.9582 c 0,14.78732 -6.37183,27.35653 -19.11556,37.70765 -12.74365,10.35112 -28.2182,15.52668 -46.42358,15.52668 z m -6.46267,-59.697 H 375.2846 V 701.66861 H 101.37775 Z"
+       id="path520-6-3-0"
+       style="stroke-width:0.984452;fill:#ffffff"
+       sodipodi:nodetypes="sssssssssssssccccc" />
+    <path
+       d="m 590.44696,851.41985 c -18.20533,0 -33.67984,-5.17561 -46.42357,-15.52673 -12.74373,-10.35112 -19.11558,-22.92033 -19.11558,-37.70765 v -101.9582 c 0,-14.78732 6.37185,-27.35653 19.11558,-37.70765 12.74373,-10.35112 28.21824,-15.52668 46.42357,-15.52668 H 852.6035 c 18.20538,0 33.67993,5.17556 46.42358,15.52668 12.74373,10.35112 19.11556,22.92033 19.11556,37.70765 v 101.9582 c 0,14.78732 -6.37183,27.35653 -19.11556,37.70765 -12.74365,10.35112 -28.2182,15.52673 -46.42358,15.52673 z M 583.98429,791.7228 H 857.89114 V 702.10242 H 583.98429 Z"
+       id="path520-6-3-0-9"
+       style="stroke-width:0.984452;fill:#ffffff"
+       sodipodi:nodetypes="sssssssssssssccccc" />
+  </g>
+  <path
+     d="m 202.37461,664.27263 160,-219 h 232 l 160,220 -48,35 -160,-219 h -136 l -160,219 z"
+     id="path1244"
+     sodipodi:nodetypes="ccccccccc"
+     style="fill:#ffffff" />
+</svg>

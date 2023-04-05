@@ -1,0 +1,512 @@
+{
+    "taxonSource": "app_kit.features.nature_guides",
+    "taxonLatname": "Hincksia fuscata",
+    "taxonAuthor": null,
+    "nameUuid": "6eea3f00-1eee-4f63-826e-2d8cc1ce3e9f",
+    "taxonNuid": "00100100500c00h004002",
+    "vernacular": {
+        "en": null
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Hincksia fuscata"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:46",
+                        "encodedSpace": "<p>Thallus <strong>filamentous</strong>, <strong>bushy</strong> or <strong>turf-like</strong>, uni- or multiseriate or parenchymatous, unbranched&nbsp; or branched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:941",
+                        "encodedSpace": "<p>Thallus<strong> flaccid, uniseriate to multiseriate to parenchymatic</strong> axes (&lt; 1 mm width), branched or unbranched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b438b28c-0da8-4bcd-bc82-e5579367e55a",
+                "name": "Nuclei",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "b438b28c-0da8-4bcd-bc82-e5579367e55a:910",
+                        "encodedSpace": "<p>&nbsp;Usually no nuclei visible in cells</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-423-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-423-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-423-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6fc917eb-691a-4b2a-8d1c-35f599013c61",
+                "name": "Plastids",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "6fc917eb-691a-4b2a-8d1c-35f599013c61:913",
+                        "encodedSpace": "<p>Several to many discoid plastids</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-351-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-351-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-351-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "4d4dd3e2-1d9d-4d28-8b3d-a3e80a984942",
+                "name": "Filaments",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "4d4dd3e2-1d9d-4d28-8b3d-a3e80a984942:914",
+                        "encodedSpace": "<p><strong>Uniseriate</strong><br>(<i>Pylaiella </i>occasionally divided by walls)</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-352-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-352-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-352-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9a46f18f-f112-4605-9ee4-6963f23f556f",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "9a46f18f-f112-4605-9ee4-6963f23f556f:1014",
+                        "encodedSpace": "<p>highly branched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "7740de09-59ec-4af2-82d5-db5f0bc051df",
+                "name": "Branching Pattern (Highly Branched)",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "7740de09-59ec-4af2-82d5-db5f0bc051df:1046",
+                        "encodedSpace": "<p>irregular, opposite or unilateral branching, often <strong>recurved</strong>; all laterals ending in <strong>false hairs</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8a2d934e-fa53-4074-9ca0-51961ef9192d",
+                "name": "Size [cm]",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "8a2d934e-fa53-4074-9ca0-51961ef9192d:1020",
+                        "encodedSpace": "<p>&lt; 0,5 cm</p>"
+                    },
+                    {
+                        "spaceIdentifier": "8a2d934e-fa53-4074-9ca0-51961ef9192d:1021",
+                        "encodedSpace": "<p>&lt; 1,5 cm</p>"
+                    },
+                    {
+                        "spaceIdentifier": "8a2d934e-fa53-4074-9ca0-51961ef9192d:1022",
+                        "encodedSpace": "<p>&lt; 15 cm</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e7af6c6f-658d-47f5-b13a-bc9a3f4cf3ee",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "e7af6c6f-658d-47f5-b13a-bc9a3f4cf3ee:1029",
+                        "encodedSpace": "<p><strong>highly branched</strong> or loosely entangled thalli, <strong>cells often much wider than long to barrel shaped</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8b707259-f16c-46bf-a2e7-4ac3676fb597",
+                "name": "Reproductive Organs",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "8b707259-f16c-46bf-a2e7-4ac3676fb597:1036",
+                        "encodedSpace": "<p><strong>plurilocs sessile</strong>, compact; <strong>unilocs</strong> often arranged <strong>in</strong> <strong>series or as whorls</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "76783032-5d0c-4fc0-b536-6a6b0733008e",
+                "name": "Epiphytic/Epilithic (Multiple Choice)",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "76783032-5d0c-4fc0-b536-6a6b0733008e:1038",
+                        "encodedSpace": "<p>epiphytic</p>"
+                    },
+                    {
+                        "spaceIdentifier": "76783032-5d0c-4fc0-b536-6a6b0733008e:1039",
+                        "encodedSpace": "<p>epilithic</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "3b2ecd7f-ae4e-461b-b9fd-667be415c983",
+                "name": "Habitat (Multiple Choice)",
+                "type": "TextOnlyFilter",
+                "position": 8,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "3b2ecd7f-ae4e-461b-b9fd-667be415c983:1175",
+                        "encodedSpace": "<p>sublittoral</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f7e393a2-5894-463c-84e4-0ca4c88c13d1",
+                "name": "Width of Main Axis",
+                "type": "RangeFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            15.0,
+                            35.0
+                        ],
+                        "spaceIdentifier": "f7e393a2-5894-463c-84e4-0ca4c88c13d1:WzE1LjAsMzUuMF0="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 5.0,
+                    "unit": "µm",
+                    "unit_verbose": "micrometer"
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a857cc07-283f-4bb7-9a25-781d8bf47fa2",
+                "name": "Reproductive Organs - Unilocs",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a857cc07-283f-4bb7-9a25-781d8bf47fa2:1189",
+                        "encodedSpace": "<p>sessile and (broad) oval</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9c49394d-ab98-4fe2-be13-71fa05896af0",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "9c49394d-ab98-4fe2-be13-71fa05896af0:1069",
+                        "encodedSpace": "<p>delicate tufts</p>"
+                    },
+                    {
+                        "spaceIdentifier": "9c49394d-ab98-4fe2-be13-71fa05896af0:1179",
+                        "encodedSpace": "<p>whorl-like thallus structure</p>"
+                    },
+                    {
+                        "spaceIdentifier": "9c49394d-ab98-4fe2-be13-71fa05896af0:1178",
+                        "encodedSpace": "<p><strong>distinct </strong>main axis</p>"
+                    },
+                    {
+                        "spaceIdentifier": "9c49394d-ab98-4fe2-be13-71fa05896af0:1180",
+                        "encodedSpace": "<p>lower parts with downgrowing&nbsp; rhizoids</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d006de2-89da-409c-9151-82cb1df06ca8",
+                "name": "Branching Pattern",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "1d006de2-89da-409c-9151-82cb1df06ca8:1073",
+                        "encodedSpace": "<p>pairs of opposite branches arising from neighbouring cells in storey-like manner, resulting in a whorl-like pattern (creating ‘nodes’ and ‘internodes’),&nbsp; laterals tapering towards the tip</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "45c8f966-4824-4e8d-bb44-d71ff2bcd603",
+                "name": "Reproductive Organs - Plurilocs",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "45c8f966-4824-4e8d-bb44-d71ff2bcd603:1077",
+                        "encodedSpace": "<p><strong>egg-shaped</strong> to lanceolate, sessile, seldom on 1-2 celled stalks, <strong>mostly opposite</strong>, sometimes in dense clusters,&nbsp; arranged in series or whorl-like</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "187a2fac-2692-432a-8c5a-6fbcb520d581",
+                "name": "Size",
+                "type": "RangeFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            2.0
+                        ],
+                        "spaceIdentifier": "187a2fac-2692-432a-8c5a-6fbcb520d581:WzAuMCwyLjBd"
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 0.5,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        }
+    ],
+    "texts": [],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-389-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-389-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-389-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [],
+    "gbifNubKey": 5423285,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

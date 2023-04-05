@@ -1,0 +1,200 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ceramium virgatum",
+    "taxonAuthor": "Roth 1797",
+    "nameUuid": "84d3917d-e94f-4648-811c-72468b337955",
+    "taxonNuid": "00w00200200a0020060020060a4",
+    "vernacular": {
+        "en": "Ceramium virgatum"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ceramium virgatum"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:41",
+                        "encodedSpace": [
+                            [
+                                255,
+                                113,
+                                113,
+                                1
+                            ],
+                            [
+                                70,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(255,113,113,1),rgba(70,0,0,1))",
+                        "gradient": true,
+                        "description": "light-pink to purple, some almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "49a66d2f-894f-41b1-9a64-bf95da3376db",
+                "name": "Thallus",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "49a66d2f-894f-41b1-9a64-bf95da3376db:172",
+                        "encodedSpace": "whole thallus or fronds delicate and/or soft"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "518165f5-fb94-448c-b260-12e6803cd7d0",
+                "name": "Shape of axes or fronds",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "518165f5-fb94-448c-b260-12e6803cd7d0:176",
+                        "encodedSpace": "mainly cylindrical"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Ceramium rubrum",
+            "taxonAuthor": "C.Agardh 1811"
+        },
+        {
+            "taxonLatname": "Ceramium nodulosum",
+            "taxonAuthor": "(Lightfoot) Ducluzeau 1806"
+        },
+        {
+            "taxonLatname": "Conferva nodulosa",
+            "taxonAuthor": "Lightfoot 1777"
+        },
+        {
+            "taxonLatname": "Conferva rubra",
+            "taxonAuthor": "Hudson 1762"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum var. pygmaeum",
+            "taxonAuthor": "Sonder 1848"
+        },
+        {
+            "taxonLatname": "Ceramium nobile",
+            "taxonAuthor": "J.Agardh 1894"
+        },
+        {
+            "taxonLatname": "Boryna nodulosa",
+            "taxonAuthor": "(Lightfoot) Grateloup"
+        },
+        {
+            "taxonLatname": "Ceramium flabelliferum",
+            "taxonAuthor": "Kützing"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum f. balticum",
+            "taxonAuthor": "Petersen 1908"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum f. divaricatum",
+            "taxonAuthor": "Petersen 1908"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum f. irregularis-subcorticatum",
+            "taxonAuthor": "Petersen 1908"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum f. modificatum",
+            "taxonAuthor": "Petersen 1908"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum f. subtypicum",
+            "taxonAuthor": "Petersen 1908"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum var. proliferum",
+            "taxonAuthor": "C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum f. proliferum",
+            "taxonAuthor": "(C.Agardh) Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum var. pallens",
+            "taxonAuthor": "C.Agardh 1811"
+        },
+        {
+            "taxonLatname": "Ceramium villosum",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Ceramium repens",
+            "taxonAuthor": "Zanardini 1847"
+        },
+        {
+            "taxonLatname": "Conferva polymorpha",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Polysiphonia polymorpha",
+            "taxonAuthor": "(Linnaeus) Duby 1830"
+        },
+        {
+            "taxonLatname": "Ulva confervoides",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Ceramium polymorphum",
+            "taxonAuthor": "(Linnaeus) De Candolle 1805"
+        },
+        {
+            "taxonLatname": "Ceramium rubrum var. liebetruthii",
+            "taxonAuthor": "Grunow 1844"
+        }
+    ],
+    "gbifNubKey": 5277079,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

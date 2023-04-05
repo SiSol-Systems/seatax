@@ -1,0 +1,869 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Cutleria multifida",
+    "taxonAuthor": "(Turner) Greville 1830",
+    "nameUuid": "e6c18a10-a3ca-43e4-bb1d-cdf934157bb2",
+    "taxonNuid": "00o00800l00100200d",
+    "vernacular": {
+        "en": "Cutleria multifida (historical) 01"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Cutleria multifida",
+        "Cutleria multifida (crust phase)",
+        "Cutleria multifida (historical) 01"
+    ],
+    "nodeDecisionRules": [
+        "ribbon-like, branched with frayed tips",
+        "former Aglaozonia"
+    ],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:255",
+                        "encodedSpace": "<p>Whole Thallus <strong>flat </strong>and <strong>membranous</strong>, blade-like to linear</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "7fb0c3f9-7fd3-45bf-9938-8e544be5ec1b",
+                "name": "Blade Width",
+                "type": "TextOnlyFilter",
+                "position": 14,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "7fb0c3f9-7fd3-45bf-9938-8e544be5ec1b:1206",
+                        "encodedSpace": "<p>1-7 (-12) mm</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f",
+                "name": "Number of Cell Layers in Medulla",
+                "type": "NumberFilter",
+                "position": 17,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:4.0",
+                        "encodedSpace": 4.0
+                    },
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:5.0",
+                        "encodedSpace": 5.0
+                    },
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:6.0",
+                        "encodedSpace": 6.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e8955620-a8cd-4369-a089-87edfdc483d1",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e8955620-a8cd-4369-a089-87edfdc483d1:192",
+                        "encodedSpace": "<p>dichotomously branched flat blades</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "3cf50e08-6105-4dcf-96c2-cfa84b7446df",
+                "name": "Tips",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 15,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "3cf50e08-6105-4dcf-96c2-cfa84b7446df:943",
+                        "encodedSpace": "<p><strong>many long hairlike filaments</strong> giving a <strong>frayed appearance</strong></p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-369-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-369-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-369-1000.webp"
+                        },
+                        "secondaryImageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/secondary-421-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/secondary-421-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/secondary-421-1000.webp"
+                        }
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36",
+                "name": "Number of Cell Layers in Cortex",
+                "type": "NumberFilter",
+                "position": 16,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36:1.0",
+                        "encodedSpace": 1.0
+                    },
+                    {
+                        "spaceIdentifier": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36:2.0",
+                        "encodedSpace": 2.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "3df0f5e3-1747-426e-836e-632c07476179",
+                "name": "Size (of adult individuals) [cm]",
+                "type": "RangeFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            40.0
+                        ],
+                        "spaceIdentifier": "3df0f5e3-1747-426e-836e-632c07476179:WzAuMCw0MC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6195bcdc-228b-447d-a5ce-cbd29ba95caf",
+                "name": "Branches",
+                "type": "TextOnlyFilter",
+                "position": 12,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6195bcdc-228b-447d-a5ce-cbd29ba95caf:369",
+                        "encodedSpace": "<p>deeply divided blade, only becoming evenly dichotomous towards tip; branches broad at base and slender at tip</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "4bfbd5e8-4592-4480-9175-0a576e0c4152",
+                "name": "Blade Width (of adult individuals) [cm]",
+                "type": "RangeFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.1,
+                            1.2
+                        ],
+                        "spaceIdentifier": "4bfbd5e8-4592-4480-9175-0a576e0c4152:WzAuMSwxLjJd"
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 0.1,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b17e707c-8276-43f4-9bda-098e386e7065",
+                "name": "Size (of adult individuals) [cm] (dichotomous)",
+                "type": "RangeFilter",
+                "position": 13,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            40.0
+                        ],
+                        "spaceIdentifier": "b17e707c-8276-43f4-9bda-098e386e7065:WzAuMCw0MC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "2f45f629-fad5-425b-af8a-b372fc853a7c",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "2f45f629-fad5-425b-af8a-b372fc853a7c:408",
+                        "encodedSpace": "<p>Big/ extensive (⌀&gt; 1cm) and thick sheets</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8635ffda-0b93-47b4-b3b4-3a9b995a22d3",
+                "name": "Habitus detail thick sheets",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "8635ffda-0b93-47b4-b3b4-3a9b995a22d3:681",
+                        "encodedSpace": "<p>thallus with overlapping <strong>lobes </strong>with entire and rounded margin; loosely attached by rhizoids; surface smooth and membranous, becoming leathery</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "87387d3d-2a22-4340-bb19-3cb8393c4428",
+                "name": "Plastids",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "87387d3d-2a22-4340-bb19-3cb8393c4428:411",
+                        "encodedSpace": "<p>several <strong>discoid </strong>or elongate plastids (may be densely packed)</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "37a1e2a2-fdc9-4519-83eb-38c3ed404d79",
+                "name": "Pyrenoids",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "37a1e2a2-fdc9-4519-83eb-38c3ed404d79:683",
+                        "encodedSpace": "<p><strong>without </strong>obvious pyrenoid</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "28df459c-09ed-44e9-80a6-5c99016ad24e",
+                "name": "Zone",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "28df459c-09ed-44e9-80a6-5c99016ad24e:415",
+                        "encodedSpace": "Eulittoral"
+                    },
+                    {
+                        "spaceIdentifier": "28df459c-09ed-44e9-80a6-5c99016ad24e:416",
+                        "encodedSpace": "Sublittoral"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "44e83f4f-1f6f-4221-b33d-f3ff408a9cbe",
+                "name": "Colour",
+                "type": "ColorFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "44e83f4f-1f6f-4221-b33d-f3ff408a9cbe:686",
+                        "encodedSpace": [
+                            [
+                                206,
+                                103,
+                                0,
+                                1
+                            ],
+                            [
+                                128,
+                                128,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(206,103,0,1),rgba(128,128,0,1))",
+                        "gradient": true,
+                        "description": "light brown to olive-brown"
+                    },
+                    {
+                        "spaceIdentifier": "44e83f4f-1f6f-4221-b33d-f3ff408a9cbe:685",
+                        "encodedSpace": [
+                            [
+                                128,
+                                64,
+                                0,
+                                1
+                            ],
+                            [
+                                0,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,64,0,1),rgba(0,0,0,1))",
+                        "gradient": true,
+                        "description": "Dark brown to black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "fd095414-ff1b-4682-a24c-b78331e66f4c",
+                "name": "Blade Shape - dichotomous branched",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "fd095414-ff1b-4682-a24c-b78331e66f4c:420",
+                        "encodedSpace": "Fan-shaped, deeply divided blade  becoming evenly dichotomous towards tip; blunt finely dissected wedge-shaped apices with tufts of hair-like filaments, giving a frayed appearance"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8e6ad526-6b40-4300-9279-cc606a24efaf",
+                "name": "Thallus/ Blade Length",
+                "type": "RangeFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            37.0
+                        ],
+                        "spaceIdentifier": "8e6ad526-6b40-4300-9279-cc606a24efaf:WzAuMCwzNy4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6809494d-fd48-4719-877b-376af190b8e7",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6809494d-fd48-4719-877b-376af190b8e7:418",
+                        "encodedSpace": "blade with dichotomous branches"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "bff8303d-1172-4026-9a94-e6de72f7bb61",
+                "name": "Holdfast",
+                "type": "TextOnlyFilter",
+                "position": 8,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "bff8303d-1172-4026-9a94-e6de72f7bb61:435",
+                        "encodedSpace": "conical discoid"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9b98ff46-c665-45ae-ac6d-282f069841ce",
+                "name": "Cell Layers (in cross section)",
+                "type": "TextOnlyFilter",
+                "position": 10,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9b98ff46-c665-45ae-ac6d-282f069841ce:544",
+                        "encodedSpace": "<p>differentiation of cells into medulla and cortex</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "cb65918a-2e42-41d2-ac5a-64bc6175ac91",
+                "name": "Number of Cells in Cortex",
+                "type": "NumberFilter",
+                "position": 11,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "cb65918a-2e42-41d2-ac5a-64bc6175ac91:1.0",
+                        "encodedSpace": 1.0
+                    },
+                    {
+                        "spaceIdentifier": "cb65918a-2e42-41d2-ac5a-64bc6175ac91:2.0",
+                        "encodedSpace": 2.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f9baca72-a3a3-4230-b0b6-8d98b03cf222",
+                "name": "Number of Cells in Medulla",
+                "type": "NumberFilter",
+                "position": 12,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:4.0",
+                        "encodedSpace": 4.0
+                    },
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:5.0",
+                        "encodedSpace": 5.0
+                    },
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:6.0",
+                        "encodedSpace": 6.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e5fcc431-99eb-4397-8b4d-234b77567a9d",
+                "name": "Blade/ Branch Width (Text)",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e5fcc431-99eb-4397-8b4d-234b77567a9d:432",
+                        "encodedSpace": "~ 0.5-10 mm"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9ee4c131-43ab-41c4-9a6f-b7068d5ec7a1",
+                "name": "Hairs (on blade)",
+                "type": "TextOnlyFilter",
+                "position": 9,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9ee4c131-43ab-41c4-9a6f-b7068d5ec7a1:440",
+                        "encodedSpace": "blade surface covered by colourless hairs in clusters"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "af23cb9d-282d-4501-98c5-3c739590d299",
+                "name": "Growth Habit",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "af23cb9d-282d-4501-98c5-3c739590d299:710",
+                        "encodedSpace": "<p>solitary</p>"
+                    },
+                    {
+                        "spaceIdentifier": "af23cb9d-282d-4501-98c5-3c739590d299:711",
+                        "encodedSpace": "<p>gregarious</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 25",
+            "shortTextKey": "taxon_text_17_199",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 25",
+            "shortTextKey": "taxon_text_2_200",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 25",
+            "shortTextKey": "taxon_text_18_201",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 25",
+            "shortTextKey": "taxon_text_4_202",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 25",
+            "shortTextKey": "taxon_text_5_203",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 25",
+            "shortTextKey": "taxon_text_6_204",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland",
+            "shortTextKey": "taxon_text_13_205",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Comment (RK-Liste)",
+            "shortText": "nur bis 1925, selten, Fund von 2008 (Herbar) prüfen, ob evtl. Cutleria adspersa (Mertens ex Roth) De Notaris",
+            "shortTextKey": "taxon_text_14_206",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-59-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-59-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-59-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Aglaozonia parvula",
+            "taxonAuthor": "(Greville) Zanardini 1843"
+        },
+        {
+            "taxonLatname": "Cutleria multifida f. angustifrons",
+            "taxonAuthor": "Holmes & Batters 1890"
+        },
+        {
+            "taxonLatname": "Ulva multifida",
+            "taxonAuthor": "Turner 1801"
+        },
+        {
+            "taxonLatname": "Zonaria parvula",
+            "taxonAuthor": "Greville 1828"
+        },
+        {
+            "taxonLatname": "Aglaozonia reptans",
+            "taxonAuthor": "(P.Crouan & H.Crouan) Kützing 1849"
+        },
+        {
+            "taxonLatname": "Dictyota penicillata",
+            "taxonAuthor": "J.V.Lamouroux 1809"
+        },
+        {
+            "taxonLatname": "Zonaria multifida",
+            "taxonAuthor": "C.Agardh 1820"
+        },
+        {
+            "taxonLatname": "Padina parvula",
+            "taxonAuthor": "(Greville) Zanardini 1843"
+        },
+        {
+            "taxonLatname": "Zonaria reptans",
+            "taxonAuthor": "(P.Crouan & H.Crouan) P.Crouan & H.Crouan 1852"
+        },
+        {
+            "taxonLatname": "Padinella parvula",
+            "taxonAuthor": "(Greville) Areschoug 1843"
+        },
+        {
+            "taxonLatname": "Cutleria dichotoma",
+            "taxonAuthor": "Kützing 1843"
+        },
+        {
+            "taxonLatname": "Cutleria laciniata",
+            "taxonAuthor": "(J.V.Lamouroux) Meneghini 1842"
+        },
+        {
+            "taxonLatname": "Cutleria multifida var. confervoides",
+            "taxonAuthor": "Kuckuck 1894"
+        },
+        {
+            "taxonLatname": "Cutleria multifida var. dichotoma",
+            "taxonAuthor": "(Kützing) Frauenfeld 1854"
+        },
+        {
+            "taxonLatname": "Padina reptans",
+            "taxonAuthor": "P.Crouan & H.Crouan 1833"
+        }
+    ],
+    "gbifNubKey": 5422862,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

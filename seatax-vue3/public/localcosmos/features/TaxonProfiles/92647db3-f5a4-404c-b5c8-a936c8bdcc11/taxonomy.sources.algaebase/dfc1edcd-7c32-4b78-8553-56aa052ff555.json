@@ -1,0 +1,418 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Cladophora vagabunda",
+    "taxonAuthor": "(Linnaeus) Hoek 1963",
+    "nameUuid": "dfc1edcd-7c32-4b78-8553-56aa052ff555",
+    "taxonNuid": "00700200500300300609e",
+    "vernacular": {
+        "en": "Cladophora vagabunda"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Cladophora vagabunda"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5",
+                "name": "Filament Structure",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5:242",
+                        "encodedSpace": "fine branched filaments, growing in tufts or as dense mats in supralittoral"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:233",
+                        "encodedSpace": "Thallus with filamentous axes, bushy, feathery or unbranched stringy"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "af745781-b194-4125-beab-c07a18084175",
+                "name": "Shape of outer cell walls",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "af745781-b194-4125-beab-c07a18084175:248",
+                        "encodedSpace": "Outer cell walls slightly constricted at cross walls (especially visible in reproductive cells)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "d1b2056f-97ff-45aa-a7ff-e2d43071f250",
+                "name": "Structure of fine branched Filaments",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "d1b2056f-97ff-45aa-a7ff-e2d43071f250:246",
+                        "encodedSpace": "Uniseriate strongly and regularly branched filaments; branching pattern mostly monopodial; older individuals easily become filthy / intertwined"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 333",
+            "shortTextKey": "taxon_text_17_2329",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 333",
+            "shortTextKey": "taxon_text_2_2330",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 333",
+            "shortTextKey": "taxon_text_18_2331",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 333",
+            "shortTextKey": "taxon_text_4_2332",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 333",
+            "shortTextKey": "taxon_text_5_2333",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 333",
+            "shortTextKey": "taxon_text_6_2334",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-141-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-141-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-141-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Cladophora pulverulenta",
+            "taxonAuthor": "(Mertens) Phinney 1945"
+        },
+        {
+            "taxonLatname": "Cladophora fascicularis",
+            "taxonAuthor": "(Mertens ex C.Agardh) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Cladophora uncinella",
+            "taxonAuthor": "Harvey 1860"
+        },
+        {
+            "taxonLatname": "Cladophora inserta",
+            "taxonAuthor": "Dickie 1876"
+        },
+        {
+            "taxonLatname": "Conferva vagabunda",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Cladophora expansa",
+            "taxonAuthor": "(Mertens) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Conferva fascicularis",
+            "taxonAuthor": "Mertens ex C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Cladophora zostericola",
+            "taxonAuthor": "Martens"
+        },
+        {
+            "taxonLatname": "Cladophora penicillata",
+            "taxonAuthor": "Kützing 1853"
+        },
+        {
+            "taxonLatname": "Cladophora utriculosa var. aegaea",
+            "taxonAuthor": "(Kützing) Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora mauritiana",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora brachyclona",
+            "taxonAuthor": "Montagne ex Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora tenerrima",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora pinniger",
+            "taxonAuthor": "Setchell 1924"
+        },
+        {
+            "taxonLatname": "Ceramium densum",
+            "taxonAuthor": "Roth 1800"
+        },
+        {
+            "taxonLatname": "Cladophora ceratina",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Cladophora daveyana",
+            "taxonAuthor": "Reinbold 1899"
+        },
+        {
+            "taxonLatname": "Cladophora divergens",
+            "taxonAuthor": "Schiffner 1937"
+        },
+        {
+            "taxonLatname": "Conferva lutescens",
+            "taxonAuthor": "(Kützing) Zanardini 1847"
+        },
+        {
+            "taxonLatname": "Cladophora inserta f. ungulata",
+            "taxonAuthor": "(Brand) Setchell 1926"
+        },
+        {
+            "taxonLatname": "Cladophora mauritiana var. ungulata",
+            "taxonAuthor": "Brand 1904"
+        },
+        {
+            "taxonLatname": "Conferva expansa",
+            "taxonAuthor": "Mertens ex Jürgens 1817"
+        },
+        {
+            "taxonLatname": "Cladophora heteropsis",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora monumentalis",
+            "taxonAuthor": "Børgesen 1935"
+        },
+        {
+            "taxonLatname": "Cladophora expansa var. glomerata",
+            "taxonAuthor": "Thuret ex Collins 1902"
+        },
+        {
+            "taxonLatname": "Ceramium vagabundum",
+            "taxonAuthor": "(Linnaeus) Roth 1800"
+        },
+        {
+            "taxonLatname": "Conferva densa",
+            "taxonAuthor": "(Roth) Rabenhorst 1847"
+        },
+        {
+            "taxonLatname": "Conferva heterochloa",
+            "taxonAuthor": "C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Cladophora heterochloa",
+            "taxonAuthor": "(C.Agardh) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Conferva glomerata var. rigida",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Conferva pulverulenta",
+            "taxonAuthor": "Mertens ex Jürgens 1824"
+        },
+        {
+            "taxonLatname": "Conferva bruzelii",
+            "taxonAuthor": "C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Conferva ceratina",
+            "taxonAuthor": "Kützing 1836"
+        },
+        {
+            "taxonLatname": "Cladophora flaccida",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Aegagropila flaccida",
+            "taxonAuthor": "(Kützing) Kützing 1854"
+        },
+        {
+            "taxonLatname": "Cladophora flavida var. virescens",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Conferva implicata",
+            "taxonAuthor": "Zanardini 1847"
+        },
+        {
+            "taxonLatname": "Cladophora implicata",
+            "taxonAuthor": "(Zanardini) Bertoloni 1862"
+        },
+        {
+            "taxonLatname": "Conferva incrustata",
+            "taxonAuthor": "Zanardini 1847"
+        },
+        {
+            "taxonLatname": "Cladophora flavovirens",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora utriculosa var. cartilaginea",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Cladophora sulphurea",
+            "taxonAuthor": "Zanardini ex Frauenfeld 1855"
+        },
+        {
+            "taxonLatname": "Cladophora rupestris f. gracilior",
+            "taxonAuthor": "Suringar 1857"
+        },
+        {
+            "taxonLatname": "Cladophora adriatica",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Cladophora fuscescens var. decipiens",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Cladophora lagunarum var. prolifera",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Cladophora penicillata var. gracilis",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Cladophora subnuda",
+            "taxonAuthor": "Schiffner 1938"
+        },
+        {
+            "taxonLatname": "Cladophora heteronema f. sanvicensis",
+            "taxonAuthor": "Brand 1904"
+        },
+        {
+            "taxonLatname": "Cladophora glomerata var. pusilla",
+            "taxonAuthor": "Brand 1904"
+        },
+        {
+            "taxonLatname": "Cladophora elegans f. major",
+            "taxonAuthor": "Brand 1904"
+        },
+        {
+            "taxonLatname": "Cladophora inserta f. typica",
+            "taxonAuthor": "Setchell 1926"
+        },
+        {
+            "taxonLatname": "Cladophora aegaea",
+            "taxonAuthor": "Kützing 1843"
+        },
+        {
+            "taxonLatname": "Cladophora densa",
+            "taxonAuthor": "(Roth) Kützing 1845"
+        }
+    ],
+    "gbifNubKey": 5272441,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

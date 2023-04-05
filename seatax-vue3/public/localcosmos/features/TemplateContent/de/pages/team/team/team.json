@@ -1,0 +1,79 @@
+{
+    "title": "Team",
+    "templateName": "team",
+    "templatePath": "/template_content/page/team/team.html",
+    "version": 1,
+    "contents": {
+        "group1Cards": [
+            {
+                "name": "Inka Bartsch",
+                "uuid": "63eee56e-06ee-4432-b0f8-275ba6e445a6",
+                "personDescription": "text",
+                "profileImage": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            },
+            {
+                "name": "Tosia Schmithüsen",
+                "uuid": "34fa7ce1-6d5e-4099-9351-602e358c44ac",
+                "personDescription": "text",
+                "profileImage": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            }
+        ],
+        "group1Title": "Biologists",
+        "group2Cards": [
+            {
+                "name": "Person Name",
+                "uuid": "0ea85ee0-5cff-4b67-86e8-47bcb2a5d1cc",
+                "personDescription": "person text",
+                "profileImage": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            }
+        ],
+        "group2Title": "Technical support",
+        "group3Cards": [
+            {
+                "name": "Thomas Uher",
+                "uuid": "2e7b24fa-a8f6-4887-8e6f-ab078a4b9e58",
+                "personDescription": "Software development",
+                "profileImage": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            },
+            {
+                "name": "Judith Boelcke",
+                "uuid": "aa33f0ef-54a3-4faf-865d-6f07f56ef382",
+                "personDescription": "Website and App UI/UX",
+                "profileImage": {
+                    "imageUrl": null,
+                    "licence": {}
+                }
+            }
+        ],
+        "group3Title": "Software development and Design",
+        "acknowledgementsText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "acknowledgementsTitle": "Acknowledgements",
+        "teamImage": {
+            "imageUrl": {
+                "1x": "/localcosmos/user_content/content_images/published-teamImage-157-s-250.webp",
+                "2x": "/localcosmos/user_content/content_images/published-teamImage-157-s-500.webp",
+                "4x": "/localcosmos/user_content/content_images/published-teamImage-157-s-1000.webp",
+                "8x": "/localcosmos/user_content/content_images/published-teamImage-157-s-2000.webp"
+            },
+            "licence": {
+                "licence": "CC0",
+                "licenceVersion": "1.0",
+                "creatorName": "Thomas Uher",
+                "creatorLink": "",
+                "sourceLink": ""
+            }
+        }
+    }
+}

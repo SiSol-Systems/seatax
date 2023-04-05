@@ -1,0 +1,197 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Laminariocolax tomentosoides",
+    "taxonAuthor": "(Farlow) Kylin 1947",
+    "nameUuid": "04caff9b-a0c0-4eb8-97a7-0d676b465de0",
+    "taxonNuid": "00o00800700301o006",
+    "vernacular": {
+        "en": "Laminariocolax tomentosoides"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Laminariocolax tomentosoides"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "407cef3c-1eea-4f7c-9d46-74229f209ab1",
+                "name": "Size",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "407cef3c-1eea-4f7c-9d46-74229f209ab1:1001",
+                        "encodedSpace": "<p>≤ 1 cm</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "47246f44-8d72-477c-a63a-8e2e3ff4b8c5",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "47246f44-8d72-477c-a63a-8e2e3ff4b8c5:1003",
+                        "encodedSpace": "<p>spring: epiphytic part: felt like filaments producing <strong>short filthy threads</strong> on <i>Laminaria</i> blades; rest of the year: endophyte</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a7218a8f-37c0-4fcd-9b93-6bb4c0843fb2",
+                "name": "Habitat",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "a7218a8f-37c0-4fcd-9b93-6bb4c0843fb2:1005",
+                        "encodedSpace": "<p><strong>endophyte with epiphytic parts</strong>; regularly found on <strong>terminal parts of kelp blades</strong>; sublittoral</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "51d88cd1-ee04-44fe-ae34-71d8a325ec1e",
+                "name": "Branching Pattern",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "51d88cd1-ee04-44fe-ae34-71d8a325ec1e:1009",
+                        "encodedSpace": "<p>rarely branched long shoots; <strong>no hook shaped side branches </strong>(do not mistake plurilocs as hooked branches)</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "cd82ff33-31b6-4829-9704-b75249fbd45b",
+                "name": "Reproductive Organs",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "cd82ff33-31b6-4829-9704-b75249fbd45b:1011",
+                        "encodedSpace": "<p>plurilocs long, narrow, uniseriate, not wider than filaments, mostly sessile and in nearly 90° angle to axis; unilocs not reported for Helgoland</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 75",
+            "shortTextKey": "taxon_text_17_540",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 75",
+            "shortTextKey": "taxon_text_2_541",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 75",
+            "shortTextKey": "taxon_text_18_542",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 75",
+            "shortTextKey": "taxon_text_4_543",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 75",
+            "shortTextKey": "taxon_text_5_544",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 75",
+            "shortTextKey": "taxon_text_6_545",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_546",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-424-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-424-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-424-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Ectocarpus tomentosoides",
+            "taxonAuthor": "Farlow 1889"
+        }
+    ],
+    "gbifNubKey": 3198620,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

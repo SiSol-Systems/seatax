@@ -1,0 +1,101 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora albida",
+        "taxonAuthor": "(Nees) Kutzing 1843",
+        "nameUuid": "88c3d0a4-55d0-430e-bef6-ff3ddbd43133",
+        "taxonNuid": "00700200500300300600d",
+        "imageUrl": null,
+        "gbifNubKey": 5272397
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora dalmatica",
+        "taxonAuthor": "Kützing 1843",
+        "nameUuid": "8ee90d70-6341-4f98-bffc-f05d9879f78c",
+        "taxonNuid": "00700200500300300602g",
+        "imageUrl": null,
+        "gbifNubKey": 5272697
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora fracta",
+        "taxonAuthor": "(O.F.Müller ex Vahl) Kützing 1843",
+        "nameUuid": "0ff71ba0-95d8-4a01-9640-d4e317849cc0",
+        "taxonNuid": "00700200500300300603h",
+        "imageUrl": null,
+        "gbifNubKey": 5272519
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora laetevirens f. glomerata",
+        "taxonAuthor": "(Thuret) Batters",
+        "nameUuid": "c13dc6c2-df43-4754-9c1c-ef22ca06ace7",
+        "taxonNuid": "007002005003003006057001",
+        "imageUrl": null,
+        "gbifNubKey": null
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora lehmanniana",
+        "taxonAuthor": "(Lindenberg) Kützing 1843",
+        "nameUuid": "a5e3b91d-fea1-45ea-93a9-d8bf2a0e4c90",
+        "taxonNuid": "007002005003003006059",
+        "imageUrl": null,
+        "gbifNubKey": 5272598
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora ruchingeri",
+        "taxonAuthor": "(C.Agardh) Kützing 1845",
+        "nameUuid": "de2f598a-7650-40e2-afcf-92d0155a7ce3",
+        "taxonNuid": "00700200500300300607n",
+        "imageUrl": null,
+        "gbifNubKey": 5272388
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora rupestris",
+        "taxonAuthor": "(Linnaeus) Kützing 1843",
+        "nameUuid": "0917fd30-adb5-4c10-a77a-83b4c9cf6fc1",
+        "taxonNuid": "00700200500300300607q",
+        "imageUrl": null,
+        "gbifNubKey": 5272898
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora sericea",
+        "taxonAuthor": "(Hudson) Kützing 1843",
+        "nameUuid": "6e2f877a-3771-44f4-90b8-0f04852cb2fa",
+        "taxonNuid": "007002005003003006085",
+        "imageUrl": null,
+        "gbifNubKey": 5272338
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladophora vagabunda",
+        "taxonAuthor": "(Linnaeus) Hoek 1963",
+        "nameUuid": "dfc1edcd-7c32-4b78-8553-56aa052ff555",
+        "taxonNuid": "00700200500300300609e",
+        "imageUrl": null,
+        "gbifNubKey": 5272441
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladostephus hirsutus",
+        "taxonAuthor": "(Linnaeus) Boudouresque & M.Perret-Boudouresque 1984",
+        "nameUuid": "86ff9b8d-c570-4a90-81f4-f6670a043a4c",
+        "taxonNuid": "00o00800h001001004",
+        "imageUrl": null,
+        "gbifNubKey": 3200760
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Cladostephus spongiosus",
+        "taxonAuthor": "(Hudson) C.Agardh 1817",
+        "nameUuid": "422dfb25-2296-48e6-8653-98631d911083",
+        "taxonNuid": "00o00800h001001006",
+        "imageUrl": null,
+        "gbifNubKey": 3200756
+    }
+]

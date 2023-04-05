@@ -1,0 +1,151 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Codium fragile",
+    "taxonAuthor": "(Suringar) Hariot 1889",
+    "nameUuid": "39b8330b-0830-4c30-982a-b4dea74d5cd4",
+    "taxonNuid": "00700200500100400b01l",
+    "vernacular": {
+        "en": "Green Sea Fingers (Codium fragile)"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Green Sea Fingers (Codium fragile)"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:231",
+                        "encodedSpace": "Thallus spongy, sturdy, with finger-like branching"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 335",
+            "shortTextKey": "taxon_text_17_2342",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 335",
+            "shortTextKey": "taxon_text_2_2343",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 335",
+            "shortTextKey": "taxon_text_18_2344",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 335",
+            "shortTextKey": "taxon_text_4_2345",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 335",
+            "shortTextKey": "taxon_text_5_2346",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 335",
+            "shortTextKey": "taxon_text_6_2347",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-116-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-116-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-116-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Acanthocodium fragile",
+            "taxonAuthor": "Suringar 1867"
+        },
+        {
+            "taxonLatname": "Codium mucronatum",
+            "taxonAuthor": "J.Agardh 1887"
+        },
+        {
+            "taxonLatname": "Codium fragile var. typicum",
+            "taxonAuthor": "Schmidt 1923"
+        }
+    ],
+    "gbifNubKey": 5272096,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

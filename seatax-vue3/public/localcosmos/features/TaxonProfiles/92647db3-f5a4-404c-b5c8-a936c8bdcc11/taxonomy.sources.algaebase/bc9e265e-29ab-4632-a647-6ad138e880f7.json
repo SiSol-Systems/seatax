@@ -1,0 +1,222 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Lomentaria clavellosa",
+    "taxonAuthor": "(Lightfoot ex Turner) Gaillon 1828",
+    "nameUuid": "bc9e265e-29ab-4632-a647-6ad138e880f7",
+    "taxonNuid": "00w00200200w005007008",
+    "vernacular": {
+        "en": "Lomentaria clavellosa"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Lomentaria clavellosa"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:41",
+                        "encodedSpace": [
+                            [
+                                255,
+                                113,
+                                113,
+                                1
+                            ],
+                            [
+                                70,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(255,113,113,1),rgba(70,0,0,1))",
+                        "gradient": true,
+                        "description": "light-pink to purple, some almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "49a66d2f-894f-41b1-9a64-bf95da3376db",
+                "name": "Thallus",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "49a66d2f-894f-41b1-9a64-bf95da3376db:172",
+                        "encodedSpace": "whole thallus or fronds delicate and/or soft"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "518165f5-fb94-448c-b260-12e6803cd7d0",
+                "name": "Shape of axes or fronds",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "518165f5-fb94-448c-b260-12e6803cd7d0:183",
+                        "encodedSpace": "hollow and/or tube-like"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 236",
+            "shortTextKey": "taxon_text_17_1677",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 236",
+            "shortTextKey": "taxon_text_2_1678",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 236",
+            "shortTextKey": "taxon_text_18_1679",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 236",
+            "shortTextKey": "taxon_text_4_1680",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 236",
+            "shortTextKey": "taxon_text_5_1681",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 236",
+            "shortTextKey": "taxon_text_6_1682",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland",
+            "shortTextKey": "taxon_text_13_1683",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Lomentaria clavellosa var. sedifolia",
+            "taxonAuthor": "Harvey"
+        },
+        {
+            "taxonLatname": "Fucus clavellosus",
+            "taxonAuthor": "Lightfoot ex Turner 1802"
+        },
+        {
+            "taxonLatname": "Chylocladia clavellosa",
+            "taxonAuthor": "(Turner) Hooker 1833"
+        },
+        {
+            "taxonLatname": "Chondria clavellosa",
+            "taxonAuthor": "(Turner) C.Agardh 1822"
+        },
+        {
+            "taxonLatname": "Gastridium clavellosum",
+            "taxonAuthor": "(Turner) Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Gastridium purpurascens",
+            "taxonAuthor": "Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Chondria clavellosa var. lyngbyei",
+            "taxonAuthor": "C.Agardh 1822"
+        },
+        {
+            "taxonLatname": "Chylocladia clavellosa var. sedifolia",
+            "taxonAuthor": "J.Agardh 1852"
+        },
+        {
+            "taxonLatname": "Chylocladia clavellosa var. sedifolia",
+            "taxonAuthor": "(Turner) Hooker 1833"
+        },
+        {
+            "taxonLatname": "Fucus clavellosus var. sedifolius",
+            "taxonAuthor": "Turner 1802"
+        },
+        {
+            "taxonLatname": "Lomentaria sedifolia",
+            "taxonAuthor": "(Turner) Foslie 1894"
+        },
+        {
+            "taxonLatname": "Chrysymenia clavellosa",
+            "taxonAuthor": "(Lightfoot ex Turner) J.Agardh 1842"
+        },
+        {
+            "taxonLatname": "Gigartina clavellosa",
+            "taxonAuthor": "(Turner) J.V.Lamouroux 1813"
+        },
+        {
+            "taxonLatname": "Chondrothamnion clavellosum",
+            "taxonAuthor": "(Turner) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Gastrophycus clavellosus",
+            "taxonAuthor": "(Turner) Link 1833"
+        },
+        {
+            "taxonLatname": "Capillaria clavellosa",
+            "taxonAuthor": "(Turner) Stackhouse 1816"
+        }
+    ],
+    "gbifNubKey": 2663557,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

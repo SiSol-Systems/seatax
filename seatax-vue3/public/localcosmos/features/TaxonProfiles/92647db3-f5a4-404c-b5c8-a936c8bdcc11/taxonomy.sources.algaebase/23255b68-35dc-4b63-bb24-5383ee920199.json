@@ -1,0 +1,176 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Kornmannia leptoderma",
+    "taxonAuthor": "(Kjellman) Bliding 1969",
+    "nameUuid": "23255b68-35dc-4b63-bb24-5383ee920199",
+    "taxonNuid": "00700200500a004002001",
+    "vernacular": {
+        "en": "Kornmannia leptoderma"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Kornmannia leptoderma"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:232",
+                        "encodedSpace": "Thallus flat and leaf-like or tubular (compressed or flat)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa",
+                "name": "Flat/Leaf/Tubular Structure",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa:235",
+                        "encodedSpace": "leaf-like (flat, rosettes, funnel-like), delicate texture (monostromatic)"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 348",
+            "shortTextKey": "taxon_text_17_2421",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 348",
+            "shortTextKey": "taxon_text_2_2422",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 348",
+            "shortTextKey": "taxon_text_18_2423",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 348",
+            "shortTextKey": "taxon_text_4_2424",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 348",
+            "shortTextKey": "taxon_text_5_2425",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 348",
+            "shortTextKey": "taxon_text_6_2426",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-131-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-131-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-131-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Kornmannia zostericola",
+            "taxonAuthor": "(Tilden) Bliding 1969"
+        },
+        {
+            "taxonLatname": "Monostroma leptodermum",
+            "taxonAuthor": "Kjellman 1877"
+        },
+        {
+            "taxonLatname": "Monostroma helgolandicum",
+            "taxonAuthor": "Schmidt"
+        },
+        {
+            "taxonLatname": "Monostroma zostericola",
+            "taxonAuthor": "Tilden 1900"
+        }
+    ],
+    "gbifNubKey": 2645393,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

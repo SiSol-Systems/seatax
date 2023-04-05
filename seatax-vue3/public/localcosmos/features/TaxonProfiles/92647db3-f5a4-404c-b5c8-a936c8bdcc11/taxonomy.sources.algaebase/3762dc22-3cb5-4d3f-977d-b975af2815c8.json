@@ -1,0 +1,317 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Sargassum muticum",
+    "taxonAuthor": "(Yendo) Fensholt 1955",
+    "nameUuid": "3762dc22-3cb5-4d3f-977d-b975af2815c8",
+    "taxonNuid": "00o00800800700v05r",
+    "vernacular": {
+        "en": "Sargassum muticum"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Sargassum muticum"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:46",
+                        "encodedSpace": "<p>Thallus <strong>filamentous</strong>, <strong>bushy</strong> or <strong>turf-like</strong>, uni- or multiseriate or parenchymatous, unbranched&nbsp; or branched</p>"
+                    },
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:47",
+                        "encodedSpace": "<p>Thallus <strong>tough </strong>and <strong>robust</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:188",
+                        "encodedSpace": "<p>Thallus ± <strong>firm</strong>, <strong>branched </strong>and <strong>bushy</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ae05a26e-6a4f-45cf-b45d-a3265a8581a3",
+                "name": "Thallus Axes (in cross section)",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ae05a26e-6a4f-45cf-b45d-a3265a8581a3:822",
+                        "encodedSpace": "<p>axes <strong>compressed </strong>or thalli with <strong>leaflets</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "11aaf470-ba45-4cee-a635-b2ced5c3b8a1",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "11aaf470-ba45-4cee-a635-b2ced5c3b8a1:1116",
+                        "encodedSpace": "<p>regularly alternating branching <strong>on all sides</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1f1fd120-7ae1-4bf6-9d43-741f842a5069",
+                "name": "Receptacels",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1f1fd120-7ae1-4bf6-9d43-741f842a5069:1120",
+                        "encodedSpace": "<p>stalked, lanceolate receptacles at end of branches, up to 3 cm long</p>"
+                    },
+                    {
+                        "spaceIdentifier": "1f1fd120-7ae1-4bf6-9d43-741f842a5069:1118",
+                        "encodedSpace": "<p>form different to air bladders</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f4b29e00-b65b-4239-a83d-e6e2bd69b062",
+                "name": "Leaflets",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f4b29e00-b65b-4239-a83d-e6e2bd69b062:1121",
+                        "encodedSpace": "<p>2-2.5 cm long, slightly serrated at lower part of thallus</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9dcf05b2-0545-4187-b50b-d93ee6a5879d",
+                "name": "Thallus Axes (in cross section)",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9dcf05b2-0545-4187-b50b-d93ee6a5879d:898",
+                        "encodedSpace": "<p>circular</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-338-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-338-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-338-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "41a39963-4987-4fb3-9211-78b7db0595e1",
+                "name": "Air Bladders",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "41a39963-4987-4fb3-9211-78b7db0595e1:900",
+                        "encodedSpace": "<p>stalked and egg-shaped to spherical, hollow, 1-5 mm</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-340-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-340-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-340-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 120",
+            "shortTextKey": "taxon_text_17_866",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 120",
+            "shortTextKey": "taxon_text_2_867",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 120",
+            "shortTextKey": "taxon_text_18_868",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 120",
+            "shortTextKey": "taxon_text_4_869",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 120",
+            "shortTextKey": "taxon_text_5_870",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 120",
+            "shortTextKey": "taxon_text_6_871",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (West), Wadden Sea (East),",
+            "shortTextKey": "taxon_text_13_872",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-323-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-323-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-323-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Sargassum kjellmanianum f. muticum",
+            "taxonAuthor": "Yendo 1907"
+        }
+    ],
+    "gbifNubKey": 3197314,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

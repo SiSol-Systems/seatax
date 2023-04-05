@@ -1,0 +1,178 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ceramium shuttleworthianum",
+    "taxonAuthor": "(Kützing) Rabenhorst 1847",
+    "nameUuid": "57068b95-e2b9-4d24-94b1-dcca1b8fc3ad",
+    "taxonNuid": "00w00200200a00200600200608j",
+    "vernacular": {
+        "en": "Ceramium shuttleworthianum"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ceramium shuttleworthianum"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:41",
+                        "encodedSpace": [
+                            [
+                                255,
+                                113,
+                                113,
+                                1
+                            ],
+                            [
+                                70,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(255,113,113,1),rgba(70,0,0,1))",
+                        "gradient": true,
+                        "description": "light-pink to purple, some almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "49a66d2f-894f-41b1-9a64-bf95da3376db",
+                "name": "Thallus",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "49a66d2f-894f-41b1-9a64-bf95da3376db:172",
+                        "encodedSpace": "whole thallus or fronds delicate and/or soft"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "518165f5-fb94-448c-b260-12e6803cd7d0",
+                "name": "Shape of axes or fronds",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "518165f5-fb94-448c-b260-12e6803cd7d0:176",
+                        "encodedSpace": "mainly cylindrical"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 179",
+            "shortTextKey": "taxon_text_17_1280",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 179",
+            "shortTextKey": "taxon_text_2_1281",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 179",
+            "shortTextKey": "taxon_text_18_1282",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 179",
+            "shortTextKey": "taxon_text_4_1283",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 179",
+            "shortTextKey": "taxon_text_5_1284",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 179",
+            "shortTextKey": "taxon_text_6_1285",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Comment (RK-Liste)",
+            "shortText": "Funde im Nordwatt (Kuhlenkamp) und 2012 an Außenseite Südmole (Wagner) ->Herbar",
+            "shortTextKey": "taxon_text_14_1286",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Acanthoceras shuttleworthianum",
+            "taxonAuthor": "Kützing 1842"
+        },
+        {
+            "taxonLatname": "Ceramium ciliatum var. acanthonotum",
+            "taxonAuthor": "Carmichael 1833"
+        },
+        {
+            "taxonLatname": "Ceramium acanthonotum",
+            "taxonAuthor": "(Carmichael) J.Agardh 1844"
+        },
+        {
+            "taxonLatname": "Ceramium acanthonotum var. coronatum",
+            "taxonAuthor": "Kleen 1874"
+        },
+        {
+            "taxonLatname": "Ceramium acanthonotum f. coronatum",
+            "taxonAuthor": "(Kleen) Kjellman 1880"
+        }
+    ],
+    "gbifNubKey": 5277175,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

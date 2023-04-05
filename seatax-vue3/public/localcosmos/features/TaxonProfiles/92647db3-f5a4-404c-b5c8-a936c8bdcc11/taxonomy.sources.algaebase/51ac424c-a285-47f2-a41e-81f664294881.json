@@ -1,0 +1,304 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Laminaria hyperborea",
+    "taxonAuthor": "(Gunnerus) Foslie 1885",
+    "nameUuid": "51ac424c-a285-47f2-a41e-81f664294881",
+    "taxonNuid": "00o00800a00400600i",
+    "vernacular": {
+        "en": "Laminaria hyperborea"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Laminaria hyperborea"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:47",
+                        "encodedSpace": "<p>Thallus <strong>tough </strong>and <strong>robust</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a72c793b-1835-40f4-a5e5-fc005e292126",
+                "name": "Thallus Habit (Leathery)",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a72c793b-1835-40f4-a5e5-fc005e292126:257",
+                        "encodedSpace": "<p>Thallus with single long blade (divided or undivided), conspicuous stipe and <strong>claw-like holdfast</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:1150",
+                        "encodedSpace": "<p><strong>Leathery</strong> thallus with prominent <strong>leaf- or strap-like fronds</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6f686f5f-b9bf-4430-b5b0-5b08d1cfcf8f",
+                "name": "Blade Shape",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6f686f5f-b9bf-4430-b5b0-5b08d1cfcf8f:636",
+                        "encodedSpace": "<p>divided into finger-like segments</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "0baec4c9-e3fb-4b7a-950c-bc963810dd1e",
+                "name": "Stipe in cross section",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "0baec4c9-e3fb-4b7a-950c-bc963810dd1e:639",
+                        "encodedSpace": "<p>circular</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "30850785-a650-4499-a254-0676a14aefc1",
+                "name": "Stipe Texture",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "30850785-a650-4499-a254-0676a14aefc1:642",
+                        "encodedSpace": "<p>rough, with epibiota</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "822f5fc1-71db-4fb0-a4a4-1e40d948a30a",
+                "name": "Stipe Flexibility",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "822f5fc1-71db-4fb0-a4a4-1e40d948a30a:643",
+                        "encodedSpace": "<p>rigid, not bendable above holdfast, snaps when bent double; remains in upright position during low tide</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 73",
+            "shortTextKey": "taxon_text_17_526",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 73",
+            "shortTextKey": "taxon_text_2_527",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 73",
+            "shortTextKey": "taxon_text_18_528",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 73",
+            "shortTextKey": "taxon_text_4_529",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 73",
+            "shortTextKey": "taxon_text_5_530",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 73",
+            "shortTextKey": "taxon_text_6_531",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Baltic Sea (West), ",
+            "shortTextKey": "taxon_text_13_532",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-328-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-328-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-328-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Fucus hyperboreus",
+            "taxonAuthor": "Gunnerus 1776"
+        },
+        {
+            "taxonLatname": "Laminaria cloustonii",
+            "taxonAuthor": "Edmondston 1845"
+        },
+        {
+            "taxonLatname": "Hafgygia cloustonii",
+            "taxonAuthor": "(Edmondston) Areschoug 1883"
+        },
+        {
+            "taxonLatname": "Laminaria hyperborea f. compressa",
+            "taxonAuthor": "Foslie 1884"
+        },
+        {
+            "taxonLatname": "Fucus scoparius",
+            "taxonAuthor": "Ström 1762"
+        },
+        {
+            "taxonLatname": "Laminaria cloustonii f. compressa",
+            "taxonAuthor": "(Foslie) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Laminaria cloustonii f. longifolia",
+            "taxonAuthor": "(Foslie) Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Laminaria digitata f. longifolia",
+            "taxonAuthor": "Foslie 1883"
+        }
+    ],
+    "gbifNubKey": 5422383,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

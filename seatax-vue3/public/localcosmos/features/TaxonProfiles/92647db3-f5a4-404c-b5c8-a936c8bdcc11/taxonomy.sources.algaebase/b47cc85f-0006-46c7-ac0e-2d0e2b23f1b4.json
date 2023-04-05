@@ -1,0 +1,393 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Spongonema tomentosum",
+    "taxonAuthor": "(Hudson) Kützing 1849",
+    "nameUuid": "b47cc85f-0006-46c7-ac0e-2d0e2b23f1b4",
+    "taxonNuid": "00o008007004008001",
+    "vernacular": {
+        "en": "Spongonema tomentosum"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Spongonema tomentosum"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:46",
+                        "encodedSpace": "<p>Thallus <strong>filamentous</strong>, <strong>bushy</strong> or <strong>turf-like</strong>, uni- or multiseriate or parenchymatous, unbranched&nbsp; or branched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:941",
+                        "encodedSpace": "<p>Thallus<strong> flaccid, uniseriate to multiseriate to parenchymatic</strong> axes (&lt; 1 mm width), branched or unbranched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b438b28c-0da8-4bcd-bc82-e5579367e55a",
+                "name": "Nuclei",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "b438b28c-0da8-4bcd-bc82-e5579367e55a:910",
+                        "encodedSpace": "<p>&nbsp;Usually no nuclei visible in cells</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-423-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-423-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-423-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6fc917eb-691a-4b2a-8d1c-35f599013c61",
+                "name": "Plastids",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "6fc917eb-691a-4b2a-8d1c-35f599013c61:912",
+                        "encodedSpace": "<p>1-2 plate- or short ribbon like plastids</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-350-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-350-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-350-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "407cef3c-1eea-4f7c-9d46-74229f209ab1",
+                "name": "Size",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "407cef3c-1eea-4f7c-9d46-74229f209ab1:1000",
+                        "encodedSpace": "<p>≤ 6 (15) cm</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "47246f44-8d72-477c-a63a-8e2e3ff4b8c5",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "47246f44-8d72-477c-a63a-8e2e3ff4b8c5:1002",
+                        "encodedSpace": "<p>late spring to summer: <strong>long filthy threads</strong>; autumn to spring: dense cover of short felt-like pro-phases (‚Prostadien‘ of Kuckuck) on host blades</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a7218a8f-37c0-4fcd-9b93-6bb4c0843fb2",
+                "name": "Habitat",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "a7218a8f-37c0-4fcd-9b93-6bb4c0843fb2:1004",
+                        "encodedSpace": "<p><strong>epiphyte</strong>, esp. on <i><strong>Fucus</strong></i> ssp., <i>Himanthalia</i>, kelp ssp.; seldom occuring in sublittoral</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "51d88cd1-ee04-44fe-ae34-71d8a325ec1e",
+                "name": "Branching Pattern",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "51d88cd1-ee04-44fe-ae34-71d8a325ec1e:1008",
+                        "encodedSpace": "<p><strong>sparsely </strong>branched filaments, esp. in inner parts; <strong>short, hook-shaped </strong>side branches may clasp outwardly growing filaments, esp.&nbsp; in young individuals&nbsp;</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "cd82ff33-31b6-4829-9704-b75249fbd45b",
+                "name": "Reproductive Organs",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "cd82ff33-31b6-4829-9704-b75249fbd45b:1010",
+                        "encodedSpace": "<p>plurilocs uniseriate to multiseriate, sessile or on short stalks in ~90° angle to axis or terminal on side branches; unilocs (on pro-phases) with few zoids with distinct eye-spot</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 135",
+            "shortTextKey": "taxon_text_17_294",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 135",
+            "shortTextKey": "taxon_text_2_295",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 135",
+            "shortTextKey": "taxon_text_18_296",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 135",
+            "shortTextKey": "taxon_text_4_297",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 135",
+            "shortTextKey": "taxon_text_5_298",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 135",
+            "shortTextKey": "taxon_text_6_299",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (East), Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_300",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Comment (RK-Liste)",
+            "shortText": "Synonym von Spongonema tomentosum (Hudson) Kützing  ",
+            "shortTextKey": "taxon_text_14_301",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-316-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-316-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-316-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Conferva tomentosa",
+            "taxonAuthor": "Hudson 1762"
+        },
+        {
+            "taxonLatname": "Ectocarpus tomentosus",
+            "taxonAuthor": "(Hudson) Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Ectocarpus ellipticus",
+            "taxonAuthor": "De A.Saunders 1898"
+        },
+        {
+            "taxonLatname": "Herponema luteolum",
+            "taxonAuthor": "(Sauvageau) Hamel 1939"
+        },
+        {
+            "taxonLatname": "Ectocarpus luteolus",
+            "taxonAuthor": "Sauvageau 1892"
+        },
+        {
+            "taxonLatname": "Ectocarpus minimus",
+            "taxonAuthor": "Nägeli 1892"
+        },
+        {
+            "taxonLatname": "Ceramium tomentosum",
+            "taxonAuthor": "(Hudson) Roth 1800"
+        },
+        {
+            "taxonLatname": "Chordaria tomentosa",
+            "taxonAuthor": "(Hudson) Fries 1845"
+        },
+        {
+            "taxonLatname": "Scytosiphon tomentosus",
+            "taxonAuthor": "(Hudson) J.Agardh 1848"
+        },
+        {
+            "taxonLatname": "Ectocarpus tomentosus var. clavatus",
+            "taxonAuthor": "C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Spongomorpha tomentosa",
+            "taxonAuthor": "(Hudson) Kützing 1845"
+        },
+        {
+            "taxonLatname": "Streblonema minimum",
+            "taxonAuthor": "(Nägeli) De Toni"
+        },
+        {
+            "taxonLatname": "Streblonema luteolum",
+            "taxonAuthor": "(Sauv.) De Toni"
+        },
+        {
+            "taxonLatname": "Sphacella subtilissima var. anglica",
+            "taxonAuthor": "Batters 1897"
+        },
+        {
+            "taxonLatname": "Feldmannia elliptica",
+            "taxonAuthor": "(De A.Saunders) Hollenberg & I.A.Abbott 1966"
+        }
+    ],
+    "gbifNubKey": 3198997,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

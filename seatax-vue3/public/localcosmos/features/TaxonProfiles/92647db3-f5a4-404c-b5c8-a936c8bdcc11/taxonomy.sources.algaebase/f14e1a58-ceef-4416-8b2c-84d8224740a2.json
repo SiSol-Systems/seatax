@@ -1,0 +1,201 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ulothrix speciosa",
+    "taxonAuthor": "(Carmichael) Kützing 1849",
+    "nameUuid": "f14e1a58-ceef-4416-8b2c-84d8224740a2",
+    "taxonNuid": "00700200500900d00r027",
+    "vernacular": {
+        "en": "Ulothrix speciosa"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ulothrix speciosa"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a315a81f-7c2b-4e0e-a250-f27636384313",
+                "name": "Structure of unbranched filaments",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a315a81f-7c2b-4e0e-a250-f27636384313:250",
+                        "encodedSpace": "uniseriate"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5",
+                "name": "Filament Structure",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5:244",
+                        "encodedSpace": "unbranched filaments"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:233",
+                        "encodedSpace": "Thallus with filamentous axes, bushy, feathery or unbranched stringy"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 383",
+            "shortTextKey": "taxon_text_17_2628",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 383",
+            "shortTextKey": "taxon_text_2_2629",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 383",
+            "shortTextKey": "taxon_text_18_2630",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 383",
+            "shortTextKey": "taxon_text_4_2631",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 383",
+            "shortTextKey": "taxon_text_5_2632",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 383",
+            "shortTextKey": "taxon_text_6_2633",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-151-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-151-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-151-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Lyngbya speciosa",
+            "taxonAuthor": "Carmichael 1833"
+        },
+        {
+            "taxonLatname": "Urospora speciosa",
+            "taxonAuthor": "(Carmichael) Leblond ex Hamel 1931"
+        },
+        {
+            "taxonLatname": "Conferva speciosa",
+            "taxonAuthor": "Carmichael ex Areschoug 1850"
+        },
+        {
+            "taxonLatname": "Hormotrichum speciosum",
+            "taxonAuthor": "(Carmichael) P.Crouan & H.Crouan 1852"
+        },
+        {
+            "taxonLatname": "Ulothrix zonata var. speciosa",
+            "taxonAuthor": "(Carmichael) Stockmayer"
+        }
+    ],
+    "gbifNubKey": 2646288,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

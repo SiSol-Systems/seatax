@@ -1,0 +1,20 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Rhizoclonium riparium",
+        "taxonAuthor": "(Roth) Harvey 1849",
+        "nameUuid": "ecc3d6a8-8366-4bf3-8763-b11961566bec",
+        "taxonNuid": "00700200500300300e00s",
+        "imageUrl": null,
+        "gbifNubKey": 2643576
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Rhodochorton purpureum",
+        "taxonAuthor": "(Lightfoot) Rosenvinge 1900",
+        "nameUuid": "65edea57-920a-4e26-9f47-7d7363bde664",
+        "taxonNuid": "00w002002001003001009",
+        "imageUrl": null,
+        "gbifNubKey": 2664547
+    }
+]

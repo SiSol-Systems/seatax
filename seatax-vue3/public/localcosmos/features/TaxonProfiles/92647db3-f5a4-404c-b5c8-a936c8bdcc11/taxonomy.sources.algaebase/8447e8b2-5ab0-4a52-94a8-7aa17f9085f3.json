@@ -1,0 +1,548 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Fucus vesiculosus",
+    "taxonAuthor": "Linnaeus 1753",
+    "nameUuid": "8447e8b2-5ab0-4a52-94a8-7aa17f9085f3",
+    "taxonNuid": "00o00800800300203g",
+    "vernacular": {
+        "en": "Fucus vesiculosus"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Fucus vesiculosus"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:47",
+                        "encodedSpace": "<p>Thallus <strong>tough </strong>and <strong>robust</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a72c793b-1835-40f4-a5e5-fc005e292126",
+                "name": "Thallus Habit (Leathery)",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a72c793b-1835-40f4-a5e5-fc005e292126:256",
+                        "encodedSpace": "<p>Thallus with <strong>dichotomously</strong> branched&nbsp; flat blades, with or without midrib, small stipe and <strong>disc-shaped holdfast</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:1150",
+                        "encodedSpace": "<p><strong>Leathery</strong> thallus with prominent <strong>leaf- or strap-like fronds</strong></p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "317203a2-258d-4696-9bd4-9ca5c904cf22",
+                "name": "Habitat",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "317203a2-258d-4696-9bd4-9ca5c904cf22:1128",
+                        "encodedSpace": "<p><strong>mid </strong>eulittoral</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "33b0b646-4f17-4d1f-a60c-9535d6399ee8",
+                "name": "Holdfast",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "33b0b646-4f17-4d1f-a60c-9535d6399ee8:102",
+                        "encodedSpace": "attached by discoid holdfast"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b1dd8fe0-e2d9-4bd5-8f93-0d48c34c5021",
+                "name": "Blade Margin",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "b1dd8fe0-e2d9-4bd5-8f93-0d48c34c5021:1133",
+                        "encodedSpace": "<p>non-serrated</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-393-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-393-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-393-1000.webp"
+                        },
+                        "secondaryImageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/secondary-394-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/secondary-394-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/secondary-394-1000.webp"
+                        }
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "92ffe228-ddf1-4369-ae8f-bc2121c13fb8",
+                "name": "Receptacles (if present)",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "92ffe228-ddf1-4369-ae8f-bc2121c13fb8:1137",
+                        "encodedSpace": "<p>at blade tip, swollen bladder-like, with <strong>inconspicuous sterile rim</strong></p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-398-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-398-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-398-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b29e3e00-c60f-4f3f-9b42-8b46b39059f9",
+                "name": "Reproduction",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "b29e3e00-c60f-4f3f-9b42-8b46b39059f9:1125",
+                        "encodedSpace": "<p>dioecious</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "43779c2a-b7bc-45c4-92ab-d43d95deb940",
+                "name": "Shape of Air Bladders",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "43779c2a-b7bc-45c4-92ab-d43d95deb940:1139",
+                        "encodedSpace": "<p>spherical, ≤ 1 cm, in pairs on each side of midrib or singly below bifurcation</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-400-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-400-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-400-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 52",
+            "shortTextKey": "taxon_text_17_375",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 52",
+            "shortTextKey": "taxon_text_2_376",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 52",
+            "shortTextKey": "taxon_text_18_377",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 52",
+            "shortTextKey": "taxon_text_4_378",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 52",
+            "shortTextKey": "taxon_text_5_379",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 52",
+            "shortTextKey": "taxon_text_6_380",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (West), Wadden Sea (East), Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_381",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-335-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-335-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-335-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Fucus vesiculosus var. aestuarii",
+            "taxonAuthor": "Lami 1938"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. angustifolius",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Fucus inflatus",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. divaricatus",
+            "taxonAuthor": "(Linnaeus) Goodenough & Woodward 1797"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. balticus",
+            "taxonAuthor": "(C.Agardh) Areschoug 1847"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. laterifructus",
+            "taxonAuthor": "Greville 1828"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. sphaerocarpus",
+            "taxonAuthor": "J.Agardh 1872"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. vadorum",
+            "taxonAuthor": "Areschoug 1868"
+        },
+        {
+            "taxonLatname": "Fucus divaricatus",
+            "taxonAuthor": "Linnaeus 1753"
+        },
+        {
+            "taxonLatname": "Fucus balticus",
+            "taxonAuthor": "C.Agardh 1814"
+        },
+        {
+            "taxonLatname": "Fucus excisus",
+            "taxonAuthor": "Forsskål 1775"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. acutus",
+            "taxonAuthor": "Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. alternans",
+            "taxonAuthor": "C.Agardh 1820"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. balticus",
+            "taxonAuthor": "(C.Agardh) Dannenberg 1927"
+        },
+        {
+            "taxonLatname": "Fucus axillaris f. balticus",
+            "taxonAuthor": "(C.Agardh) Kjellman 1880"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. angustifolius",
+            "taxonAuthor": "(C.Agardh) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. filiformis",
+            "taxonAuthor": "(C.Agardh) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. filiformis",
+            "taxonAuthor": "C.Agardh 1819"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. nanus",
+            "taxonAuthor": "(C.Agardh) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. nanus",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. plicatus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. subecostatus",
+            "taxonAuthor": "(C.Agardh) Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. subecostatus",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. chondriformis",
+            "taxonAuthor": "J.Agardh 1836"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. racemosus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. tenuis",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. rotundatus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. crispus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. flabellatus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. robustus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. subglobosus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. terminalis",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. turgidus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. lanceolatus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus axillaris var. subecostatus",
+            "taxonAuthor": "J.Agardh 1868"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus subsp. pseudoceranoides",
+            "taxonAuthor": "Areschoug 1868"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. pseudoceranoides",
+            "taxonAuthor": "(Areschoug) Kleen 1874"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. ceratiformis",
+            "taxonAuthor": "Wahlenberg 1826"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. rigidus",
+            "taxonAuthor": "Wahlenberg 1812"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. angustifrons",
+            "taxonAuthor": "Gobi 1878"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. fluviatilis",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. sphaerocarpus",
+            "taxonAuthor": "(J.Agardh) Kleen 1874"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. abbreviatus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. latus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. subfusiformis",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. balticus",
+            "taxonAuthor": "Levring 1940"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. elongatus",
+            "taxonAuthor": "Kjellman 1890"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. grandifrons",
+            "taxonAuthor": "C.Agardh 1821"
+        },
+        {
+            "taxonLatname": "Halidrys vesiculosus",
+            "taxonAuthor": "(Linnaeus) Stackhouse 1809"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus var. spiralis",
+            "taxonAuthor": "Farlow 1881"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. limicola",
+            "taxonAuthor": "Collins 1906"
+        },
+        {
+            "taxonLatname": "Virsodes vesiculosum",
+            "taxonAuthor": "(Linnaeus) Kuntze"
+        },
+        {
+            "taxonLatname": "Fucus vesiculosus f. typicus",
+            "taxonAuthor": "Kjellman 1890"
+        }
+    ],
+    "gbifNubKey": null,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

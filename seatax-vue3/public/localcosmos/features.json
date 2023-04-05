@@ -1,0 +1,155 @@
+{
+    "slugs": {
+        "7-frontend": "7d39f491-4199-4254-b2bc-e0a8e130481d",
+        "5-seaweedglossary": "cecd1e86-43d3-4a6f-9cea-59563c992053",
+        "1-backbone-taxonomy": "6e7ecc4d-dbd1-441d-a026-d49658c056ce",
+        "3-seaweed-identification": "a0971d5f-4c35-49d2-96e5-2ec1ede65546",
+        "2-artensteckbriefe": "92647db3-f5a4-404c-b5c8-a936c8bdcc11"
+    },
+    "Frontend": {
+        "genericContentType": "Frontend",
+        "uuid": "7d39f491-4199-4254-b2bc-e0a8e130481d",
+        "name": "Frontend",
+        "slug": "7-frontend",
+        "version": 1,
+        "path": "/localcosmos/features/Frontend/7d39f491-4199-4254-b2bc-e0a8e130481d/7d39f491-4199-4254-b2bc-e0a8e130481d.json",
+        "folder": "/localcosmos/features/Frontend/7d39f491-4199-4254-b2bc-e0a8e130481d"
+    },
+    "Glossary": {
+        "genericContentType": "Glossary",
+        "uuid": "cecd1e86-43d3-4a6f-9cea-59563c992053",
+        "name": "SeaweedGlossary",
+        "description": "The glossary provides explanations for scientific terms, which may not be readily understandable to the user. If you use the webkey, words that are explained in the glossary are highlighted and pop-up when you hover over them. This glossary was compiled based on the following references: Brodie and Irvine (2003), Fletcher (1987), Irvine and Chamberlain (1994), Maggs and Hommersand (1993), Mathieson and Dawes (2017), Womersley (1987). Since the possibility of defining a term linguistically is not arbitrarily large, similarities in wording may occur.",
+        "slug": "5-seaweedglossary",
+        "version": 1,
+        "path": "/localcosmos/features/Glossary/cecd1e86-43d3-4a6f-9cea-59563c992053/cecd1e86-43d3-4a6f-9cea-59563c992053.json",
+        "folder": "/localcosmos/features/Glossary/cecd1e86-43d3-4a6f-9cea-59563c992053",
+        "localized": {
+            "en": {
+                "usedTerms": "/localcosmos/features/Glossary/cecd1e86-43d3-4a6f-9cea-59563c992053/en/used_terms_glossary.json",
+                "usedTermsCsv": "/localcosmos/features/Glossary/cecd1e86-43d3-4a6f-9cea-59563c992053/en/used_terms_glossary.csv",
+                "allTerms": "/localcosmos/features/Glossary/cecd1e86-43d3-4a6f-9cea-59563c992053/en/glossary.json",
+                "allTermsCsv": "/localcosmos/features/Glossary/cecd1e86-43d3-4a6f-9cea-59563c992053/en/glossary.csv"
+            }
+        }
+    },
+    "BackboneTaxonomy": {
+        "genericContentType": "BackboneTaxonomy",
+        "uuid": "6e7ecc4d-dbd1-441d-a026-d49658c056ce",
+        "name": "Backbone Taxonomy",
+        "slug": "1-backbone-taxonomy",
+        "version": 1,
+        "path": "/localcosmos/features/BackboneTaxonomy/6e7ecc4d-dbd1-441d-a026-d49658c056ce/6e7ecc4d-dbd1-441d-a026-d49658c056ce.json",
+        "folder": "/localcosmos/features/BackboneTaxonomy/6e7ecc4d-dbd1-441d-a026-d49658c056ce",
+        "alphabet": "/localcosmos/features/BackboneTaxonomy/6e7ecc4d-dbd1-441d-a026-d49658c056ce/alphabet",
+        "vernacular": {
+            "en": "/localcosmos/features/BackboneTaxonomy/6e7ecc4d-dbd1-441d-a026-d49658c056ce/vernacular/en.json"
+        }
+    },
+    "NatureGuide": {
+        "list": [
+            {
+                "genericContentType": "NatureGuide",
+                "uuid": "a0971d5f-4c35-49d2-96e5-2ec1ede65546",
+                "name": "Seaweed Identification",
+                "slug": "3-seaweed-identification",
+                "version": 1,
+                "imageUrl": null,
+                "startNodeUuid": "340558fb-c99d-475f-9220-c4883f5fd13a",
+                "startNodeSlug": "1-seaweed-identification",
+                "path": "/localcosmos/features/NatureGuide/a0971d5f-4c35-49d2-96e5-2ec1ede65546/a0971d5f-4c35-49d2-96e5-2ec1ede65546.json",
+                "folder": "/localcosmos/features/NatureGuide/a0971d5f-4c35-49d2-96e5-2ec1ede65546"
+            }
+        ],
+        "lookup": {
+            "a0971d5f-4c35-49d2-96e5-2ec1ede65546": "/localcosmos/features/NatureGuide/a0971d5f-4c35-49d2-96e5-2ec1ede65546/a0971d5f-4c35-49d2-96e5-2ec1ede65546.json"
+        }
+    },
+    "TaxonProfiles": {
+        "genericContentType": "TaxonProfiles",
+        "uuid": "92647db3-f5a4-404c-b5c8-a936c8bdcc11",
+        "name": "Artensteckbriefe",
+        "slug": "2-artensteckbriefe",
+        "version": 1,
+        "folder": "/localcosmos/features/TaxonProfiles/92647db3-f5a4-404c-b5c8-a936c8bdcc11",
+        "options": {},
+        "globalOptions": {},
+        "files": "/localcosmos/features/TaxonProfiles/92647db3-f5a4-404c-b5c8-a936c8bdcc11",
+        "registry": "/localcosmos/features/TaxonProfiles/92647db3-f5a4-404c-b5c8-a936c8bdcc11/registry.json",
+        "search": "/localcosmos/features/TaxonProfiles/92647db3-f5a4-404c-b5c8-a936c8bdcc11/search.json"
+    },
+    "TemplateContent": {
+        "uuid": "c0c9f26f-5209-4914-8ad3-ee19533e33d6",
+        "version": 1,
+        "options": {},
+        "globalOptions": {},
+        "name": "TemplateContent",
+        "slug": "pages",
+        "list": [],
+        "lookup": {
+            "25c5adb6-f2b9-4595-9aa4-b375d6a28ab1": "/localcosmos/features/TemplateContent/de/pages/download/download/download.json",
+            "b619aaef-e279-4145-9063-41bd44fda59a": "/localcosmos/features/TemplateContent/de/pages/funding/funding/funding.json",
+            "7c8d282a-b6b4-4cc8-896a-d9c84ef64253": "/localcosmos/features/TemplateContent/de/pages/info/about-the-key/about-the-key.json",
+            "f16d4c41-6abd-49ae-b9bd-33b642c5ef7f": "/localcosmos/features/TemplateContent/de/pages/info/references/references.json",
+            "bcf2af16-1f8a-4d4e-a961-c6e3dfbd54b2": "/localcosmos/features/TemplateContent/de/pages/info/contact/contact.json",
+            "721cd121-eea3-4716-891f-f154a1f91280": "/localcosmos/features/TemplateContent/de/pages/info/acknowledgements/acknowledgements.json",
+            "97d007bc-fc8b-4ee5-931a-97c273b0e513": "/localcosmos/features/TemplateContent/de/pages/team/team/team.json",
+            "5c2fc4f3-857b-4bef-9332-d0aff31a0f40": "/localcosmos/features/TemplateContent/de/pages/home/home/home.json",
+            "dfc35005-02d9-4c94-8639-136c7ae1f1c6": "/localcosmos/features/TemplateContent/de/pages/key-manual/key-manual/key-manual.json"
+        },
+        "slugs": {
+            "download": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/download/download/download.json",
+                "templateName": "download"
+            },
+            "funding": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/funding/funding/funding.json",
+                "templateName": "funding"
+            },
+            "about-the-key": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/info/about-the-key/about-the-key.json",
+                "templateName": "info"
+            },
+            "references": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/info/references/references.json",
+                "templateName": "info"
+            },
+            "contact": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/info/contact/contact.json",
+                "templateName": "info"
+            },
+            "acknowledgements": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/info/acknowledgements/acknowledgements.json",
+                "templateName": "info"
+            },
+            "team": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/team/team/team.json",
+                "templateName": "team"
+            },
+            "home": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/home/home/home.json",
+                "templateName": "home"
+            },
+            "key-manual": {
+                "path": "/localcosmos/features/TemplateContent/de/pages/key-manual/key-manual/key-manual.json",
+                "templateName": "key-manual"
+            }
+        },
+        "assignments": {
+            "home": {
+                "en": "/localcosmos/features/TemplateContent/de/pages/home/home/home.json"
+            }
+        },
+        "navigations": {
+            "main": {
+                "en": "/localcosmos/features/TemplateContent/de/navigations/main.json"
+            },
+            "more": {
+                "en": "/localcosmos/features/TemplateContent/de/navigations/more.json"
+            },
+            "legal": {
+                "en": "/localcosmos/features/TemplateContent/de/navigations/legal.json"
+            }
+        }        
+    }
+}

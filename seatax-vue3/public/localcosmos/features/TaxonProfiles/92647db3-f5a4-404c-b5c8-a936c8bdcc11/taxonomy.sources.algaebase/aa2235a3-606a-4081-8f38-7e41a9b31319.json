@@ -1,0 +1,237 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Percursaria percursa",
+    "taxonAuthor": "(C.Agardh) Rosenvinge 1893",
+    "nameUuid": "aa2235a3-606a-4081-8f38-7e41a9b31319",
+    "taxonNuid": "00700200500a00600a001",
+    "vernacular": {
+        "en": "Biseriate Green Filaments (Percursaria)"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Biseriate Green Filaments (Percursaria)"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "a315a81f-7c2b-4e0e-a250-f27636384313",
+                "name": "Structure of unbranched filaments",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "a315a81f-7c2b-4e0e-a250-f27636384313:249",
+                        "encodedSpace": "biseriate"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5",
+                "name": "Filament Structure",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f51dc0aa-e0f2-46e2-9ba7-03949b903db5:244",
+                        "encodedSpace": "unbranched filaments"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:233",
+                        "encodedSpace": "Thallus with filamentous axes, bushy, feathery or unbranched stringy"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 357",
+            "shortTextKey": "taxon_text_17_2464",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 357",
+            "shortTextKey": "taxon_text_2_2465",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 357",
+            "shortTextKey": "taxon_text_18_2466",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 357",
+            "shortTextKey": "taxon_text_4_2467",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 357",
+            "shortTextKey": "taxon_text_5_2468",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 357",
+            "shortTextKey": "taxon_text_6_2469",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-119-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-119-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-119-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Conferva percursa",
+            "taxonAuthor": "C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Enteromorpha percursa",
+            "taxonAuthor": "(C.Agardh) J.Agardh 1842"
+        },
+        {
+            "taxonLatname": "Solenia percursa",
+            "taxonAuthor": "(C.Agardh) C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Diplonema percursum",
+            "taxonAuthor": "(C.Agardh) Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Schizogonium percursum",
+            "taxonAuthor": "(C.Agardh) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Schizogonium tortum var. percursum",
+            "taxonAuthor": "(C.Agardh) Rabenhorst 1847"
+        },
+        {
+            "taxonLatname": "Scytosiphon compressus var. confervoideus",
+            "taxonAuthor": "Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Scytosiphon percursus",
+            "taxonAuthor": "(C.Agardh) Wallroth 1833"
+        },
+        {
+            "taxonLatname": "Tetranema percursum",
+            "taxonAuthor": "(C.Agardh) Areschoug 1850"
+        },
+        {
+            "taxonLatname": "Ulva percursa",
+            "taxonAuthor": "(C.Agardh) C.Agardh 1823"
+        },
+        {
+            "taxonLatname": "Zignoa percursa",
+            "taxonAuthor": "(C.Agardh) Trevisan 1842"
+        },
+        {
+            "taxonLatname": "Arachnophyllum delilei",
+            "taxonAuthor": "Montagne 1857"
+        },
+        {
+            "taxonLatname": "Bangia delilei",
+            "taxonAuthor": "(Montagne) Zanardini 1858"
+        },
+        {
+            "taxonLatname": "Percursaria confervoidea",
+            "taxonAuthor": "(Lyngbye) Foslie 1891"
+        }
+    ],
+    "gbifNubKey": 2645631,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

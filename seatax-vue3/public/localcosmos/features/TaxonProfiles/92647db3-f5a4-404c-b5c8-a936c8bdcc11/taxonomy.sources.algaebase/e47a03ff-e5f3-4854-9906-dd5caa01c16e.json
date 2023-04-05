@@ -1,0 +1,318 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ulva linza",
+    "taxonAuthor": "Linnaeus 1753",
+    "nameUuid": "e47a03ff-e5f3-4854-9906-dd5caa01c16e",
+    "taxonNuid": "00700200500a00600g032",
+    "vernacular": {
+        "en": "Ulva linza"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ulva linza"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f",
+                "name": "Distromatic - Structure",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f:238",
+                        "encodedSpace": "5-50 cm, leaf-like or tubular"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:232",
+                        "encodedSpace": "Thallus flat and leaf-like or tubular (compressed or flat)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa",
+                "name": "Flat/Leaf/Tubular Structure",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa:234",
+                        "encodedSpace": "leaf-like (flat) or tubular, tough (distromatic)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "63cb9790-b6af-4396-b2b4-834312d46188",
+                "name": "Habit of big (5-50cm) leafs or tubes",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "63cb9790-b6af-4396-b2b4-834312d46188:241",
+                        "encodedSpace": "delicate to tough blades or tubes, light to dark-green (infra-supralittoral zone)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ce360227-f8fd-4e20-bc2f-5c61d282eb89",
+                "name": "Possible Thallus Habitus",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ce360227-f8fd-4e20-bc2f-5c61d282eb89:252",
+                        "encodedSpace": "branched tubes"
+                    },
+                    {
+                        "spaceIdentifier": "ce360227-f8fd-4e20-bc2f-5c61d282eb89:253",
+                        "encodedSpace": "sheet-like blades with or without marginal tubular branches"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 393",
+            "shortTextKey": "taxon_text_17_2686",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 393",
+            "shortTextKey": "taxon_text_2_2687",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 393",
+            "shortTextKey": "taxon_text_18_2688",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 393",
+            "shortTextKey": "taxon_text_4_2689",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 393",
+            "shortTextKey": "taxon_text_5_2690",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 393",
+            "shortTextKey": "taxon_text_6_2691",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Enteromorpha linza",
+            "taxonAuthor": "(Linnaeus) J.Agardh 1883"
+        },
+        {
+            "taxonLatname": "Ulva bertolonii",
+            "taxonAuthor": "C.Agardh 1823"
+        },
+        {
+            "taxonLatname": "Enteromorpha linza var. crispata",
+            "taxonAuthor": "(Bertoloni) Hylmö 1916"
+        },
+        {
+            "taxonLatname": "Enteromorpha ahlneriana",
+            "taxonAuthor": "Bliding 1944"
+        },
+        {
+            "taxonLatname": "Enteromorpha linza f. lanceolata",
+            "taxonAuthor": "Unknown authorities"
+        },
+        {
+            "taxonLatname": "Enteromorpha linza var. angusta",
+            "taxonAuthor": "Unknown authorities"
+        },
+        {
+            "taxonLatname": "Enteromorpha bulbosa var. japonica",
+            "taxonAuthor": "Yoshida et al. 1990"
+        },
+        {
+            "taxonLatname": "Ulva linza var. lanceolata",
+            "taxonAuthor": "Kützing"
+        },
+        {
+            "taxonLatname": "Ulva linza var. angusta",
+            "taxonAuthor": "Kützing"
+        },
+        {
+            "taxonLatname": "Ulva lanceolata",
+            "taxonAuthor": "Linnaeus 1767"
+        },
+        {
+            "taxonLatname": "Enteromorpha bertolonii var. lanceolata",
+            "taxonAuthor": "(Linnaeus) Grunow 1867"
+        },
+        {
+            "taxonLatname": "Ulva crispata",
+            "taxonAuthor": "Bertoloni 1810"
+        },
+        {
+            "taxonLatname": "Phycoseris crispata",
+            "taxonAuthor": "(Bertoloni) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Enteromorpha bertolonii",
+            "taxonAuthor": "Montagne 1846"
+        },
+        {
+            "taxonLatname": "Enteromorpha crispata",
+            "taxonAuthor": "(Bertoloni) Piccone 1878"
+        },
+        {
+            "taxonLatname": "Enteromorpha lanceolata var. crispata",
+            "taxonAuthor": "(Bertoloni) Rabenhorst 1868"
+        },
+        {
+            "taxonLatname": "Enteronia linza",
+            "taxonAuthor": "(Linnaeus) Chevallier 1836"
+        },
+        {
+            "taxonLatname": "Phycoseris linza",
+            "taxonAuthor": "(Linnaeus) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Solenia linza",
+            "taxonAuthor": "(Linnaeus) C.Agardh 1824"
+        },
+        {
+            "taxonLatname": "Ulva enteromorpha f. crispata",
+            "taxonAuthor": "(Bertoloni) Le Jolis 1863"
+        },
+        {
+            "taxonLatname": "Ulva enteromorpha var. lanceolata",
+            "taxonAuthor": "(Linnaeus) Le Jolis 1863"
+        },
+        {
+            "taxonLatname": "Ulva intybacea",
+            "taxonAuthor": "Lamarck 1779"
+        },
+        {
+            "taxonLatname": "Ulva fasciata",
+            "taxonAuthor": "S.F.Gray 1821"
+        },
+        {
+            "taxonLatname": "Scytosiphon intestinalis var. plynthodes",
+            "taxonAuthor": "Wallroth 1833"
+        },
+        {
+            "taxonLatname": "Enteromorpha linza f. crispata",
+            "taxonAuthor": "(Bertoloni) J.Agardh 1883"
+        }
+    ],
+    "gbifNubKey": 5273454,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

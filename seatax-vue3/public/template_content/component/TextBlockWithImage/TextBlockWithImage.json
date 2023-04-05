@@ -1,0 +1,23 @@
+{
+  "templateName" : "TextBlockWithImage",
+  "type": "component",
+  "version" : 1,
+  "identifierContent": "title",
+  "contents": {
+    "title": {
+      "type": "text",
+      "widget": "TextInput",
+      "restrictions": {
+        "maxLength": 30
+      }
+    },
+    "text" : {
+      "type": "text",
+      "format": "layoutable-full"
+    },
+    "image": {
+      "type": "image",
+      "helpText": "image"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Pylaiella littoralis",
+        "taxonAuthor": "(Linnaeus) Kjellman 1872",
+        "nameUuid": "ac46df39-0ee5-4352-8271-fe4056675222",
+        "taxonNuid": "00o00800700100900b",
+        "imageUrl": null,
+        "gbifNubKey": 3199757
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Pylaiella varia",
+        "taxonAuthor": "Foslie 1887",
+        "nameUuid": "5c754133-897d-4aed-ad80-da351e6eff83",
+        "taxonNuid": "00o00800700100900q",
+        "imageUrl": null,
+        "gbifNubKey": 3199816
+    }
+]

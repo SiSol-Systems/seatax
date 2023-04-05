@@ -1,0 +1,172 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Monostroma grevillei",
+    "taxonAuthor": "(Thuret) Wittrock 1866",
+    "nameUuid": "700b844d-c221-4927-93e3-26b8cc875e97",
+    "taxonNuid": "00700200500900900100f",
+    "vernacular": {
+        "en": "Monostroma grevillei"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Monostroma grevillei"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:232",
+                        "encodedSpace": "Thallus flat and leaf-like or tubular (compressed or flat)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa",
+                "name": "Flat/Leaf/Tubular Structure",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa:235",
+                        "encodedSpace": "leaf-like (flat, rosettes, funnel-like), delicate texture (monostromatic)"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 351",
+            "shortTextKey": "taxon_text_17_2433",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 351",
+            "shortTextKey": "taxon_text_2_2434",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 351",
+            "shortTextKey": "taxon_text_18_2435",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 351",
+            "shortTextKey": "taxon_text_4_2436",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 351",
+            "shortTextKey": "taxon_text_5_2437",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 351",
+            "shortTextKey": "taxon_text_6_2438",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-130-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-130-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-130-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Ulvopsis grevillei",
+            "taxonAuthor": "(Thuret) Gayral 1964"
+        },
+        {
+            "taxonLatname": "Enteromorpha grevillei",
+            "taxonAuthor": "Thuret 1854"
+        },
+        {
+            "taxonLatname": "Ulva grevillei",
+            "taxonAuthor": "(Thuret) Le Jolis 1863"
+        }
+    ],
+    "gbifNubKey": 2645215,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

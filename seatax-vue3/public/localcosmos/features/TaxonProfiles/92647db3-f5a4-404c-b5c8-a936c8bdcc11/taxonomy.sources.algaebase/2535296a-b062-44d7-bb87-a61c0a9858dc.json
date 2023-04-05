@@ -1,0 +1,822 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Petalonia fascia",
+    "taxonAuthor": "(O.F.Müller) Kuntze 1898",
+    "nameUuid": "2535296a-b062-44d7-bb87-a61c0a9858dc",
+    "taxonNuid": "00o00800700700f002",
+    "vernacular": {
+        "en": "Petalonia fascia 01"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Petalonia fascia",
+        "Petalonia fascia 01"
+    ],
+    "nodeDecisionRules": [
+        "generally broad, without hairs on blade"
+    ],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:255",
+                        "encodedSpace": "<p>Whole Thallus <strong>flat </strong>and <strong>membranous</strong>, blade-like to linear</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f",
+                "name": "Number of Cell Layers in Medulla",
+                "type": "NumberFilter",
+                "position": 17,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:3.0",
+                        "encodedSpace": 3.0
+                    },
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:4.0",
+                        "encodedSpace": 4.0
+                    },
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:5.0",
+                        "encodedSpace": 5.0
+                    },
+                    {
+                        "spaceIdentifier": "6af7aaa4-8f9f-45ed-86aa-4e9e80ddd29f:6.0",
+                        "encodedSpace": 6.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e8955620-a8cd-4369-a089-87edfdc483d1",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e8955620-a8cd-4369-a089-87edfdc483d1:193",
+                        "encodedSpace": "<p>unbranched flat blades<br>(thalli mostly grow gregariously - thereby many thalli emerge from one spot - do not misinterpret as side branches)</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ee8f0eae-0782-42f9-95cb-868573d0809e",
+                "name": "Blade Shape",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ee8f0eae-0782-42f9-95cb-868573d0809e:959",
+                        "encodedSpace": "<p><strong>lanceloate </strong>to<strong> ovate</strong>; sometimes zigzag-shape (Helgoland)</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-372-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-372-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-372-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36",
+                "name": "Number of Cell Layers in Cortex",
+                "type": "NumberFilter",
+                "position": 16,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36:1.0",
+                        "encodedSpace": 1.0
+                    },
+                    {
+                        "spaceIdentifier": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36:2.0",
+                        "encodedSpace": 2.0
+                    },
+                    {
+                        "spaceIdentifier": "ae2ea4c9-72ee-4996-bdfc-93bc89869c36:3.0",
+                        "encodedSpace": 3.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "3df0f5e3-1747-426e-836e-632c07476179",
+                "name": "Size (of adult individuals) [cm]",
+                "type": "RangeFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            40.0
+                        ],
+                        "spaceIdentifier": "3df0f5e3-1747-426e-836e-632c07476179:WzAuMCw0MC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "75d1d606-7658-4531-a7e4-aac5a8ba24bd",
+                "name": "Blade Thickness (Cross Section)",
+                "type": "RangeFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            85.0,
+                            210.0
+                        ],
+                        "spaceIdentifier": "75d1d606-7658-4531-a7e4-aac5a8ba24bd:Wzg1LjAsMjEwLjBd"
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "µm",
+                    "unit_verbose": "micrometer"
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "5e73a84c-085d-4164-b999-a293c164d4ab",
+                "name": "Plastids",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 8,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "5e73a84c-085d-4164-b999-a293c164d4ab:953",
+                        "encodedSpace": "<p><strong>single, plate-</strong>like, <strong>parietal, </strong>with 1-2 distinct pyrenoids</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-370-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-370-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-370-1000.webp"
+                        },
+                        "secondaryImageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/secondary-420-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/secondary-420-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/secondary-420-1000.webp"
+                        }
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9a39fe23-05ca-4d49-ba5b-b74e3093e9a9",
+                "name": "Hollow",
+                "type": "TextOnlyFilter",
+                "position": 9,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9a39fe23-05ca-4d49-ba5b-b74e3093e9a9:1203",
+                        "encodedSpace": "<p>no hollow parts</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "4bfbd5e8-4592-4480-9175-0a576e0c4152",
+                "name": "Blade Width (of adult individuals) [cm]",
+                "type": "RangeFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            6.0
+                        ],
+                        "spaceIdentifier": "4bfbd5e8-4592-4480-9175-0a576e0c4152:WzAuMCw2LjBd"
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 0.1,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6535dd27-7be5-4688-b29c-bed361b83179",
+                "name": "Cross Section (unbranched)",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6535dd27-7be5-4688-b29c-bed361b83179:906",
+                        "encodedSpace": "<p><strong>differentiation </strong>into <strong>cortex </strong>of 1-3 small, pigmented cells and <strong>medulla </strong>of 3-6 large, colourless cells</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "fcd09fa0-981b-41fd-a37c-b2615f25e3f6",
+                "name": "Stipe",
+                "type": "TextOnlyFilter",
+                "position": 7,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "fcd09fa0-981b-41fd-a37c-b2615f25e3f6:713",
+                        "encodedSpace": "<p>distinct, short</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "4a694936-a0db-465d-8ded-e0de1d8356de",
+                "name": "Blade Shape - unbranched",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "4a694936-a0db-465d-8ded-e0de1d8356de:421",
+                        "encodedSpace": "highly variable; linear lanceloate to oval; linear blades  characteristical zigzag-shape (Helgoland); tapering towards base; surface soft (difference to Punctaria)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "8e6ad526-6b40-4300-9279-cc606a24efaf",
+                "name": "Thallus/ Blade Length",
+                "type": "RangeFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            40.0
+                        ],
+                        "spaceIdentifier": "8e6ad526-6b40-4300-9279-cc606a24efaf:WzAuMCw0MC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6809494d-fd48-4719-877b-376af190b8e7",
+                "name": "Branching",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "6809494d-fd48-4719-877b-376af190b8e7:417",
+                        "encodedSpace": "single unbranched blades"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "bff8303d-1172-4026-9a94-e6de72f7bb61",
+                "name": "Holdfast",
+                "type": "TextOnlyFilter",
+                "position": 8,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "bff8303d-1172-4026-9a94-e6de72f7bb61:438",
+                        "encodedSpace": "small holdfast overlying conspicuous crustose phase"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9b98ff46-c665-45ae-ac6d-282f069841ce",
+                "name": "Cell Layers (in cross section)",
+                "type": "TextOnlyFilter",
+                "position": 10,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9b98ff46-c665-45ae-ac6d-282f069841ce:544",
+                        "encodedSpace": "<p>differentiation of cells into medulla and cortex</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "cb65918a-2e42-41d2-ac5a-64bc6175ac91",
+                "name": "Number of Cells in Cortex",
+                "type": "NumberFilter",
+                "position": 11,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "cb65918a-2e42-41d2-ac5a-64bc6175ac91:1.0",
+                        "encodedSpace": 1.0
+                    },
+                    {
+                        "spaceIdentifier": "cb65918a-2e42-41d2-ac5a-64bc6175ac91:2.0",
+                        "encodedSpace": 2.0
+                    },
+                    {
+                        "spaceIdentifier": "cb65918a-2e42-41d2-ac5a-64bc6175ac91:3.0",
+                        "encodedSpace": 3.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "f9baca72-a3a3-4230-b0b6-8d98b03cf222",
+                "name": "Number of Cells in Medulla",
+                "type": "NumberFilter",
+                "position": 12,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:3.0",
+                        "encodedSpace": 3.0
+                    },
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:4.0",
+                        "encodedSpace": 4.0
+                    },
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:5.0",
+                        "encodedSpace": 5.0
+                    },
+                    {
+                        "spaceIdentifier": "f9baca72-a3a3-4230-b0b6-8d98b03cf222:6.0",
+                        "encodedSpace": 6.0
+                    }
+                ],
+                "definition": {
+                    "unit": "",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e5fcc431-99eb-4397-8b4d-234b77567a9d",
+                "name": "Blade/ Branch Width (Text)",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e5fcc431-99eb-4397-8b4d-234b77567a9d:432",
+                        "encodedSpace": "~ 0.5-10 mm"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "9ee4c131-43ab-41c4-9a6f-b7068d5ec7a1",
+                "name": "Hairs (on blade)",
+                "type": "TextOnlyFilter",
+                "position": 9,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "9ee4c131-43ab-41c4-9a6f-b7068d5ec7a1:439",
+                        "encodedSpace": "without hairs on blade (or only rarely observed)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "af23cb9d-282d-4501-98c5-3c739590d299",
+                "name": "Growth Habit",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "af23cb9d-282d-4501-98c5-3c739590d299:710",
+                        "encodedSpace": "<p>solitary</p>"
+                    },
+                    {
+                        "spaceIdentifier": "af23cb9d-282d-4501-98c5-3c739590d299:711",
+                        "encodedSpace": "<p>gregarious</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 92",
+            "shortTextKey": "taxon_text_17_665",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 92",
+            "shortTextKey": "taxon_text_2_666",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 92",
+            "shortTextKey": "taxon_text_18_667",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 92",
+            "shortTextKey": "taxon_text_4_668",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 92",
+            "shortTextKey": "taxon_text_5_669",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 92",
+            "shortTextKey": "taxon_text_6_670",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland, Wadden Sea (West), Wadden Sea (East), Baltic Sea (West), Baltic Sea (East)",
+            "shortTextKey": "taxon_text_13_671",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-60-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-60-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-60-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Ralfsia californica",
+            "taxonAuthor": "Setchell & N.L.Gardner 1924"
+        },
+        {
+            "taxonLatname": "Fucus fascia",
+            "taxonAuthor": "O.F.Müller 1778"
+        },
+        {
+            "taxonLatname": "Phyllitis fascia",
+            "taxonAuthor": "(O.F.Müller) Kützing 1843"
+        },
+        {
+            "taxonLatname": "Ilea fascia",
+            "taxonAuthor": "(O.F.Müller) Fries 1835"
+        },
+        {
+            "taxonLatname": "Phyllitis fascia var. caespitosa",
+            "taxonAuthor": "(J.Agardh) Farlow 1881"
+        },
+        {
+            "taxonLatname": "Phyllitis fascia var. tenuissima",
+            "taxonAuthor": "Batters"
+        },
+        {
+            "taxonLatname": "Petalonia fascia var. debilis",
+            "taxonAuthor": "(Kützing) Hamel 1937"
+        },
+        {
+            "taxonLatname": "Laminaria fascia",
+            "taxonAuthor": "(O.F.Müller) C.Agardh 1817"
+        },
+        {
+            "taxonLatname": "Phyllitis fascia var. curvata",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Phyllitis fascia var. latior",
+            "taxonAuthor": "Hariot 1889"
+        },
+        {
+            "taxonLatname": "Phyllitis debilis",
+            "taxonAuthor": "Kützing 1849"
+        },
+        {
+            "taxonLatname": "Phycolapathum cuneatum",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Phyllitis caespitosa",
+            "taxonAuthor": "Le Jolis 1863"
+        },
+        {
+            "taxonLatname": "Scytosiphon fascia",
+            "taxonAuthor": "(O.F.Müller) P.Crouan & H.Crouan 1867"
+        },
+        {
+            "taxonLatname": "Phyllitis fascia var. debilis",
+            "taxonAuthor": "(C.Agardh) Hauck 1883"
+        },
+        {
+            "taxonLatname": "Petalonia debilis",
+            "taxonAuthor": "(Kützing) Derbès & Solier 1850"
+        },
+        {
+            "taxonLatname": "Ulva fascia",
+            "taxonAuthor": "(O.F.Müller) Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Ilea fascia f. debilis",
+            "taxonAuthor": "(Kützing) Setchell & N.L.Gardner 1924"
+        },
+        {
+            "taxonLatname": "Ilea fascia f. caespitosa",
+            "taxonAuthor": "(J.Agardh) Setchell & N.L.Gardner 1924"
+        },
+        {
+            "taxonLatname": "Punctaria caespitosa",
+            "taxonAuthor": "J.Agardh 1836"
+        },
+        {
+            "taxonLatname": "Ilea caespitosa",
+            "taxonAuthor": "(J.Agardh) Nordstedt 1912"
+        },
+        {
+            "taxonLatname": "Laminaria caespitosa",
+            "taxonAuthor": "(J.Agardh) J.Agardh 1848"
+        },
+        {
+            "taxonLatname": "Ulva fascia var. tenuior",
+            "taxonAuthor": "Lyngbye 1819"
+        },
+        {
+            "taxonLatname": "Saccharina caespitosa",
+            "taxonAuthor": "(J.Agardh) Kuntze 1891"
+        },
+        {
+            "taxonLatname": "Saccharina fascia",
+            "taxonAuthor": "(O.F.Müller) Kuntze 1891"
+        },
+        {
+            "taxonLatname": "Punctaria debilis",
+            "taxonAuthor": "(Kützing) Trevisan 1849"
+        },
+        {
+            "taxonLatname": "Ilea fascia f. crispa",
+            "taxonAuthor": "A.D.Zinova 1949"
+        },
+        {
+            "taxonLatname": "Ilea fascia f. typica",
+            "taxonAuthor": "Kjellman 1883"
+        },
+        {
+            "taxonLatname": "Laminaria debilis",
+            "taxonAuthor": "C.Agardh 1820"
+        },
+        {
+            "taxonLatname": "Phycolapathum debile",
+            "taxonAuthor": "Kützing 1843"
+        },
+        {
+            "taxonLatname": "Saccharina debilis",
+            "taxonAuthor": "(Kützing) Kuntze 1891"
+        }
+    ],
+    "gbifNubKey": 3197920,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

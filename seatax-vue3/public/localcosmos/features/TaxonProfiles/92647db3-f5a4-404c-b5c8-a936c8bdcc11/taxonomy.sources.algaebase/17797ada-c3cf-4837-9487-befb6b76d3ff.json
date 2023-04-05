@@ -1,0 +1,307 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ulva prolifera",
+    "taxonAuthor": "O.F.Müller 1778",
+    "nameUuid": "17797ada-c3cf-4837-9487-befb6b76d3ff",
+    "taxonNuid": "00700200500a00600g04d",
+    "vernacular": {
+        "en": "Ulva prolifera"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ulva prolifera"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:43",
+                        "encodedSpace": [
+                            [
+                                202,
+                                230,
+                                47,
+                                1
+                            ],
+                            [
+                                43,
+                                73,
+                                5,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(202,230,47,1),rgba(43,73,5,1))",
+                        "gradient": true,
+                        "description": "grass-green to dark-green"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f",
+                "name": "Distromatic - Structure",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "89005ef6-81f5-4c3f-acfc-7ec8fce4134f:238",
+                        "encodedSpace": "5-50 cm, leaf-like or tubular"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "647345f2-d5a5-47f7-b4ef-563cfda8f2d6:232",
+                        "encodedSpace": "Thallus flat and leaf-like or tubular (compressed or flat)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa",
+                "name": "Flat/Leaf/Tubular Structure",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "e19a3ed2-bbf0-408c-a2e1-b0679f669aaa:234",
+                        "encodedSpace": "leaf-like (flat) or tubular, tough (distromatic)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "63cb9790-b6af-4396-b2b4-834312d46188",
+                "name": "Habit of big (5-50cm) leafs or tubes",
+                "type": "TextOnlyFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "63cb9790-b6af-4396-b2b4-834312d46188:241",
+                        "encodedSpace": "delicate to tough blades or tubes, light to dark-green (infra-supralittoral zone)"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "ce360227-f8fd-4e20-bc2f-5c61d282eb89",
+                "name": "Possible Thallus Habitus",
+                "type": "TextOnlyFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": true,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "ce360227-f8fd-4e20-bc2f-5c61d282eb89:252",
+                        "encodedSpace": "branched tubes"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 394",
+            "shortTextKey": "taxon_text_17_2692",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 394",
+            "shortTextKey": "taxon_text_2_2693",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 394",
+            "shortTextKey": "taxon_text_18_2694",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 394",
+            "shortTextKey": "taxon_text_4_2695",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 394",
+            "shortTextKey": "taxon_text_5_2696",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 394",
+            "shortTextKey": "taxon_text_6_2697",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-127-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-127-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-127-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Enteromorpha prolifera",
+            "taxonAuthor": "(O.F.Müller) J.Agardh 1883"
+        },
+        {
+            "taxonLatname": "Enteromorpha salina",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Enteromorpha salina var. polyclados",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Enteromorpha procera",
+            "taxonAuthor": "K.Ahlner 1877"
+        },
+        {
+            "taxonLatname": "Enteromorpha prolifera f. simplex",
+            "taxonAuthor": "K.L.Vinogradova 1974"
+        },
+        {
+            "taxonLatname": "Enteromorpha compressa var. trichodes",
+            "taxonAuthor": "Kützing 1845"
+        },
+        {
+            "taxonLatname": "Enteromorpha polyclados",
+            "taxonAuthor": "(Kützing) Kützing 1856"
+        },
+        {
+            "taxonLatname": "Ulva compressa var. prolifera",
+            "taxonAuthor": "(O.F.Müller) C.Agardh 1823"
+        },
+        {
+            "taxonLatname": "Ulva enteromorpha f. prolifera",
+            "taxonAuthor": "(O.F.Müller) Van Heurck"
+        },
+        {
+            "taxonLatname": "Enteromorpha compressa var. prolifera",
+            "taxonAuthor": "(O.F.Müller) Greville 1830"
+        },
+        {
+            "taxonLatname": "Ulva procera",
+            "taxonAuthor": "(K.Ahlner) H.S.Hayden, Blomster, Maggs, P.C.Silva, Stanhope & Waaland 2003"
+        },
+        {
+            "taxonLatname": "Ulva simplex",
+            "taxonAuthor": "(K.L.Vinogradova) H.S.Hayden, Blomster, Maggs, P.C.Silva, Stanhope & Waaland 2003"
+        },
+        {
+            "taxonLatname": "Enteromorpha procera var. minuta",
+            "taxonAuthor": "V.J.Chapman 1940"
+        },
+        {
+            "taxonLatname": "Enteromorpha crinita f. procera",
+            "taxonAuthor": "(Ahlner) Sjöstedt 1927"
+        },
+        {
+            "taxonLatname": "Enteromorpha procera f. denudata",
+            "taxonAuthor": "K.Ahlner"
+        },
+        {
+            "taxonLatname": "Enteromorpha procera var. prolifica",
+            "taxonAuthor": "V.J.Chapman"
+        },
+        {
+            "taxonLatname": "Enteromorpha procera f. ramulifera",
+            "taxonAuthor": "Ahlner 1877"
+        },
+        {
+            "taxonLatname": "Enteromorpha clathrata f. denudata",
+            "taxonAuthor": "(Ahlner) Kylin 1907"
+        },
+        {
+            "taxonLatname": "Enteromorpha clathrata var. procera",
+            "taxonAuthor": "(Ahlner) Hauck 1884"
+        },
+        {
+            "taxonLatname": "Enteromorpha clathrata f. ramulifera",
+            "taxonAuthor": "(Ahlner) V.J.Chapman 1877"
+        },
+        {
+            "taxonLatname": "Enteromorpha simplex",
+            "taxonAuthor": "(K.L.Vinogradova) R.P.T.Koeman & Hoek 1982"
+        }
+    ],
+    "gbifNubKey": 5273366,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Bryopsis hypnoides",
+        "taxonAuthor": "J.V.Lamouroux 1809",
+        "nameUuid": "d58f2422-30af-44aa-bbf6-03c7e768455d",
+        "taxonNuid": "00700200500100100200u",
+        "imageUrl": null,
+        "gbifNubKey": 5272051
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Bryopsis lyngbyei",
+        "taxonAuthor": "Hornemann 1818",
+        "nameUuid": "360a4bfe-5859-4762-b90d-aaa046ea5eab",
+        "taxonNuid": "007002005001001002012",
+        "imageUrl": null,
+        "gbifNubKey": 5272040
+    },
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Bryopsis plumosa",
+        "taxonAuthor": "(Hudson) C.Agardh 1823",
+        "nameUuid": "00b2922b-83c0-44e5-921b-77c17d36ad57",
+        "taxonNuid": "00700200500100100201j",
+        "imageUrl": null,
+        "gbifNubKey": 5272029
+    }
+]

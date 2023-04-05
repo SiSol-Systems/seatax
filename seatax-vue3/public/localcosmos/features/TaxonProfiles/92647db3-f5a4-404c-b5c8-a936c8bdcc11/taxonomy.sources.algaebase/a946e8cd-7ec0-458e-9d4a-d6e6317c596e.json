@@ -1,0 +1,383 @@
+{
+    "taxonSource": "taxonomy.sources.algaebase",
+    "taxonLatname": "Ectocarpus fasciculatus",
+    "taxonAuthor": "Harvey 1841",
+    "nameUuid": "a946e8cd-7ec0-458e-9d4a-d6e6317c596e",
+    "taxonNuid": "00o008007004003018",
+    "vernacular": {
+        "en": "Ectocarpus fasciculatus"
+    },
+    "allVernacularNames": {},
+    "nodeNames": [
+        "Ectocarpus fasciculatus"
+    ],
+    "nodeDecisionRules": [],
+    "traits": [
+        {
+            "matrixFilter": {
+                "uuid": "031bed6a-5bfe-4d83-b448-4d69447f925a",
+                "name": "Colour of Main Thallus (approximately)",
+                "type": "ColorFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "031bed6a-5bfe-4d83-b448-4d69447f925a:42",
+                        "encodedSpace": [
+                            [
+                                128,
+                                128,
+                                64,
+                                1
+                            ],
+                            [
+                                45,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "html": "linear-gradient(to right, rgba(128,128,64,1),rgba(45,0,0,1))",
+                        "gradient": true,
+                        "description": "olive-green, brown to almost black"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "182aacf0-b244-4573-a2b7-4d92ce75b595",
+                "name": "Thallus Habit",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "182aacf0-b244-4573-a2b7-4d92ce75b595:46",
+                        "encodedSpace": "<p>Thallus <strong>filamentous</strong>, <strong>bushy</strong> or <strong>turf-like</strong>, uni- or multiseriate or parenchymatous, unbranched&nbsp; or branched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1d569a2d-5f24-43e4-aa86-35178b0f24a3",
+                "name": "Thallus Shape",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "1d569a2d-5f24-43e4-aa86-35178b0f24a3:941",
+                        "encodedSpace": "<p>Thallus<strong> flaccid, uniseriate to multiseriate to parenchymatic</strong> axes (&lt; 1 mm width), branched or unbranched</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "b438b28c-0da8-4bcd-bc82-e5579367e55a",
+                "name": "Nuclei",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 0,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "b438b28c-0da8-4bcd-bc82-e5579367e55a:910",
+                        "encodedSpace": "<p>&nbsp;Usually no nuclei visible in cells</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-423-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-423-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-423-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "6fc917eb-691a-4b2a-8d1c-35f599013c61",
+                "name": "Plastids",
+                "type": "DescriptiveTextAndImagesFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "6fc917eb-691a-4b2a-8d1c-35f599013c61:911",
+                        "encodedSpace": "<p>Ribbon shaped parietal plastids</p>",
+                        "imageUrl": {
+                            "1x": "/localcosmos/user_content/content_images/image-349-250.webp",
+                            "2x": "/localcosmos/user_content/content_images/image-349-500.webp",
+                            "4x": "/localcosmos/user_content/content_images/image-349-1000.webp"
+                        },
+                        "secondaryImageUrl": null
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "93c67166-061b-4c94-b6f7-5d026d91e108",
+                "name": "Size",
+                "type": "RangeFilter",
+                "position": 3,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "encodedSpace": [
+                            0.0,
+                            10.0
+                        ],
+                        "spaceIdentifier": "93c67166-061b-4c94-b6f7-5d026d91e108:WzAuMCwxMC4wXQ=="
+                    }
+                ],
+                "definition": {
+                    "min": null,
+                    "max": null,
+                    "step": 1.0,
+                    "unit": "cm",
+                    "unit_verbose": ""
+                }
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "041991f9-d6d6-4ec2-bf45-bc9c3a890996",
+                "name": "Habitus",
+                "type": "TextOnlyFilter",
+                "position": 1,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "041991f9-d6d6-4ec2-bf45-bc9c3a890996:993",
+                        "encodedSpace": "<p>short felty coverages</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "1898d5ef-48e6-4a25-9f49-07970bed9092",
+                "name": "Habitat",
+                "type": "TextOnlyFilter",
+                "position": 6,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "1898d5ef-48e6-4a25-9f49-07970bed9092:995",
+                        "encodedSpace": "<p><strong>sublittoral</strong>, mostly epiphytic on diverse seaweeds (esp. <strong>on </strong><i><strong>Laminaria digitata</strong> </i>blades from spring onwards) or on other substrates</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "33d48fd5-3691-48e5-b8cc-7a509473fda5",
+                "name": "Reproductive Organs",
+                "type": "TextOnlyFilter",
+                "position": 4,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "33d48fd5-3691-48e5-b8cc-7a509473fda5:996",
+                        "encodedSpace": "<p>plurilocs stalked, oblong and attenuate (silique), broadest at center, often enlongating into a few-celled false hair; unilocs sessile egg-shaped, rare, normally on same thallus with plurilocs</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "c682d956-4ef0-4758-b393-d940b5abad03",
+                "name": "Main Axis",
+                "type": "TextOnlyFilter",
+                "position": 2,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": [],
+                "space": [
+                    {
+                        "spaceIdentifier": "c682d956-4ef0-4758-b393-d940b5abad03:1174",
+                        "encodedSpace": "<p><strong>with distinct </strong>slightly angled <strong>main axes, </strong>often bare below</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        },
+        {
+            "matrixFilter": {
+                "uuid": "082869e7-50a2-497a-90ae-71c36a0002c9",
+                "name": "Branching Pattern",
+                "type": "TextOnlyFilter",
+                "position": 5,
+                "description": null,
+                "weight": 1,
+                "restrictions": {},
+                "isRestricted": false,
+                "allowMultipleValues": false,
+                "identificationMeans": null,
+                "space": [
+                    {
+                        "spaceIdentifier": "082869e7-50a2-497a-90ae-71c36a0002c9:999",
+                        "encodedSpace": "<p><strong>fasciculate </strong>(=name giving: clusters of branches arise near same area on axis), resulting in a slightly structured appearance becoming more pronounced in summer</p>"
+                    }
+                ],
+                "definition": {}
+            }
+        }
+    ],
+    "texts": [
+        {
+            "taxonTextType": "Species Description",
+            "shortText": "Description 37",
+            "shortTextKey": "taxon_text_17_254",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Size",
+            "shortText": "Size 37",
+            "shortTextKey": "taxon_text_2_255",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Reproduction",
+            "shortText": "Reprdouctive Features 37",
+            "shortTextKey": "taxon_text_18_256",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Identity Confusion",
+            "shortText": "Identity Confusion 37",
+            "shortTextKey": "taxon_text_4_257",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Habitat",
+            "shortText": "Habitate 37",
+            "shortTextKey": "taxon_text_5_258",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Seasonality",
+            "shortText": "Life Cycle 37",
+            "shortTextKey": "taxon_text_6_259",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Distribution (Germany)",
+            "shortText": "Helgoland",
+            "shortTextKey": "taxon_text_13_260",
+            "longText": null,
+            "longTextKey": null
+        },
+        {
+            "taxonTextType": "Comment (RK-Liste)",
+            "shortText": "var von E. siliculosus",
+            "shortTextKey": "taxon_text_14_261",
+            "longText": null,
+            "longTextKey": null
+        }
+    ],
+    "images": {
+        "taxonProfileImages": [],
+        "nodeImages": [
+            {
+                "text": null,
+                "imageUrl": {
+                    "1x": "/localcosmos/user_content/content_images/image-386-250.webp",
+                    "2x": "/localcosmos/user_content/content_images/image-386-500.webp",
+                    "4x": "/localcosmos/user_content/content_images/image-386-1000.webp"
+                }
+            }
+        ],
+        "taxonImages": []
+    },
+    "synonyms": [
+        {
+            "taxonLatname": "Ectocarpus fasciculatus var. pycnocarpus",
+            "taxonAuthor": "(Rosenvinge) Cardinal 1964"
+        },
+        {
+            "taxonLatname": "Ectocarpus fasciculatus var. draparnaldioides",
+            "taxonAuthor": "P.Crouan & H.Crouan 1867"
+        },
+        {
+            "taxonLatname": "Ectocarpus draparnaldioides",
+            "taxonAuthor": "(P.Crouan & H.Crouan) Kjellman 1872"
+        },
+        {
+            "taxonLatname": "Ectocarpus landsburgii",
+            "taxonAuthor": "Harvey 1849"
+        },
+        {
+            "taxonLatname": "Ectocarpus pycnocarpus",
+            "taxonAuthor": "Rosenvinge 1893"
+        }
+    ],
+    "gbifNubKey": 3199608,
+    "templateContents": [],
+    "genericForms": [],
+    "tags": []
+}

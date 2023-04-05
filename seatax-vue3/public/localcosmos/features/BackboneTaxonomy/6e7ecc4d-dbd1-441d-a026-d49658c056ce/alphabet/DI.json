@@ -1,0 +1,24 @@
+[
+    {
+        "taxonSource": "taxonomy.sources.algaebase",
+        "taxonLatname": "Dictyota dichotoma",
+        "taxonAuthor": "(Hudson) J.V.Lamouroux 1809",
+        "nameUuid": "02b5d203-c855-4d0f-82f5-978aa06df3dd",
+        "taxonNuid": "00o00800500100100500t",
+        "imageUrl": {
+            "1x": "/localcosmos/user_content/content_images/image-88-250.webp",
+            "2x": "/localcosmos/user_content/content_images/image-88-500.webp",
+            "4x": "/localcosmos/user_content/content_images/image-88-1000.webp"
+        },
+        "gbifNubKey": 5423480
+    },
+    {
+        "taxonSource": "app_kit.features.nature_guides",
+        "taxonLatname": "Dictyosiphon foeniculaceus",
+        "taxonAuthor": null,
+        "nameUuid": "7a6b8c98-decc-49af-854b-a8616f69b42d",
+        "taxonNuid": "00100100500d003",
+        "imageUrl": null,
+        "gbifNubKey": 7847644
+    }
+]
