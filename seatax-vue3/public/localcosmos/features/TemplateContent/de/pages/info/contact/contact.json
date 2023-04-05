@@ -1,9 +1,0 @@
-{
-    "title": "Contact",
-    "templateName": "info",
-    "templatePath": "/template_content/page/info/info.html",
-    "version": 1,
-    "contents": {
-        "text": "<p>Dr. Inka Bartsch (project lead, responsible for scientific content): <a href=\"mailto:inka.bartsch@awi.de\">inka.bartsch@awi.de</a></p><p>Tosia Schmithüsen (project coordination &amp; implementation): <a href=\"mailto:tosia.schmithuesen@awi.de\">tosia.schmithuesen@awi.de</a></p><p>Thomas Uher/ SiSol Systems (Software Development): Link zu SiSol Systems/LocalCosmos App und/oder Thomas Email?</p>"
-    }
-}
