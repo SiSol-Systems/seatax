@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { ref, onUpdated, onMounted, computed } from 'vue';
-import { IdentificationKeyReference, IdentificationModes } from '@/types/localcosmos/src/features/NatureGuide';
+import { computed } from 'vue';
+import type { IdentificationKeyReference, IdentificationModes } from '@/types/localcosmos/src/features/NatureGuide';
 import LazyRenderer from '@/components/container/LazyRenderer.vue';
 import { useImagesToSrcset } from '@/composables/localcosmos';
 import TaxonLatname from '@/components/localcosmos/TaxonLatname.vue';
-import EvaluationImage from '@/components/localcosmos/NatureGuide/EvaluationImage.vue';
 
-defineEmits(['select']);
+const emit = defineEmits(['select', 'openEvaluationImage', 'openDescription']);
 
 const props = defineProps({
   mode: { type: String as () => IdentificationModes, required: true },
@@ -56,22 +55,11 @@ const pointsColor = computed(() => {
 });
 
 
-// Modal
-import { useModal } from 'vue-final-modal';
-import LargeModal from '@/components/ui/LargeModal.vue';
-const { open, close } = useModal({
-  component: LargeModal,
-  attrs: {
-    title: `${props.reference.name}`,
-    onConfirm() {
-      close();
-    },
-  },
-  slots: {
-    default: `<p>${props.reference.description}</p>`,
-  },
-});
-
+function openImage(event){
+    //event.preventDefault();
+    event.stopPropagation();
+    emit('openEvaluationImage');
+}
 </script>
 
 <template>
@@ -87,7 +75,7 @@ const { open, close } = useModal({
       <div
         v-if="reference.description"
         class="box-shadow flex flex-row font-condensed cursor-pointer justify-center items-center h-45 back-neutral text-xs rounded-xl p-2 mr-2"
-        @click="open"
+        @click="$emit('openDescription')"
       >
         <div>description</div>
       </div>
@@ -107,10 +95,16 @@ const { open, close } = useModal({
         <span v-else>{{ reference.name }}</span>
       </div>
 
-      <EvaluationImage v-if="reference.imageUrl" :reference="reference" />
+      <div
+        v-if="reference.imageUrl"
+        class="reference-image rounded-lg"
+        :style="`background-image:url(${reference.imageUrl?.['2x']})`"
+        @click="openImage"
+      >
+      </div>
+      
       
     </div>
-
   </LazyRenderer>
 </template>
 
@@ -121,5 +115,13 @@ const { open, close } = useModal({
   }
   .h-45 {
     height: 45%;
+  }
+
+  .reference-image {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 </style>

@@ -1,9 +1,9 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 
-import { Frontend } from "@/models/Frontend";
+import { Frontend } from '@/models/Frontend';
 
-import { createVfm } from 'vue-final-modal'
+import { createVfm } from 'vue-final-modal';
 
 import { useFeatureStore } from '@/stores/features';
 import { useGlossaryStore } from '@/stores/glossary';
@@ -16,9 +16,13 @@ import i18next from 'i18next';
 import I18NextVue from 'i18next-vue';
 import HttpApi from 'i18next-http-backend';
 
-import './assets/flat.css'
+import './assets/flat.css';
 import 'material-icons/iconfont/material-icons.css';
-import 'vue-final-modal/style.css'
+import 'vue-final-modal/style.css';
+
+import { useModalsStore } from '@/stores/modals';
+
+window.currentState = {};
 
 function onDeviceReady(event){
 
@@ -66,6 +70,42 @@ function onDeviceReady(event){
                         const lcFrontend = new Frontend(frontendData);
         
                         app.provide('lcFrontend', lcFrontend);
+
+                        // native app style backbutton
+                        const modals = useModalsStore();
+
+                        router.beforeEach((to, from, next) => {
+
+                            let goToNext = true;
+                            if (window.event?.type == 'popstate'){
+
+                                if (modals.burgerMenu == true) {
+                                    goToNext = false;
+                                    modals.closeBurger();
+                                }
+
+                                if (modals.largeModal == true) {
+                                    goToNext = false;
+                                    modals.closeLargeModal();
+                                }
+
+                                if (modals.fullScreenModal == true) {
+                                    goToNext = false;
+                                    modals.closeFullscreenModal();
+                                }
+
+                                if (goToNext == false){
+                                    // close the burger, push the dropped state, maintain url
+                                    window.history.pushState(window.currentState, '', window.history.state.forward);
+                                }
+                            }
+
+                            if (goToNext == true){
+                                window.currentState = JSON.parse(JSON.stringify(window.history.state));
+                                next();
+                            }
+
+                        });
         
                         app.use(router);
 
@@ -82,7 +122,7 @@ function onDeviceReady(event){
                                 // load from i18next-gitbook repo
                                 loadPath: '/locales/{{lng}}/{{ns}}.json',
                                 crossDomain: true,
-                            }
+                            },
         
                         }).then(() => {
         

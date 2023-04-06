@@ -7,17 +7,11 @@ import { PointerListener, Pan, Tap } from 'contactjs';
 import { ref, onMounted, provide } from 'vue';
 import { ModalsContainer } from 'vue-final-modal';
 
+import { useModalsStore } from '@/stores/modals';
+
+const modals = useModalsStore();
+
 import  GlossaryBubble from '@/components/ui/GlossaryBubble.vue';
-
-const burgerOpen = ref(false);
-
-function onOpenBurger(event){
-  burgerOpen.value = true;
-}
-
-function onCloseBurger(event){
-  burgerOpen.value = false;
-}
 
 onMounted(() => {
 
@@ -32,13 +26,14 @@ onMounted(() => {
 
 const glossaryBubble = ref();
 provide('glossaryBubble', glossaryBubble);
+
 </script>
 
 <template>
   <div id="app-content">
     <Suspense>
       <!-- main content -->
-      <NavBar @openBurger="onOpenBurger" />
+      <NavBar @openBurger="modals.openBurger" />
 
       <!-- loading state -->
       <template #fallback>
@@ -77,7 +72,7 @@ provide('glossaryBubble', glossaryBubble);
   </div>
 
   <Suspense>
-    <BurgerMenu :is-open="burgerOpen" @closeBurger="onCloseBurger" />
+    <BurgerMenu :is-open="modals.burgerMenu" @closeBurger="modals.closeBurger" />
       <template #fallback>
       Loading...
     </template>

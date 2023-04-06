@@ -9,6 +9,11 @@ import NatureGuideFilters from '@/components/localcosmos/NatureGuide/NatureGuide
 import MobileNodeName from '@/components/localcosmos/NatureGuide/MobileNodeName.vue';
 import DesktopNodeName from '@/components/localcosmos/NatureGuide/DesktopNodeName.vue';
 
+import FullScreenModal from '@/components/ui/FullScreenModal.vue';
+import LargeModal from '@/components/ui/LargeModal.vue';
+
+import { useModalsStore } from '@/stores/modals';
+
 import { useNatureGuideStore } from '@/stores/nature-guides';
 import type { IdentificationKeyReference as Reference } from '@/types/localcosmos/src/features/NatureGuide';
 
@@ -64,6 +69,8 @@ const onBack = () => {
     });
   }
 };*/
+
+const descriptionNode = ref();
 
 const matrixState = 'matrixScreen';
 const itemsState = 'itemsScreen';
@@ -202,31 +209,24 @@ window.removeEventListener('resize', onResize);
 window.addEventListener('resize', onResize);
 
 // overview Modal
+const modals = useModalsStore();
 const images = ref();
 const selectedIndex = ref(0);
 
-import { useModal } from 'vue-final-modal';
-import FullScreenModal from '@/components/ui/FullScreenModal.vue';
-const { open, close } = useModal({
-  component: FullScreenModal,
-  attrs: {
-    images: images,
-    selectedIndex: selectedIndex,
-    onClose() {
-      close();
-    },
-  },
-  slots: {
-    default: '',
-  },
-});
-
 function showOverviewImage(event) {
   images.value = [node.value.overviewImage];  
-  open();
+  modals.openFullscreenModal();
 }
 
+function openEvaluationImage(child){
+  images.value = [child];
+  modals.openFullscreenModal();
+}
 
+function openDescription(child){
+  descriptionNode.value = child;
+  modals.openLargeModal();
+}
 
 </script>
 
@@ -333,6 +333,8 @@ function showOverviewImage(event) {
                     :reference="child"
                     :points="node.points[child.uuid]"
                     @select="selectReference(child)"
+                    @openEvaluationImage="openEvaluationImage(child)"
+                    @openDescription="openDescription(child)"
                   />
                   <div
                     v-show="node.impossibleResults.length > 0"
@@ -346,6 +348,8 @@ function showOverviewImage(event) {
                     :points="node.points[child.uuid]"
                     class="opacity-25"
                     @select="selectReference(child)"
+                    @openEvaluationImage="openEvaluationImage(child)"
+                    @openDescription="openDescription(child)"
                   />
                 </div>
               </div>
@@ -354,6 +358,19 @@ function showOverviewImage(event) {
         </div>
       </div>
     </div>
+    <FullScreenModal
+      v-model="modals.fullScreenModal"
+      :images="images"
+      :selected-index="selectedIndex"
+      @close="modals.closeFullscreenModal"
+    />
+    <LargeModal
+      v-model="modals.largeModal"
+      :title="descriptionNode?.name"
+      @close="modals.closeLargeModal"
+    >
+      <p>{{ descriptionNode?.description }}</p>
+    </LargeModal>
   </div>
 
 </template>

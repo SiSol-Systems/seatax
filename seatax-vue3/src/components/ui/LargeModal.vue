@@ -6,7 +6,7 @@ defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: 'confirm'): void
+  (e: 'close'): void
 }>();
 </script>
 
@@ -23,7 +23,7 @@ const emit = defineEmits<{
         <slot />
     </div>
     <div class="text-center">
-        <button class="modal-button p-3 rounded-xl" @click="emit('confirm')">
+        <button class="modal-button p-3 rounded-xl" @click="emit('close')">
             Close
         </button>
     </div>

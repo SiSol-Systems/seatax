@@ -11,6 +11,11 @@ import MatrixFilter from '@/components/localcosmos/NatureGuide/MatrixFilter.vue'
 import TaxonLatname from '@/components/localcosmos/TaxonLatname.vue';
 import TaxonProfileImages from '@/components/localcosmos/TaxonProfile/TaxonProfileImages.vue';
 
+import FullScreenModal from '@/components/ui/FullScreenModal.vue';
+import { useModalsStore } from '@/stores/modals';
+
+const modals = useModalsStore();
+
 const route = useRoute();
 const { taxonSource, nameUuid } = route.params;
 
@@ -43,27 +48,10 @@ const images: ComputedRef<{ imageUrl: string }[]> = computed(() => [
 const images = ref([]);
 const selectedIndex = ref(0);
 
-// Modal
-import { ModalsContainer, useModal } from 'vue-final-modal';
-import FullScreenModal from '@/components/ui/FullScreenModal.vue';
-const { open, close } = useModal({
-  component: FullScreenModal,
-  attrs: {
-    images: images,
-    selectedIndex: selectedIndex,
-    onClose() {
-      close();
-    },
-  },
-  slots: {
-    default: '',
-  },
-});
-
 function openModal(taxonImages, clickedIndex) {
   images.value = taxonImages;
   selectedIndex.value = clickedIndex;
-  open();
+  modals.openFullscreenModal();
 }
 
 </script>
@@ -114,6 +102,12 @@ function openModal(taxonImages, clickedIndex) {
         </div>
       </div>
     </div>
+    <FullScreenModal
+      v-model="modals.fullScreenModal"
+      :images="images"
+      :selected-index="selectedIndex"
+      @close="modals.closeFullscreenModal"
+    />
   </div>
 </template>
 
