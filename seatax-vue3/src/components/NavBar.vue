@@ -1,16 +1,15 @@
 <script setup lang="ts">
-  import { inject } from "vue";
+  import { inject } from 'vue';
+  import { useNavigationStore } from '@/stores/navigation';
+  import { useFeatureStore } from '@/stores/features';
 
-  import { useFeatureStore } from '@/stores/features'
   const featureStore = useFeatureStore();
-
-  import { useNavigationStore } from "@/stores/navigation";
   const navigationStore = useNavigationStore();
 
   await navigationStore.loadNavigations();
 
-  const lcSettings = inject("lcSettings");
-  const lcFrontend = inject("lcFrontend");
+  const lcSettings = inject('lcSettings');
+  const lcFrontend = inject('lcFrontend');
 
   const taxonProfiles = featureStore.taxonProfiles;
 
@@ -28,6 +27,7 @@
 
   const logo =  lcFrontend.userContent.images.logo.imageUrl?.['2x'];
   const appName = lcSettings.NAME;
+
 </script>
 
 <template>
@@ -35,6 +35,15 @@
 
     <div class="topbar-content">
       <div class="topbar-left py-3 pl-3">
+        <div
+          class="backbutton cursor-pointer flex flex-row items-center font-condensed mr-5 pl-2"
+          @click="$router.back"
+          v-if="navigationStore.backButtonActive"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <span class="material-icons-round md-36">arrow_back_ios</span>
+          </div>
+        </div>
         <div class="topbar-logo">
           <router-link to="/">
             <img :src="logo" class="mr-3"/>
@@ -103,6 +112,10 @@
 
 .topbar-left, .topbar-right {
   width: 50vw;
+}
+
+.backbutton {
+  text-transform: none;
 }
 
 .topbar-left, .topbar-right, .topbar-middle {

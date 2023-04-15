@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { useRouter, useRoute } from 'vue-router';
-import { ref } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 import { Directions } from 'contactjs';
 import IdentificationKeyReference from '@/components/localcosmos/NatureGuide/IdentificationKeyReference.vue';
 import IdentificationKeyReferenceSimple from '@/components/localcosmos/NatureGuide/IdentificationKeyReferenceSimple.vue';
 import MatrixFilter from '@/components/localcosmos/NatureGuide/MatrixFilter.vue';
-import NatureGuideFilters from '@/components/localcosmos/NatureGuide/NatureGuideFilters.vue';
 import MobileNodeName from '@/components/localcosmos/NatureGuide/MobileNodeName.vue';
 import DesktopNodeName from '@/components/localcosmos/NatureGuide/DesktopNodeName.vue';
 
@@ -14,7 +13,7 @@ import LargeModal from '@/components/ui/LargeModal.vue';
 
 import { useModalsStore } from '@/stores/modals';
 
-import { useNatureGuideStore } from '@/stores/nature-guides';
+import { useNatureGuideStore, NatureGuideViewState } from '@/stores/nature-guides';
 import type { IdentificationKeyReference as Reference } from '@/types/localcosmos/src/features/NatureGuide';
 
 const route = useRoute();
@@ -58,31 +57,19 @@ const selectReference = async (reference: Reference) => {
       }
   }
 };
-/*
-const onBack = () => {
-  if (natureGuideStore.currentNodeIsRootNode) {
-    router.push({ name: 'nature-guide' });
-  } else {
-    router.push({
-      name: 'natureGuideNode',
-      params: { natureGuideSlug: route.params.natureGuideSlug, nodeSlug: route.params.nodeSlug },
-    });
-  }
-};*/
 
 const descriptionNode = ref();
 
-const matrixState = 'matrixScreen';
-const itemsState = 'itemsScreen';
-const screenState = ref(matrixState);
 const panScreenWidth = 1024;
+const traitsViewTransform = 'translate3d(0, 0, 0)';
+const evaluationViewTtransform = 'translate3d(-100vw, 0, 0)';
 
 let ticking = false;
 let animationFrameId = null;
 let panActive = false;
 let startX = 0;
 
-function requestElementUpdate(element, transformString, wait?) {
+function requestElementUpdate(element: HTMLElement, transformString: string, wait?:boolean) {
 
   wait = wait || false;
   
@@ -107,7 +94,7 @@ function requestElementUpdate(element, transformString, wait?) {
 
 }
 
-function getCurrentTranslation(element) {
+function getCurrentTranslation(element: HTMLElement) {
   const matrix = window.getComputedStyle(element).getPropertyValue('transform');
   const translateX = matrix.match(/(-?[0-9\.]+)/g);
 
@@ -119,17 +106,9 @@ function getCurrentTranslation(element) {
 
 }
 
-function goToMatrixItems(){
+function displayEvaluation(){
   const natureGuide = document.getElementById('nature-guide');
-  screenState.value = itemsState;
-  const transformString = 'translate3d(-100vw, 0, 0)';
-  requestElementUpdate(natureGuide, transformString, true);
-}
-
-function goToMatrix(){
-  const natureGuide = document.getElementById('nature-guide');
-  screenState.value = matrixState;
-  const transformString = 'translate3d(0, 0, 0)';
+  const transformString = evaluationViewTtransform;
   requestElementUpdate(natureGuide, transformString, true);
 }
 
@@ -158,28 +137,28 @@ function onPanEnd(event){
 
       if (event.detail.global.direction == 'left'){
         if (deltaX < (-screen.width / 3)){
-          goToMatrixItems();
+          natureGuideStore.goToEvaluation();
         }
         else {
-          goToMatrix();
+          natureGuideStore.goToTraits();
         }
       }
       else {
         if (deltaX > (-screen.width * (2/ 3))){
-          goToMatrix();
+          natureGuideStore.goToTraits();
         }
         else {
-          goToMatrixItems();
+          natureGuideStore.goToEvaluation();
         }
       }
       
     }
     else {
       if (event.detail.live.direction == 'left'){
-        goToMatrixItems();
+        natureGuideStore.goToEvaluation();
       }
       else {
-        goToMatrix();
+        natureGuideStore.goToTraits();
       }
     }
     panActive = false;
@@ -195,18 +174,33 @@ function onPanStart(event){
 
     const natureGuide = event.currentTarget;
     panActive = true;
+    natureGuideStore.currentView = NatureGuideViewState.none;
     natureGuide.classList.add('notransition');
     startX = getCurrentTranslation(event.currentTarget);
   }
 }
 
 function onResize(event){
-  if (screenState.value == itemsState){
-    goToMatrix();
+  if (natureGuideStore.currentView == NatureGuideViewState.evaluation){
+    natureGuideStore.goToTraits();
   }
 }
 window.removeEventListener('resize', onResize);
 window.addEventListener('resize', onResize);
+
+watch(() => natureGuideStore.currentView, (currentView) => {
+  if (currentView != NatureGuideViewState.none) {
+
+    if(currentView == NatureGuideViewState.evaluation){
+      displayEvaluation();
+    }
+    else {
+      const natureGuide = document.getElementById('nature-guide');
+      const transformString = traitsViewTransform;
+      requestElementUpdate(natureGuide, transformString, true);
+    }
+  }
+});
 
 // overview Modal
 const modals = useModalsStore();
@@ -227,6 +221,17 @@ function openDescription(child){
   descriptionNode.value = child;
   modals.openLargeModal();
 }
+
+onMounted(()=>{
+  if (natureGuideStore.currentView == NatureGuideViewState.evaluation){
+    const natureGuide = document.getElementById('nature-guide');
+    if (natureGuide != null){
+      natureGuide.classList.add('notransition');
+      natureGuide.style.transform = evaluationViewTtransform;
+      natureGuide.classList.remove('notransition');
+    }
+  }
+});
 
 </script>
 
@@ -255,15 +260,15 @@ function openDescription(child){
         <div class="tabs flex flex-row items-stretch justify-center lg:hidden">
           <div
             class="flex items-center justify-center pointer"
-            :class="screenState"
-            @click="goToMatrix"
+            :class="natureGuideStore.currentView"
+            @click="natureGuideStore.goToTraits"
           >
             <span>{{ $t('Traits') }}</span>
           </div>
           <div
             class="flex items-center justify-center pointer"
-            :class="screenState"
-            @click="goToMatrixItems"
+            :class="natureGuideStore.currentView"
+            @click="natureGuideStore.goToEvaluation"
           >
             <span>{{ $t('Evaluation') }}</span>
           </div>

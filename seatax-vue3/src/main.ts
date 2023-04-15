@@ -21,8 +21,12 @@ import 'material-icons/iconfont/material-icons.css';
 import 'vue-final-modal/style.css';
 
 import { useModalsStore } from '@/stores/modals';
+import { useNatureGuideStore, NatureGuideViewState } from '@/stores/nature-guides';
+import { useNavigationStore } from '@/stores/navigation';
 
 window.currentState = {};
+
+let rootUrl = '';
 
 function onDeviceReady(event){
 
@@ -73,6 +77,9 @@ function onDeviceReady(event){
 
                         // native app style backbutton
                         const modals = useModalsStore();
+                        const natureGuideStore = useNatureGuideStore();
+
+                        const navigationStore = useNavigationStore();
 
                         router.beforeEach((to, from, next) => {
 
@@ -94,6 +101,11 @@ function onDeviceReady(event){
                                     modals.closeFullscreenModal();
                                 }
 
+                                if (goToNext == true && from.name == 'natureGuideNode' && natureGuideStore.currentView == NatureGuideViewState.evaluation){
+                                    natureGuideStore.goToTraits();
+                                    goToNext = false;
+                                }
+
                                 if (goToNext == false){
                                     // close the burger, push the dropped state, maintain url
                                     window.history.pushState(window.currentState, '', window.history.state.forward);
@@ -101,10 +113,25 @@ function onDeviceReady(event){
                             }
 
                             if (goToNext == true){
-                                window.currentState = JSON.parse(JSON.stringify(window.history.state));
                                 next();
                             }
 
+                            if (to.name == 'home'){
+                                navigationStore.hideBackButton();
+                            }
+                            else {
+                                navigationStore.showBackbutton();
+                            }
+
+
+                        });
+
+                        router.afterEach((to, from)=>{
+                            window.currentState = JSON.parse(JSON.stringify(window.history.state));
+
+                            if (window.event?.type == 'popstate' && from.name == 'taxonProfile'){
+                                natureGuideStore.forceEvaluation();
+                            }
                         });
         
                         app.use(router);
@@ -127,6 +154,14 @@ function onDeviceReady(event){
                         }).then(() => {
         
                             app.use(I18NextVue, { i18next });
+
+                            rootUrl = window.location.href;
+
+                            window.addEventListener('backbutton', function (event) {
+                                if (router.currentRoute.value.name == 'home'){
+                                    navigator.app.exitApp();
+                                }
+                            });
         
                             if (featureStore.glossary) {
                                 fetch(featureStore.glossary.path).then(gr => gr.json()).then(glossaryData => {

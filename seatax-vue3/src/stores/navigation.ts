@@ -1,19 +1,21 @@
 import { defineStore } from 'pinia';
-import { useFeatureStore } from '@/stores/features'
+import { useFeatureStore } from '@/stores/features';
 
-import { inject } from "vue";
+import { inject } from 'vue';
 
 interface State {
   navigations: object
   loaded: boolean
   language: string
+  backButtonActive: boolean
 }
 
 export const useNavigationStore = defineStore('navigation', {
   state: (): State => ({
     navigations: {},
     loaded: false,
-    language: ''
+    language: '',
+    backButtonActive: false,
   }),
   actions: {
     async loadNavigations () {
@@ -21,7 +23,7 @@ export const useNavigationStore = defineStore('navigation', {
       const settings:any = inject('lcSettings');
 
       if (this.loaded == true && this.language == language){
-        return ''
+        return '';
       }
 
       const features = useFeatureStore();
@@ -48,5 +50,12 @@ export const useNavigationStore = defineStore('navigation', {
       this.language = language;
       
     },
+    showBackbutton(){
+      this.backButtonActive = true;
+    },
+    hideBackButton(){
+      this.backButtonActive = false;
+    },
+
   },
 });
