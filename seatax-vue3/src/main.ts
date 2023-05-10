@@ -26,8 +26,6 @@ import { useNavigationStore } from '@/stores/navigation';
 
 window.currentState = {};
 
-let rootUrl = '';
-
 function onDeviceReady(event){
 
     //console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
@@ -54,6 +52,7 @@ function onDeviceReady(event){
         app.provide('language', language);
 
         app.provide('lcSettings', lcSettings);
+        app.provide('device', device);
 
         fetch('/localcosmos/features.json').then(f => f.json()).then(featuresData => {
 
@@ -135,8 +134,6 @@ function onDeviceReady(event){
                         });
         
                         app.use(router);
-
-                        const language = navigator.language;
         
                         i18next.use(HttpApi).init({
                             lng: language,
@@ -154,8 +151,6 @@ function onDeviceReady(event){
                         }).then(() => {
         
                             app.use(I18NextVue, { i18next });
-
-                            rootUrl = window.location.href;
 
                             window.addEventListener('backbutton', function (event) {
                                 if (router.currentRoute.value.name == 'home'){

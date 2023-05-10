@@ -307,7 +307,10 @@ onMounted(()=>{
                 <div class="hidden lg:flex lg:pt-10">
                   <h3 class="uppercase lg:pt-5">{{ $t('Traits') }}</h3>
                 </div>
-                <MobileNodeName :node="node" />
+                <MobileNodeName
+                  :node="node"
+                  @openDescription="openDescription(node)"
+                />
                 <div class="py-5">
                   <div v-for="filter in node.matrixFilters" :key="filter.uuid">
                         
@@ -329,7 +332,10 @@ onMounted(()=>{
                     <h3 class="uppercase">{{ $t('Evaluation') }}</h3>
                   </div>
                 </div>
-                <MobileNodeName :node="node" />
+                <MobileNodeName
+                  :node="node"
+                  @openDescription="openDescription(node)"
+                />
                 <div>
                   <IdentificationKeyReference
                     v-for="child in node.results"
@@ -374,7 +380,10 @@ onMounted(()=>{
       :title="descriptionNode?.name"
       @close="modals.closeLargeModal"
     >
-      <p>{{ descriptionNode?.description }}</p>
+      <p
+        v-html="descriptionNode?.description"
+      >
+      </p>
     </LargeModal>
   </div>
 

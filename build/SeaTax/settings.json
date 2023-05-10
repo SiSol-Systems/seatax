@@ -1,6 +1,6 @@
 {
     "frontend": "SeaTax",
-    "version": "0.1",
+    "version": "0.2",
     "userContent": {
         "images": {
             "appLauncherIcon": {
@@ -79,11 +79,12 @@
     "cordova": {
         "platforms": {
             "android": "android@11.0.0",
-            "ios": "ios@6.2.0",
+            "ios": "ios@6.3.0",
             "browser": "browser@6.0.0"
         },
         "plugins": [
-            "cordova-plugin-device@2.0.3"
+            "cordova-plugin-device@2.1.0",
+            "cordova-plugin-statusbar@3.0.0"
         ]
     }
 }

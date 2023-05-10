@@ -8,7 +8,12 @@
 
     const features = useFeatureStore();
     const language = inject('language');
+    const device = inject('device');
     const templateContentUrl = features.templateContent.assignments.home[language];
+
+    const lcFrontend = inject('lcFrontend');
+    const logo =  lcFrontend.userContent.images.logo.imageUrl?.['2x'];
+
 
     const data = ref();
     const loading = ref(true);
@@ -61,8 +66,11 @@
                 <div class="container p-10" v-html="data.contents.projectDescription">
                 </div>
             </div>
-            <!--
-            <div class="app-stores flex justify-center items-center py-10">
+            
+            <div
+                v-if="device.platform && device.platform=='browser'"
+                class="app-stores flex justify-center items-center py-10"
+            >
                 <div class="container">
                     <div class="asapp-title text-center md:text-large">
                         Also available as App
@@ -70,12 +78,12 @@
                     <div class="flex flex-row flex-wrap pt-10">
                         <div class="lg:w-3/4 flex pb-5">
                             <div class="px-5">
-                                <img class="app-logo" src="/tmp/seatax-logo.svg" />
+                                <img class="app-logo" :src="logo" />
                             </div>
                             <div class="w-3/4 pl-5">
-                                <div class="app-title uppercase">
+                                <div class="app-title">
                                     <div v-html="data.contents.appShortName"></div>
-                                    <div v-html="data.contents.appFullName"></div>
+                                    <div v-html="data.contents.appFullName" class="app-full-name"></div>
                                 </div>
                                 <div class=" app-subtitle capitalize pt-3" v-html="data.contents.appSubtitle">
                                 </div>
@@ -92,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            -->
+            
             <div class="articles md:mt-10 flex justify-center items-center">
                 <div class="small-container">
 
@@ -132,7 +140,7 @@
 }
 
 .badges img {
-    height: 4rem;
+    height: 3rem;
     width: auto;
 }
 
@@ -159,7 +167,11 @@
 }
 
 .app-title {
-    font-size: var(--text-size-medium);
+    font-size: var(--text-size-larger);
+}
+
+.app-full-name {
+    font-size: var(--text-size-regular);
 }
 
 @media (min-width: 640px) {
@@ -177,6 +189,14 @@
 
     .app-subtitle {
         font-size: var(--text-size-medium);
+    }
+
+    .app-full-name {
+        font-size: var(--text-size-medium);
+    }
+
+    .badges img {
+        height: 4rem;
     }
 }
 

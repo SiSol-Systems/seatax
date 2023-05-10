@@ -70,7 +70,7 @@ function openModal(taxonImages, clickedIndex) {
         <h2>
           {{ t('Gallery') }}
         </h2>
-        <div class="mt-5 flex flex-row flex-wrap justify-center md:justify-start items-center md:items-start gap-3 md:gap-10">
+        <div class="mt-5 flex flex-row flex-wrap justify-center md:justify-start items-start md:items-start gap-3 md:gap-10">
           <TaxonProfileImages
             :images="taxonProfile.images.taxonProfileImages"
             @imageclick="openModal"

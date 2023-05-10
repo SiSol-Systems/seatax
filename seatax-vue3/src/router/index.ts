@@ -21,6 +21,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      alias: '/index.html',
     },
     {
       path: '/pages/home/:slug',
